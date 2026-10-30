@@ -52,728 +52,469 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Build. Defend. Nuke.",
+    "description": "World of Nukes combines island building, missile warfare, combat jets, warships, and endgame wonders into one Roblox strategy tycoon."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "World of Nukes",
+    "titleHighlight": "Wiki Hub",
+    "subtitle": "Everything you need to build, defend, and dominate in World of Nukes — jump straight to the guide you need.",
     "cards": [
       {
+        "icon": "Gift",
+        "title": "World of Nukes Codes",
+        "description": "Track current redeem codes and every way to claim free rewards."
+      },
+      {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "World of Nukes Beginner Guide",
+        "description": "Step-by-step early-game progression from your first camp to a fortified island."
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "icon": "Rocket",
+        "title": "World of Nukes Best Nukes",
+        "description": "Compare missiles, nuclear strikes, launch control, and target selection."
       },
       {
         "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "World of Nukes Defense",
+        "description": "Anti-air coverage, island shields, and layouts that survive nuclear strikes."
+      },
+      {
+        "icon": "Hammer",
+        "title": "World of Nukes Building",
+        "description": "Construction order, economy growth, and upgrade priorities for your island."
+      },
+      {
+        "icon": "Swords",
+        "title": "World of Nukes Jets & Warships",
+        "description": "Air and naval combat roles, vehicle tactics, and island assault strategy."
+      },
+      {
+        "icon": "Crown",
+        "title": "World of Nukes Wonders",
+        "description": "Endgame wonders, the Doomsday Device, and advanced progression objectives."
+      },
+      {
+        "icon": "Newspaper",
+        "title": "World of Nukes Updates",
+        "description": "Latest features, balance changes, and gamepass benefits at a glance."
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "worldOfNukesCodes": {
+      "title": "World of Nukes Codes and Free Rewards",
+      "subtitle": "Find the latest code information and learn how to claim free rewards through the official Roblox community.",
+      "intro": "World of Nukes rewards can come from redeemable codes and official community participation. Use the in-game redemption flow for available codes, then join the official Roblox community to access community-based rewards and updates.",
+      "items": [
+        {
+          "icon": "Ticket",
+          "badge": "In-Game Codes",
+          "title": "Redeemable Codes",
+          "description": "Open the game's code redemption interface, enter an available code exactly as displayed, and confirm the redemption to receive its reward."
+        },
+        {
+          "icon": "Users",
+          "badge": "Community Reward",
+          "title": "Official Roblox Community Reward",
+          "description": "Joining the official Roblox community is the primary community-based method for claiming free rewards connected to the game."
+        },
+        {
+          "icon": "ListChecks",
+          "badge": "Claim Guide",
+          "title": "Reward Claim Checklist",
+          "steps": [
+            "Launch World of Nukes from the official Roblox game page.",
+            "Open the code or reward interface available in the game.",
+            "Enter the code or complete the official community requirement.",
+            "Confirm the claim and check the account inventory or reward notification."
+          ]
+        }
+      ]
+    },
+    "worldOfNukesBeginnerGuide": {
+      "title": "World of Nukes Beginner Guide",
+      "subtitle": "Build Your First Island and Grow Your Country",
+      "intro": "A successful start in World of Nukes depends on balancing expansion, construction, military preparation, and defense. Build a stable resource base first, then expand your island while preparing missiles and defensive systems before enemy attacks begin.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Establish the First Camp",
+          "objective": "Create a stable starting base",
+          "actions": [
+            "Place the initial camp and organize the available island space.",
+            "Prioritize the structures needed to generate and manage resources.",
+            "Keep the first layout compact so later expansion remains efficient."
+          ],
+          "priority": "Secure basic resources before investing heavily in military systems."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Expand the Island",
+          "objective": "Turn the camp into a functioning country",
+          "actions": [
+            "Use collected resources to construct additional buildings.",
+            "Expand outward in an organized pattern instead of scattering structures.",
+            "Reserve open space for missile systems, anti-air defenses, and shields."
+          ],
+          "priority": "Plan the island around both production and protection."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Deploy Missile Systems",
+          "objective": "Prepare an offensive response",
+          "actions": [
+            "Build and place missile-related structures when the required resources are available.",
+            "Learn the launch interface before committing to an attack.",
+            "Select enemy targets carefully and avoid wasting limited offensive resources."
+          ],
+          "priority": "Treat missile deployment as a strategic decision rather than an automatic action."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Add Early Defenses",
+          "objective": "Survive incoming attacks",
+          "actions": [
+            "Place anti-air defenses around important buildings and likely attack routes.",
+            "Use shields to protect the core of the island from nuclear strikes.",
+            "Continue improving the economy so defensive coverage can expand with the country."
+          ],
+          "priority": "Protect the island core before extending defenses to less important areas."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Grow your economy first — every missile, jet, and defense is funded by steady income.",
+        "Reserve open land early so military structures never force an awkward rebuild.",
+        "Scout a rival island before launching to make every strike count.",
+        "Rebuild damaged structures right after an attack instead of stockpiling for later."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
+    "worldOfNukesBestNukesMissiles": {
+      "title": "World of Nukes Best Nukes & Missiles",
+      "subtitle": "Nukes and Missiles: Launching and Target Selection",
+      "intro": "World of Nukes uses missile and nuclear attack systems to let players select enemy targets and launch offensive strikes. Weapon effectiveness depends on availability, unlock requirements, target value, and the player's ability to support attacks with a strong island economy and defenses.",
+      "tiers": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "tier": "Core",
+          "icon": "Crosshair",
+          "title": "Missile Launch System",
+          "category": "Offensive system",
+          "stats": [
+            "Launch interface",
+            "Enemy target selection",
+            "Required construction and resources"
+          ],
+          "unlock": "Build and activate the required missile infrastructure.",
+          "strategy": "Use for deliberate attacks against selected enemy targets after checking range, availability, and resource cost."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "tier": "Strategic",
+          "icon": "Radiation",
+          "title": "Nuclear Attack System",
+          "category": "Large-scale offensive system",
+          "stats": [
+            "Nuclear strike capability",
+            "Target selection",
+            "Island-wide attack pressure"
+          ],
+          "unlock": "Progress far enough to access the nuclear attack infrastructure and its requirements.",
+          "strategy": "Reserve major strikes for high-value enemy targets and moments when the attack creates a decisive advantage."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
-        },
-        {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "tier": "Tactical",
+          "icon": "Radar",
+          "title": "Target Selection and Launch Control",
+          "category": "Attack management",
+          "stats": [
+            "Enemy target selection",
+            "Launch confirmation",
+            "Weapon availability"
+          ],
+          "unlock": "Gain access to the active launch controls through the appropriate offensive structures.",
+          "strategy": "Review the enemy island before launching, prioritize valuable targets, and avoid attacks that leave your own island undefended."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
+    "worldOfNukesBestDefenseStrategy": {
+      "title": "World of Nukes Best Defense Strategy",
+      "subtitle": "Protect Your Island from Incoming Nuclear Strikes",
+      "intro": "A strong defense in World of Nukes protects the island's most important structures first and expands coverage as the country grows. Anti-air defenses help respond to incoming attacks, while shields provide vital protection for the island core against nuclear strikes.",
+      "options": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "icon": "Target",
+          "title": "Anti-Air Defense",
+          "role": "Intercept incoming aerial attacks",
+          "strengths": [
+            "Provides active protection against incoming threats.",
+            "Can be positioned near important structures and likely attack paths.",
+            "Supports the island against repeated enemy pressure."
+          ],
+          "placement": "Place anti-air defenses where their coverage protects the central base, resource structures, and major military buildings."
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "icon": "ShieldHalf",
+          "title": "Island Shield",
+          "role": "Protect the island core from nuclear strikes",
+          "strengths": [
+            "Adds a defensive layer against large-scale nuclear attacks.",
+            "Helps preserve critical buildings during enemy offensives.",
+            "Becomes more valuable as the island grows and contains more investments."
+          ],
+          "placement": "Keep the shield close to the most valuable section of the island and build the surrounding layout around its protective purpose."
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
+          "icon": "Layers",
+          "title": "Layered Defense Layout",
+          "role": "Combine defensive systems for maximum survival",
+          "strengths": [
+            "Protects the core before outer structures.",
+            "Reduces the risk of losing all important buildings to one attack.",
+            "Allows the defensive network to expand together with the country."
+          ],
+          "placement": "Use inner protection for the core and key buildings, outer anti-air coverage for exposed areas, and reserve space for future defensive upgrades."
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "worldOfNukesIslandBuilding": {
+      "title": "World of Nukes Island Building & Upgrades",
+      "subtitle": "Build Your Island Into a Military Nation",
+      "intro": "A strong island combines economic growth, construction efficiency, and defensive readiness. Begin with the buildings that support reliable income, then expand your infrastructure and upgrade military capabilities as your island develops.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Establish the Core Settlement",
+          "description": "Begin by developing the essential structures that allow your island to generate resources and support future expansion. Keep the initial layout organized so important buildings remain easy to access and upgrade.",
+          "priorities": [
+            "Secure a reliable source of income",
+            "Build the basic structures required for progression",
+            "Leave room for defensive and military expansion"
+          ]
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Strengthen the Economy",
+          "description": "Prioritize upgrades that improve income generation and help fund construction. A stable economy allows you to recover faster, purchase military assets, and maintain a steady development pace.",
+          "priorities": [
+            "Upgrade income-producing buildings before optional structures",
+            "Reinvest earnings into buildings that improve long-term growth",
+            "Avoid spending all resources on military assets too early"
+          ]
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Expand Infrastructure",
+          "description": "Add the facilities needed to support advanced construction and military operations. Organize production, utility, and defensive buildings so the island can continue progressing without frequent rebuilding.",
+          "priorities": [
+            "Unlock additional construction options",
+            "Improve the island's capacity to support advanced facilities",
+            "Keep key buildings protected and accessible"
+          ]
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Upgrade Defense and Military Power",
+          "description": "Once the economy is stable, invest in defensive structures and military systems. Defense reduces the impact of enemy attacks while military upgrades give you more options for attacking rival islands.",
+          "priorities": [
+            "Protect important economic buildings",
+            "Prepare defenses before launching major attacks",
+            "Balance defensive spending with offensive expansion"
+          ]
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Progress Toward Advanced Structures",
+          "description": "Continue upgrading the island until advanced military structures, wonders, and endgame systems become part of your development plan. Advanced construction should support a clear strategic objective rather than simply filling available space.",
+          "priorities": [
+            "Complete required development upgrades",
+            "Save resources for high-impact structures",
+            "Coordinate advanced buildings with your preferred military strategy"
+          ]
         }
       ]
+    },
+    "worldOfNukesJetsWarships": {
+      "title": "World of Nukes Jets & Warships Guide",
+      "subtitle": "Master Jets, Warships, and Island Attacks",
+      "intro": "Jets and warships provide different approaches to island warfare. Air units offer speed and flexible attack angles, while naval forces provide sustained pressure from the surrounding waters. Use both systems together to make attacks more effective.",
+      "units": [
+        {
+          "icon": "Plane",
+          "title": "Jets",
+          "role": "Fast air attack",
+          "description": "Jets are designed for rapid movement and aerial combat. Use them to approach targets quickly, pressure exposed areas, and reposition before opponents can respond.",
+          "tactics": [
+            "Use speed to control the distance from enemy defenses",
+            "Attack vulnerable targets instead of wasting time against heavily protected positions",
+            "Return to a safe position after completing an attack run"
+          ],
+          "bestFor": "Rapid strikes, mobile defense, and attacking exposed island structures"
+        },
+        {
+          "icon": "Anchor",
+          "title": "Warships",
+          "role": "Naval pressure and support",
+          "description": "Warships operate from the water and provide a durable platform for attacking or supporting operations against rival islands.",
+          "tactics": [
+            "Use naval positioning to maintain pressure around enemy islands",
+            "Coordinate ship attacks with air operations",
+            "Avoid exposing a warship unnecessarily when the target is heavily defended"
+          ],
+          "bestFor": "Sustained attacks, coastal pressure, and supporting island assaults"
+        },
+        {
+          "icon": "Zap",
+          "title": "Island Assaults",
+          "role": "Combined-arms attacks",
+          "description": "Attacking a rival island is most effective when vehicle roles are combined. Use mobility, range, and timing to create openings instead of sending every unit directly into enemy defenses.",
+          "tactics": [
+            "Scout the target before committing your strongest vehicles",
+            "Use jets for speed and warships for sustained pressure",
+            "Prioritize economic and strategic structures during an assault"
+          ],
+          "bestFor": "Coordinated attacks against developed rival nations"
+        },
+        {
+          "icon": "Wrench",
+          "title": "Defensive Vehicle Operations",
+          "role": "Island protection",
+          "description": "Vehicles are also valuable for defending your own island. Keep appropriate units available to respond to incoming attacks and protect the buildings that drive your economy and progression.",
+          "tactics": [
+            "Maintain a defensive response force instead of committing every vehicle offensively",
+            "Use air and naval units to cover different attack routes",
+            "Rebuild and replace losses before launching another major operation"
+          ],
+          "bestFor": "Counterattacks, emergency defense, and protecting high-value structures"
+        }
+      ]
+    },
+    "worldOfNukesWondersDoomsday": {
+      "title": "World of Nukes Wonders & Doomsday Device",
+      "subtitle": "Pursue Wonders and the Doomsday Device",
+      "intro": "Wonders and the Doomsday Device represent the highest level of island progression. Build your economy, infrastructure, and military strength first, then direct your resources toward the advanced systems that define a powerful nation.",
+      "panels": [
+        {
+          "icon": "Landmark",
+          "title": "Wonders",
+          "summary": "Advanced landmark structures that represent major island progress.",
+          "content": "Wonders are long-term construction objectives for developed islands. Treat them as strategic investments: prepare your economy, complete the required progression, and protect the construction area from enemy attacks.",
+          "requirementsLabel": "Unlock path",
+          "requirements": [
+            "Progress through the island's core development systems",
+            "Reach the stage where advanced construction is available",
+            "Prepare sufficient resources and supporting infrastructure"
+          ],
+          "effectsLabel": "What you get",
+          "effects": [
+            "Adds a major advanced structure to the island",
+            "Supports late-game progression and strategic specialization",
+            "Provides a visible objective for a developed military nation"
+          ]
+        },
+        {
+          "icon": "Bomb",
+          "title": "Doomsday Device",
+          "summary": "A late-game strategic system connected to the ultimate military progression.",
+          "content": "The Doomsday Device is pursued after the island has developed beyond basic settlement and conventional military systems. Build toward it through sustained economic growth, advanced construction, and military readiness.",
+          "requirementsLabel": "Unlock path",
+          "requirements": [
+            "Advance through the island's higher-tier progression",
+            "Develop the infrastructure needed for endgame construction",
+            "Maintain the resources and defenses required to complete the project"
+          ],
+          "effectsLabel": "What you get",
+          "effects": [
+            "Introduces an endgame strategic objective",
+            "Expands the island's military progression beyond standard vehicles",
+            "Creates a high-value structure that must be protected"
+          ]
+        },
+        {
+          "icon": "Route",
+          "title": "Endgame Progression Plan",
+          "summary": "A practical route for preparing advanced systems.",
+          "content": "Do not rush advanced projects before your economy and defenses can support them. Build a dependable income base, upgrade core infrastructure, secure your island, and then commit resources to wonders or the Doomsday Device.",
+          "requirementsLabel": "Objectives",
+          "requirements": [
+            "Maintain reliable income before beginning major projects",
+            "Upgrade defensive capacity before creating high-value targets",
+            "Use jets and warships to defend the island and pressure rivals",
+            "Complete advanced construction as part of a broader military strategy"
+          ],
+          "effectsLabel": "",
+          "effects": []
+        }
+      ]
+    },
+    "worldOfNukesUpdatesGamepasses": {
+      "title": "World of Nukes Updates & Gamepasses",
+      "subtitle": "Track Features, Improvements, and Gamepasses",
+      "intro": "World of Nukes combines ongoing game development with optional gamepasses that improve convenience, awareness, rebuilding speed, and access to VIP benefits. Review each feature before choosing which upgrades best match your playstyle.",
+      "entries": [
+        {
+          "category": "Gamepass",
+          "name": "VIP",
+          "benefit": "Provides VIP-related benefits for players who want additional advantages and recognition while developing their island.",
+          "price": "Shown in the Roblox experience store",
+          "recommendedFor": "Players who want an enhanced premium experience"
+        },
+        {
+          "category": "Gamepass",
+          "name": "Offline Tycoon",
+          "benefit": "Supports progression while the player is away, helping maintain tycoon development between active play sessions.",
+          "price": "Shown in the Roblox experience store",
+          "recommendedFor": "Players focused on steady economic growth"
+        },
+        {
+          "category": "Gamepass",
+          "name": "Early Warning Radar",
+          "benefit": "Improves awareness of incoming threats and gives players more time to prepare their island defenses.",
+          "price": "Shown in the Roblox experience store",
+          "recommendedFor": "Players who prioritize defense and reaction time"
+        },
+        {
+          "category": "Gamepass",
+          "name": "Quick Rebuild",
+          "benefit": "Reduces the time and friction involved in recovering from attacks and rebuilding damaged island infrastructure.",
+          "price": "Shown in the Roblox experience store",
+          "recommendedFor": "Players who frequently participate in island warfare"
+        },
+        {
+          "category": "Updates",
+          "name": "Experience Updates",
+          "benefit": "New features, balance adjustments, gameplay changes, and announcements are presented through the Roblox experience page and its update information.",
+          "price": "Included with the experience",
+          "recommendedFor": "All players who want the current version and feature set"
+        }
+      ],
+      "tableHeaders": {
+        "feature": "Feature",
+        "category": "Category",
+        "benefit": "Benefit",
+        "price": "Price",
+        "bestFor": "Best For"
+      }
     }
   },
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about World of Nukes",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is World of Nukes?",
+        "answer": "World of Nukes is a Roblox nuclear warfare strategy tycoon by Build. Defend. Nuke. You start with a small island camp, grow it into a powerful military nation, deploy missiles and nukes, fly jets, command warships, and attack rival islands while defending your own."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Is World of Nukes free to play?",
+        "answer": "Yes. World of Nukes is free to play on Roblox. The game offers optional gamepasses such as VIP, Offline Tycoon, Early Warning Radar, and Quick Rebuild that add convenience and extra benefits, and every core system is playable without them."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How many players can join one World of Nukes server?",
+        "answer": "Each World of Nukes server holds up to 7 players. That keeps island warfare personal: every rival nation nearby is run by a real player building, expanding, and launching attacks of their own."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How do I get free rewards in World of Nukes?",
+        "answer": "Join the official World of Nukes Roblox community and keep an eye on in-game notices. Community membership is the primary way to claim free rewards, and any current redeem codes are shown through the game's official channels and redemption interface."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What should I build first in World of Nukes?",
+        "answer": "Start with income-producing structures in a compact layout, then expand outward in an organized pattern. Reserve open space for missile systems, anti-air defenses, and shields so your island can grow into a military power without constant rebuilding."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "How do I defend my island in World of Nukes?",
+        "answer": "Layer your defenses. Place anti-air systems near important buildings and likely attack routes, keep a shield around the island core to blunt nuclear strikes, and keep your economy strong enough to rebuild and expand coverage as the country grows."
       }
     ]
   },

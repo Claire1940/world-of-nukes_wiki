@@ -38,6 +38,30 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Clock: LucideIcons.Clock,
   X: LucideIcons.X,
 
+  // World of Nukes 首页模块图标（Tools Grid + 8 模块，全站不重复）
+  Gift: LucideIcons.Gift,
+  Rocket: LucideIcons.Rocket,
+  Swords: LucideIcons.Swords,
+  Crown: LucideIcons.Crown,
+  Newspaper: LucideIcons.Newspaper,
+  Ticket: LucideIcons.Ticket,
+  ListChecks: LucideIcons.ListChecks,
+  Lightbulb: LucideIcons.Lightbulb,
+  Crosshair: LucideIcons.Crosshair,
+  Radiation: LucideIcons.Radiation,
+  Radar: LucideIcons.Radar,
+  Target: LucideIcons.Target,
+  ShieldHalf: LucideIcons.ShieldHalf,
+  Layers: LucideIcons.Layers,
+  Coins: LucideIcons.Coins,
+  Plane: LucideIcons.Plane,
+  Anchor: LucideIcons.Anchor,
+  Zap: LucideIcons.Zap,
+  Wrench: LucideIcons.Wrench,
+  Landmark: LucideIcons.Landmark,
+  Bomb: LucideIcons.Bomb,
+  Route: LucideIcons.Route,
+
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,
 }
