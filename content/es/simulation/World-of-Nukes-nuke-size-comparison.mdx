@@ -1,0 +1,163 @@
+import { Map, Swords, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Comparación de tamaño de nukes en World of Nukes: escala",
+  description: "Compara la escala de ataque y el impacto estratégico en World of Nukes: comparación de tamaño de nukes, valor del objetivo, cobertura de explosión frente.",
+  category: "simulation",
+  image: "https://placehold.co/800x400/F97316/fff?text=Nuke+Size+Comparison",
+  date: "2026-10-30",
+  author: "Equipo de Wiki de World of Nukes"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **La comparación de tamaño de nukes en World of Nukes** mide el impacto estratégico, no cifras publicadas de radio de explosión.
+- **Niveles de ataque**: los ataques con misiles convencionales frente a los ataques nucleares completos difieren en alcance y presión.
+- **El valor del objetivo importa**: las estructuras económicas y militares de alto valor justifican ataques grandes.
+- **Las defensas escalan con la amenaza**: los escudos y las defensas antiaéreas reducen el tamaño efectivo de cualquier ataque.
+- **Datos verificados primero**: los valores exactos de daño no están documentados oficialmente, así que compara por rol.
+</Callout>
+
+<Section icon={Map} title="Cómo funciona la comparación de tamaño de nukes en World of Nukes">
+
+World of Nukes no publica una hoja de estadísticas oficial con radios de explosión exactos ni valores de daño para cada arma. Por ello, una comparación útil del tamaño de nukes en World of Nukes se construye a partir de tres factores verificables: la categoría del arma, sus requisitos de desbloqueo y el alcance estratégico del ataque que produce. Los sistemas ofensivos del juego siguen una jerarquía clara, desde lanzamientos de misiles dirigidos hasta presión de ataque nuclear a toda la isla.
+
+| Factor de comparación | Misil convencional | Ataque nuclear |
+|---|---|---|
+| Alcance | Objetivos enemigos seleccionados | Presión de ataque a toda la isla |
+| Desbloqueo | Infraestructura de misiles | Progresión de nivel superior |
+| Mejor uso | Ataques precisos y de bajo costo | Objetivos decisivos de alto valor |
+| Costo de recursos | Menor | Mayor |
+| Riesgo al usarlo | Moderado | Deja la isla comprometida |
+
+<Callout type="tip" title="Nota del Editor">
+Trata cualquier cifra específica de daño que veas en línea como no verificada. Las únicas dimensiones de comparación confirmadas son la categoría del arma, los requisitos de desbloqueo y el rol estratégico descritos en la página oficial del juego de Roblox.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparación de niveles de escala de ataque">
+
+El "tamaño" práctico de un ataque en World of Nukes se entiende mejor como un sistema de niveles. Cada opción ofensiva ocupa un nicho estratégico distinto, y elegir el nivel adecuado en el momento adecuado es lo que separa a los jugadores fuertes de los derrochadores.
+
+<CardGrid cols={3}>
+  <Card title="Nivel 1: Misiles tácticos">
+    - **Ataques a un solo objetivo**
+    - Baratos y repetibles
+    - Ideales para hostigamiento y respuestas al reconocimiento
+    - Requisitos de desbloqueo bajos
+  </Card>
+  <Card title="Nivel 2: Misiles estratégicos">
+    - **Presión sobre múltiples estructuras**
+    - Requiere infraestructura de misiles desarrollada
+    - Ideales para romper grupos defensivos
+    - Inversión de recursos moderada
+  </Card>
+  <Card title="Nivel 3: Ataques nucleares">
+    - **Presión de ataque a toda la isla**
+    - Mayor costo de desbloqueo y recursos
+    - Resérvalos para ventajas decisivas
+    - Exigen apoyo económico
+  </Card>
+</CardGrid>
+
+| Nivel | Alcance del ataque | Economía necesaria | Condición de derrota | Frecuencia recomendada |
+|---|---|---|---|---|
+| Táctico | Un objetivo | Baja | Silo de misiles destruido | Frecuente |
+| Estratégico | Grupo de edificios | Media | Pérdida de infraestructura | Situacional |
+| Nuclear | Toda la isla | Alta | Pérdida de progresión de nivel | Raro, decisivo |
+
+<Callout type="warning" title="Evita el Exceso de Fuerza">
+Lanzar un ataque de nivel nuclear contra una isla débil o de bajo valor desperdicia recursos que necesitarás para la defensa y la reconstrucción. Ajusta el tamaño del ataque al valor del objetivo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cómo la defensa reduce el tamaño efectivo del ataque">
+
+El tamaño efectivo de un ataque no es fijo: las defensas enemigas lo reducen. Al comparar tamaños de nukes, ten siempre en cuenta lo que absorberán las defensas del objetivo. Las defensas antiaéreas interceptan los ataques entrantes, mientras que los escudos añaden una capa protectora sobre el núcleo de la isla contra ataques nucleares de gran escala.
+
+| Capa de defensa | Contrarresta | Efecto en el tamaño del ataque | Prioridad de ubicación |
+|---|---|---|---|
+| Defensa antiaérea | Ataques aéreos y con misiles | Reduce el impacto de ataques repetidos | Cerca del núcleo y rutas de ataque |
+| Escudo de isla | Ataques nucleares | Amortigua el daño de gran escala | Sobre la sección de mayor valor |
+| Disposición en capas | Todos los tipos de ataque | Evita la pérdida total de un solo golpe | Núcleo interior, luego anillo exterior |
+
+<Steps>
+  <Step num="1" title="Explora el Objetivo">
+    Revisa la isla enemiga antes de lanzar. Identifica dónde están el escudo y la cobertura antiaérea, y localiza las estructuras económicas.
+  </Step>
+  <Step num="2" title="Ajusta el Nivel al Objetivo">
+    Elige el nivel de ataque más pequeño que cumpla tu objetivo. Guarda los ataques de nivel nuclear para islas donde la recompensa justifique el costo.
+  </Step>
+  <Step num="3" title="Confirma los Controles de Lanzamiento">
+    Verifica la disponibilidad de armas y la selección de objetivos en la interfaz de lanzamiento antes de comprometer recursos.
+  </Step>
+  <Step num="4" title="Asegura Tu Propia Isla">
+    Nunca lances un ataque importante mientras tus propias defensas son débiles. Los contraataques enemigos aprovechan los recursos ofensivos comprometidos.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Presión Combinada">
+Coordina jets y buques de guerra con ataques de misiles. La movilidad y la presión naval sostenida crean aperturas que permiten que un ataque más pequeño logre resultados de gran escala.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Valor del objetivo y ajuste del tamaño del ataque">
+
+El principio central de la comparación de tamaño de nukes es ajustar la escala del ataque al valor del objetivo. Un objetivo de alto valor —una economía desarrollada, infraestructura de misiles o un proyecto de endgame como una Maravilla o el Dispositivo del Juicio Final— justifica un ataque mayor. Los edificios dispersos de bajo nivel rara vez lo hacen.
+
+| Tipo de objetivo | Nivel de valor | Nivel de ataque recomendado | Notas |
+|---|---|---|---|
+| Edificios de ingresos | Alto | Estratégico | Lisiar la recuperación enemiga |
+| Infraestructura de misiles | Alto | Estratégico o Nuclear | Elimina la amenaza de represalia |
+| Maravillas y Dispositivo del Juicio Final | Muy alto | Nuclear (si está defendido) | También deben protegerse en tu propia isla |
+| Edificios exteriores de bajo nivel | Bajo | Táctico | No vale la inversión pesada |
+
+<Checklist
+  id="strike-matching"
+  title="Antes de Cada Lanzamiento:"
+  items={[
+    "Explora la isla objetivo y sus defensas",
+    "Confirma que el nivel de ataque coincide con el valor del objetivo",
+    "Verifica tu propio escudo y cobertura antiaérea",
+    "Reserva recursos para reconstruir tras la represalia"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿World of Nukes publica cifras oficiales de radio de explosión o daño para los nukes?",
+    answer: "No. La página oficial del juego describe misiles, ataques nucleares y selección de objetivos, pero no documenta valores exactos de daño ni radios de explosión. Cualquier comparación de tamaño de nukes debe basarse en la categoría del arma, los requisitos de desbloqueo y el rol estratégico."
+  },
+  {
+    question: "¿Cuál es el tipo de ataque más grande en World of Nukes?",
+    answer: "El sistema de ataque nuclear genera presión de ataque a toda la isla y representa la opción ofensiva de mayor nivel. Requiere una progresión avanzada y recursos significativos, por lo que es mejor reservarlo para objetivos decisivos de alto valor."
+  },
+  {
+    question: "¿Cómo afectan los escudos a la comparación de tamaño de nukes?",
+    answer: "Los escudos añaden una capa defensiva sobre el núcleo de la isla que amortigua los ataques nucleares de gran escala. Una isla con escudo reduce efectivamente el tamaño de impacto de cualquier ataque entrante, por eso los objetivos defendidos suelen requerir ataques de nivel superior."
+  },
+  {
+    question: "¿Debo usar siempre el nuke más grande disponible?",
+    answer: "No. Ajusta el nivel del ataque al valor del objetivo. Los ataques sobredimensionados desperdician recursos y dejan tu isla indefensa ante contraataques, mientras que los misiles tácticos manejan objetivos de bajo valor con eficiencia."
+  }
+]} />
+
+</Section>
+
+## Lecturas Relacionadas
+
+- [World of Nukes Tercera Guerra Mundial: Análisis del Escenario](/es/simulation/World-of-Nukes-world-war-3)
+- [Radio de Explosión Nuclear en World of Nukes: Cobertura de Ataque](/es/simulation/World-of-Nukes-nuclear-blast-radius)
+- [World of Nukes: Cómo Conseguir Mejores Bombas Nucleares: Consejos](/es/progression/World-of-Nukes-how-to-get-better-nukes)

@@ -1,0 +1,180 @@
+import { Map, Swords, Shield, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de Mapa do World of Nukes: Layout da Ilha e Estratégia",
+  description: "Aprenda a planejar o mapa da sua ilha no World of Nukes: layout da base, zonas de defesa, posicionamento de mísseis, padrões de expansão e dicas de rota.",
+  category: "map",
+  image: "https://placehold.co/800x400/F97316/1a1a1a?text=World+of+Nukes+Map+Guide",
+  date: "2026-10-30",
+  author: "Equipe do Wiki World of Nukes"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Núcleo do **guia de mapa do World of Nukes**: sua ilha é o mapa — o layout decide a sobrevivência
+- **Divida sua ilha em zonas**: separe o núcleo econômico, a zona de mísseis e o anel de defesa
+- **Defesa primeiro**: proteja os prédios econômicos antes de expandir para fora
+- **Rota de ataque**: escude as ilhas inimigas com jatos antes de empenhar navios de guerra
+- **Reserve espaço**: sempre deixe espaço para antiaéreos, escudos e maravilhas futuras
+</Callout>
+
+<Section icon={Map} title="Entendendo o Mapa do World of Nukes">
+
+No World of Nukes, o "mapa" é a sua ilha e as ilhas rivais ao redor dela. Cada servidor acomoda até **7 jogadores**, cada um desenvolvendo sua própria ilha em uma nação militar. A forma como você organiza o espaço — economia, mísseis, defesas e acesso de veículos — determina se o seu país prospera ou é arrasado no primeiro intercâmbio de ataques.
+
+Pense na sua ilha como quatro zonas funcionais. Cada zona tem um propósito, e mantê-las separadas torna sua base mais fácil de defender, melhorar e expandir.
+
+| Zona | Propósito Principal | Estruturas-Chave | Prioridade |
+| --- | --- | --- | --- |
+| **Núcleo Econômico** | Renda e progressão | Prédios geradores de recursos | ★★★★★ |
+| **Zona Militar** | Ataques ofensivos | Sistemas de lançamento de mísseis, infraestrutura nuclear | ★★★★ |
+| **Anel de Defesa** | Proteção contra ataques | Defesas antiaéreas, escudos | ★★★★★ |
+| **Borda de Expansão** | Crescimento futuro | Espaço aberto reservado | ★★★ |
+
+<Callout type="tip" title="Princípio de Layout">
+Mantenha o layout inicial compacto. Uma base espalhada desperdiça espaço, dilui a cobertura antiaérea e torna a reconstrução após um ataque muito mais penosa do que precisa ser.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Layout da Ilha: Planejamento do Mapa Passo a Passo">
+
+Siga esta progressão para transformar um pequeno acampamento em uma nação militar defensável. A ordem importa — construir mísseis antes que sua economia possa sustentá-los é o erro mais comum de iniciantes.
+
+<Steps>
+  <Step num="1" title="Estabeleça o Primeiro Acampamento">
+    Posicione seu acampamento inicial e organize o espaço disponível da ilha. Priorize primeiro as estruturas geradoras de recursos e mantenha a área compacta para que a expansão futura permaneça eficiente.
+  </Step>
+  <Step num="2" title="Expanda em um Padrão Organizado">
+    Use os recursos coletados para construir prédios adicionais, expandindo para fora de forma deliberada em vez de espalhar estruturas. Reserve espaço aberto para sistemas de mísseis, defesas antiaéreas e escudos.
+  </Step>
+  <Step num="3" title="Implante Sistemas de Mísseis">
+    Construa estruturas relacionadas a mísseis quando os recursos permitirem. Aprenda a interface de lançamento antes de se comprometer com um ataque e selecione alvos inimigos com cuidado — os recursos ofensivos são limitados.
+  </Step>
+  <Step num="4" title="Adicione Defesas Iniciais">
+    Posicione defesas antiaéreas ao redor de prédios importantes e prováveis rotas de ataque. Use escudos para proteger o núcleo da ilha e continue crescendo a economia para que a cobertura defensiva se expanda junto com o país.
+  </Step>
+  <Step num="5" title="Progrida rumo a Estruturas Avançadas">
+    Quando a renda e as defesas estiverem estáveis, invista recursos em maravilhas e sistemas de fim de jogo como o Dispositivo do Juízo Final, como parte de um plano estratégico claro.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Erro Comum">
+Evite gastar tudo com ativos militares no início. Uma economia quebrada não consegue financiar reconstruções, substituições ou as melhorias necessárias para sobreviver à pressão inimiga repetida.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Posicionamento de Defesa e Zonas do Mapa">
+
+A defesa no World of Nukes protege primeiro as estruturas mais importantes da ilha e depois se expande para fora conforme o país cresce. Um layout em camadas significa que um ataque nunca destrói tudo o que você construiu.
+
+<CardGrid cols={3}>
+  <Card title="Defesa Antiaérea">
+    - **Intercepta ataques aéreos recebidos**
+    - Posicione perto de prédios centrais e rotas de ataque
+    - Mantém a cobertura sob pressão repetida
+  </Card>
+  <Card title="Escudo da Ilha">
+    - **Protege o núcleo de ataques nucleares**
+    - Preserva prédios críticos durante ofensivas
+    - Torna-se mais valioso conforme o investimento cresce
+  </Card>
+  <Card title="Layout em Camadas">
+    - **Proteção interna para o núcleo**
+    - Cobertura antiaérea externa para áreas expostas
+    - Espaço reservado para melhorias futuras
+  </Card>
+</CardGrid>
+
+| Camada de Defesa | O Que Protege | Regra de Posicionamento |
+| --- | --- | --- |
+| Escudo interno | Núcleo econômico, prédios críticos | Próximo à seção mais valiosa da ilha |
+| Anel antiaéreo intermediário | Prédios militares e de produção | Ao redor da base central e rotas de ataque |
+| Cobertura externa | Áreas de expansão expostas | Estender somente depois que o núcleo estiver seguro |
+
+<Callout type="success" title="Regra de Sobrevivência">
+Proteja o núcleo da ilha antes de estender as defesas para áreas menos importantes. Um núcleo defendido pode reconstruir uma borda perdida; um núcleo perdido encerra o jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Atacando Ilhas Rivais: Movimentação no Mapa">
+
+O mapa ao redor da sua ilha é onde a ofensiva acontece. Jatos e navios de guerra se aproximam das ilhas inimigas por ângulos diferentes, e combiná-los cria aberturas que nenhum deles alcança sozinho.
+
+| Veículo | Função | Melhor Uso | Nota Tática |
+| --- | --- | --- | --- |
+| **Jatos** | Ataque aéreo rápido | Ataques rápidos, alvos expostos | Controle a distância, recue após as investidas |
+| **Navios de guerra** | Pressão naval | Ataques costeiros sustentados | Coordene com operações aéreas |
+| **Assalto combinado** | Ataque total à ilha | Nações rivais desenvolvidas | Escude primeiro, priorize alvos econômicos |
+
+Princípios-chave de roteamento:
+
+- Escude a ilha alvo com jatos rápidos antes de empenhar seus veículos mais fortes
+- Ataque estruturas vulneráveis em vez de desgastar posições fortemente defendidas
+- Mantenha uma força de resposta defensiva em casa em vez de enviar tudo para fora
+- Priorize estruturas econômicas e estratégicas durante um assalto para prejudicar a recuperação do rival
+
+<Callout type="tip" title="Momento do Ataque">
+Reserve os grandes ataques nucleares para alvos inimigos de alto valor e momentos em que o ataque cria uma vantagem decisiva — não para tiros oportunistas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Metas de Progressão do Mapa">
+
+Use esta lista de verificação para manter o desenvolvimento da sua ilha nos trilhos, do primeiro acampamento aos sistemas de fim de jogo.
+
+<Checklist
+  id="map-progression-goals"
+  title="Marcos do Mapa da Ilha:"
+  items={[
+    "Estabeleça um primeiro acampamento compacto com renda estável",
+    "Reserve espaço para sistemas de mísseis e defesas",
+    "Implante a primeira infraestrutura de mísseis",
+    "Complete o escudo interno e o anel antiaéreo",
+    "Expanda a economia antes de grandes gastos militares",
+    "Comece a construção rumo a maravilhas ou ao Dispositivo do Juízo Final"
+  ]}
+/>
+
+<Callout type="info" title="Nota sobre o Fim de Jogo">
+Maravilhas e o Dispositivo do Juízo Final são objetivos de construção de longo prazo. Prepare sua economia, complete a progressão necessária e proteja a área de construção de ataques inimigos enquanto constrói.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor layout de ilha no guia de mapa do World of Nukes?",
+    answer: "Um layout compacto e zonado funciona melhor: mantenha o núcleo econômico no centro protegido por escudos, cerque-o com um anel antiaéreo, posicione os sistemas de mísseis em uma zona militar dedicada e reserve o espaço da borda para expansão e melhorias futuras."
+  },
+  {
+    question: "Quanto espaço devo reservar na minha ilha?",
+    answer: "Reserve espaço aberto para sistemas de mísseis, defesas antiaéreas e escudos desde o primeiro acampamento. Expandir em um padrão organizado em vez de espalhar estruturas mantém as melhorias futuras e a cobertura defensiva eficientes."
+  },
+  {
+    question: "Devo construir mísseis ou defesas primeiro?",
+    answer: "Garanta primeiro recursos básicos e uma economia estável, depois adicione defesas iniciais ao redor de prédios importantes e, então, implante os sistemas de mísseis. Tratar a implantação de mísseis como uma decisão estratégica em vez de uma ação automática evita desperdício de recursos ofensivos."
+  },
+  {
+    question: "Como atacar ilhas rivais no mapa?",
+    answer: "Escude com jatos primeiro, use jatos para velocidade e navios de guerra para pressão sustentada, e priorize estruturas econômicas e estratégicas durante um assalto. Sempre mantenha uma força de resposta defensiva em casa para proteger sua própria ilha."
+  }
+]} />
+
+</Section>
+
+## Leituras Relacionadas
+
+- [Mapa Nuclear do World of Nukes: Estágios de Escalada e Alvos](/pt/map/World-of-Nukes-nuclear-map)
+- [Mapa-Múndi do World of Nukes: Potências Nucleares, Arsenais](/pt/map/World-of-Nukes-world-map)
+- [Raio de Explosão Nuclear no World of Nukes: Cobertura de Ataque](/pt/simulation/World-of-Nukes-nuclear-blast-radius)

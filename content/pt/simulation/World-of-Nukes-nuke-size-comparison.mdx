@@ -1,0 +1,163 @@
+import { Map, Swords, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Comparação de Tamanho de Mísseis Nucleares em World of Nukes",
+  description: "Compare a escala de ataque e o impacto estratégico em World of Nukes: comparação de tamanho de mísseis nucleares, valor do alvo, cobertura de explosão.",
+  category: "simulation",
+  image: "https://placehold.co/800x400/F97316/fff?text=Nuke+Size+Comparison",
+  date: "2026-10-30",
+  author: "Equipe do Wiki de World of Nukes"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **comparação de tamanho de mísseis nucleares em World of Nukes** mede o impacto estratégico, não números publicados de raio de explosão.
+- **Níveis de ataque**: ataques com mísseis convencionais versus ataques nucleares completos diferem em escopo e pressão.
+- **O valor do alvo importa**: estruturas econômicas e militares de alto valor justificam ataques de grande porte.
+- **As defesas escalam com a ameaça**: escudos e antiaéreos reduzem o tamanho efetivo de qualquer ataque.
+- **Dados verificados primeiro**: valores exatos de dano não são documentados oficialmente, então compare por função.
+</Callout>
+
+<Section icon={Map} title="Como Funciona a Comparação de Tamanho de Mísseis Nucleares em World of Nukes">
+
+World of Nukes não publica uma tabela oficial de estatísticas com raios de explosão exatos ou valores de dano para cada arma. Uma comparação de tamanho de mísseis nucleares em World of Nukes útil é, portanto, construída a partir de três fatores verificáveis: a categoria da arma, seus requisitos de desbloqueio e o escopo estratégico do ataque que ela produz. Os sistemas ofensivos do jogo formam uma hierarquia clara, desde lançamentos de mísseis direcionados até pressão de ataque nuclear em toda a ilha.
+
+| Fator de Comparação | Míssil Convencional | Ataque Nuclear |
+|---|---|---|
+| Escopo | Alvos inimigos selecionados | Pressão de ataque em toda a ilha |
+| Desbloqueio | Infraestrutura de mísseis | Progressão de nível superior |
+| Melhor uso | Ataques precisos e de baixo custo | Alvos decisivos de alto valor |
+| Custo de recursos | Menor | Maior |
+| Risco ao usar | Moderado | Deixa a ilha exposta |
+
+<Callout type="tip" title="Nota do Editor">
+Trate qualquer número específico de dano que você vir online como não verificado. As únicas dimensões de comparação confirmadas são a categoria da arma, os requisitos de desbloqueio e a função estratégica descritos na página oficial do jogo no Roblox.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparação de Níveis de Escala de Ataque">
+
+O "tamanho" prático de um ataque em World of Nukes é melhor compreendido como um sistema de níveis. Cada opção ofensiva ocupa um nicho estratégico distinto, e escolher o nível certo para o momento certo é o que separa jogadores fortes de jogadores desperdiçadores.
+
+<CardGrid cols={3}>
+  <Card title="Nível 1: Mísseis Táticos">
+    - **Ataques de alvo único**
+    - Baratos e repetíveis
+    - Ideais para intimidação e respostas a reconhecimento
+    - Requisitos de desbloqueio baixos
+  </Card>
+  <Card title="Nível 2: Mísseis Estratégicos">
+    - **Pressão sobre múltiplas estruturas**
+    - Exige infraestrutura de mísseis desenvolvida
+    - Ideais para quebrar agrupamentos defensivos
+    - Investimento moderado de recursos
+  </Card>
+  <Card title="Nível 3: Ataques Nucleares">
+    - **Pressão de ataque em toda a ilha**
+    - Maior custo de desbloqueio e recursos
+    - Reserve para vantagens decisivas
+    - Exige apoio econômico
+  </Card>
+</CardGrid>
+
+| Nível | Escopo do Ataque | Economia Necessária | Condição de Derrota | Frequência Recomendada |
+|---|---|---|---|---|
+| Tático | Um alvo | Baixa | Silo de mísseis destruído | Frequente |
+| Estratégico | Agrupamento de construções | Média | Perda de infraestrutura | Conforme a situação |
+| Nuclear | Toda a ilha | Alta | Perda da progressão de nível | Raro, decisivo |
+
+<Callout type="warning" title="Evite o Exagero">
+Lançar um ataque de nível nuclear contra uma ilha fraca ou de baixo valor desperdiça recursos de que você precisará para defesa e reconstrução. Faça corresponder o tamanho do ataque ao valor do alvo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Como a Defesa Reduz o Tamanho Efetivo do Ataque">
+
+O tamanho efetivo de um ataque não é fixo—as defesas inimigas o reduzem. Ao comparar tamanhos de mísseis nucleares, sempre leve em conta o que as defesas do alvo absorverão. As defesas antiaéreas interceptam ataques que chegam, enquanto os escudos adicionam uma camada protetora sobre o núcleo da ilha contra ataques nucleares de grande porte.
+
+| Camada de Defesa | Contra | Efeito no Tamanho do Ataque | Prioridade de Posicionamento |
+|---|---|---|---|
+| Defesa antiaérea | Ataques aéreos e com mísseis | Reduz o impacto de ataques repetidos | Perto do núcleo e das rotas de ataque |
+| Escudo da ilha | Ataques nucleares | Atenua danos de grande porte | Sobre a seção de maior valor |
+| Layout em camadas | Todos os tipos de ataque | Evita perda total em um único golpe | Núcleo interno, depois anel externo |
+
+<Steps>
+  <Step num="1" title="Reconheça o Alvo">
+    Analise a ilha inimiga antes de lançar. Identifique onde estão o escudo e a cobertura antiaérea, e localize as estruturas econômicas.
+  </Step>
+  <Step num="2" title="Corresponda o Nível ao Alvo">
+    Escolha o menor nível de ataque que atinja seu objetivo. Guarde os ataques de nível nuclear para ilhas em que a recompensa justifique o custo.
+  </Step>
+  <Step num="3" title="Confirme os Controles de Lançamento">
+    Verifique a disponibilidade das armas e a seleção de alvos na interface de lançamento antes de comprometer recursos.
+  </Step>
+  <Step num="4" title="Proteja Sua Própria Ilha">
+    Nunca lance um ataque importante enquanto suas próprias defesas estiverem fracas. Contra-ataques inimigos exploram recursos ofensivos já comprometidos.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Pressão Combinada">
+Coordene jatos e navios de guerra com ataques de mísseis. Mobilidade e pressão naval sustentada criam aberturas que permitem que um ataque menor alcance resultados de grande porte.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Valor do Alvo e Correspondência com o Tamanho do Ataque">
+
+O princípio central da comparação de tamanho de mísseis nucleares é fazer corresponder a escala do ataque ao valor do alvo. Um alvo de alto valor—uma economia desenvolvida, infraestrutura de mísseis ou um projeto de fim de jogo como uma Maravilha ou o Dispositivo do Juízo Final—justifica um ataque maior. Construções de baixo nível espalhadas raramente justificam.
+
+| Tipo de Alvo | Nível de Valor | Nível de Ataque Recomendado | Observações |
+|---|---|---|---|
+| Construções de renda | Alto | Estratégico | Aleija a recuperação inimiga |
+| Infraestrutura de mísseis | Alto | Estratégico ou Nuclear | Elimina a ameaça de retaliação |
+| Maravilhas e Dispositivo do Juízo Final | Muito alto | Nuclear (se defendido) | Também deve ser protegido em sua própria ilha |
+| Construções externas de baixo nível | Baixo | Tático | Não vale investimento pesado |
+
+<Checklist
+  id="strike-matching"
+  title="Antes de Cada Lançamento:"
+  items={[
+    "Reconheça a ilha alvo e suas defesas",
+    "Confirme que o nível de ataque corresponde ao valor do alvo",
+    "Verifique sua própria cobertura de escudo e antiaérea",
+    "Reserve recursos para reconstrução após retaliação"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "O World of Nukes publica números oficiais de raio de explosão ou dano para mísseis nucleares?",
+    answer: "Não. A página oficial do jogo descreve mísseis, ataques nucleares e seleção de alvos, mas não documenta valores exatos de dano ou raios de explosão. Qualquer comparação de tamanho de mísseis nucleares deve se basear na categoria da arma, requisitos de desbloqueio e função estratégica."
+  },
+  {
+    question: "Qual é o maior tipo de ataque em World of Nukes?",
+    answer: "O sistema de ataque nuclear gera pressão de ataque em toda a ilha e representa a opção ofensiva de nível mais alto. Exige progressão avançada e recursos significativos, por isso é melhor reservado para alvos decisivos de alto valor."
+  },
+  {
+    question: "Como os escudos afetam a comparação de tamanho de mísseis nucleares?",
+    answer: "Os escudos adicionam uma camada defensiva sobre o núcleo da ilha que atenua ataques nucleares de grande porte. Uma ilha com escudo reduz efetivamente o tamanho do impacto de qualquer ataque que chegue, razão pela qual alvos defendidos frequentemente exigem ataques de nível superior."
+  },
+  {
+    question: "Devo sempre usar o maior míssil nuclear disponível?",
+    answer: "Não. Faça corresponder o nível do ataque ao valor do alvo. Ataques exagerados desperdiçam recursos e deixam sua ilha subprotegida contra contra-ataques, enquanto mísseis táticos lidam com alvos de baixo valor de forma eficiente."
+  }
+]} />
+
+</Section>
+
+## Leituras Relacionadas
+
+- [World of Nukes Terceira Guerra Mundial: Análise do Cenário](/pt/simulation/World-of-Nukes-world-war-3)
+- [Raio de Explosão Nuclear no World of Nukes: Cobertura de Ataque](/pt/simulation/World-of-Nukes-nuclear-blast-radius)
+- [World of Nukes: Como Conseguir Nukes Melhores — Dicas e Truques](/pt/progression/World-of-Nukes-how-to-get-better-nukes)

@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Rocket, Plane, Anchor } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia para Iniciantes de World of Nukes: Primeira Hora Passo",
+  description: "Aprenda a começar forte em World of Nukes: construa seu primeiro acampamento, cresça sua renda, implante mísseis, adicione defesas antiaéreas e sobreviva.",
+  category: "guide",
+  image: "https://placehold.co/800x400/F97316/1a1a1a?text=Beginner+Guide",
+  date: "2026-10-30",
+  author: "Equipe do Wiki de World of Nukes"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia para iniciantes de World of Nukes**: Este tycoon de estratégia do Roblox consiste em construir, defender e lançar bombas nucleares em ilhas rivais.
+- **Ciclo principal**: Garanta a renda primeiro, expanda sua ilha e, então, implante mísseis e defesas.
+- **Maior erro**: Acelerar gastos militares antes que sua economia consiga sustentá-los.
+- **Prioridade de defesa**: Cobertura antiaérea e escudos protegem o núcleo da sua ilha de ataques nucleares.
+- **Veículos depois**: Jatos e navios de guerra desbloqueiam ângulos de ataque flexíveis quando sua base está estável.
+</Callout>
+
+<Section icon={Map} title="Guia para Iniciantes de World of Nukes: Sobre o Que é o Jogo">
+
+World of Nukes é um tycoon de estratégia de guerra nuclear do Roblox desenvolvido pela Build. Defend. Nuke. Você constrói uma ilha, a transforma de um pequeno acampamento em uma nação militar, implanta mísseis, pilota jatos de combate, comanda navios de guerra e constrói defesas antiaéreas enquanto ataca outros jogadores. Cada servidor comporta **até 7 jogadores**, então a competição é direta e pessoal.
+
+Antes de mergulhar na progressão passo a passo, entenda os três pilares que toda ilha de sucesso equilibra:
+
+| Pilar | Função | Por Que Importa no Início |
+|---|---|---|
+| Economia | Gera recursos e renda | Financia cada construção, míssil e melhoria de defesa |
+| Militar | Mísseis, jatos, navios de guerra | Permite ataques e dissuasão contra rivais |
+| Defesa | Antiaérea, escudos, layout | Mantém seus investimentos vivos entre invasões |
+
+<CardGrid cols={3}>
+  <Card title="Build. Defend. Nuke.">
+    - O lema dos desenvolvedores também serve como sua **ordem de progressão**
+    - Construa a renda, defenda o núcleo e então ataque
+    - Pular uma etapa deixa sua ilha exposta
+  </Card>
+  <Card title="Guerra PvP de Ilhas">
+    - Jogadores rivais podem lançar ataques contra sua ilha
+    - Servidores comportam **até 7 jogadores**
+    - Cada jogador é tanto um alvo quanto uma ameaça
+  </Card>
+  <Card title="Progressão de Tycoon">
+    - Reinvista os ganhos em estruturas melhores
+    - O crescimento se multiplica quando a renda é priorizada
+    - Desbloqueios do final do jogo incluem **maravilhas e o Dispositivo do Juízo Final**
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica de Mentalidade">
+Trate World of Nukes como um jogo de economia primeiro e um jogo de guerra depois. Jogadores com a renda mais forte se recuperam mais rápido dos ataques e podem pagar pelos melhores mísseis e escudos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Passo a Passo: Sua Primeira Hora de Progressão">
+
+Siga esta rota de quatro estágios para levar um acampamento recém-criado a uma ilha defensável e capaz de lançar mísseis. Cada estágio se baseia no anterior, então resista à vontade de pular etapas.
+
+<Steps>
+  <Step num="1" title="Estabeleça o Primeiro Acampamento">
+    Posicione seu acampamento inicial e organize o espaço disponível na ilha. Priorize estruturas que geram e gerenciam recursos, e mantenha o primeiro layout compacto para que a expansão futura permaneça eficiente. Um núcleo bem organizado é mais fácil de defender e mais barato de reconstruir.
+  </Step>
+  <Step num="2" title="Expanda a Ilha">
+    Use os recursos coletados para construir edifícios adicionais. Expanda para fora em um padrão organizado em vez de espalhar estruturas, e reserve deliberadamente espaço aberto para sistemas de mísseis, defesas antiaéreas e escudos. Planeje a ilha pensando tanto na produção quanto na proteção.
+  </Step>
+  <Step num="3" title="Implante Sistemas de Mísseis">
+    Construa estruturas relacionadas a mísseis quando os recursos permitirem. Aprenda a interface de lançamento e as mecânicas de seleção de alvos inimigos antes de se comprometer com um ataque. Mísseis são uma decisão estratégica, não uma ação automática, então evite desperdiçar recursos ofensivos limitados em alvos de baixo valor.
+  </Step>
+  <Step num="4" title="Adicione Defesas Iniciais">
+    Posicione defesas antiaéreas ao redor de edifícios importantes e rotas de ataque prováveis. Use escudos para proteger o núcleo da ilha de ataques nucleares e continue melhorando a economia para que a cobertura defensiva possa se expandir junto com seu país.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Armadilha Comum de Iniciantes">
+Não gaste todo o seu estoque de recursos em mísseis na primeira hora. Uma ilha indefendida que ataca primeiro geralmente é devastada em retaliação, perdendo justamente a economia que financiou o ataque.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estratégia de Defesa Inicial: Sobrevivendo aos Seus Primeiros Ataques">
+
+Jogadores novos perdem ilhas porque as defesas chegam tarde demais. A abordagem em camadas abaixo protege o que mais importa e se expande conforme você cresce.
+
+| Camada de Defesa | Função | Conselho de Posicionamento |
+|---|---|---|
+| Defesa Antiaérea | Intercepta ataques aéreos recebidos | Posicione perto da base central, estruturas de recursos e rotas de ataque prováveis |
+| Escudo da Ilha | Protege o núcleo de ataques nucleares | Mantenha-o próximo à sua seção mais valiosa |
+| Layout em Camadas | Combina os dois sistemas | Proteção interna para o núcleo, antiaérea externa para áreas expostas |
+
+<CardGrid cols={3}>
+  <Card title="Defesa Antiaérea">
+    - **Proteção ativa** contra ameaças recebidas
+    - Cobre pressão inimiga repetida
+    - Posicione ao longo das rotas de ataque prováveis
+  </Card>
+  <Card title="Escudo da Ilha">
+    - Camada defensiva contra **grandes ataques nucleares**
+    - Preserva edifícios críticos durante ofensivas
+    - Torna-se mais valioso conforme sua ilha se desenvolve
+  </Card>
+  <Card title="Layout em Camadas">
+    - Proteja o **núcleo antes das estruturas externas**
+    - Reduz a perda total de qualquer ataque único
+    - Reserve espaço para futuras melhorias defensivas
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Regra de Ouro da Defesa">
+Proteja primeiro o núcleo da ilha e, então, estenda a cobertura para fora. Um inimigo que romper seu perímetro ainda deve enfrentar suas defesas mais fortes ao redor dos seus edifícios de maior valor.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mísseis, Jatos e Navios de Guerra: Quando Usar Cada Um">
+
+Assim que sua economia se estabiliza, as opções ofensivas se abrem. Cada sistema de ataque preenche uma função distinta, e combiná-los produz os melhores resultados contra rivais desenvolvidos.
+
+| Sistema de Ataque | Função | Melhor Uso |
+|---|---|---|
+| Sistema de Lançamento de Mísseis | Ataques ofensivos principais | Ataques deliberados em alvos inimigos selecionados após confirmar alcance e custo |
+| Sistema de Ataque Nuclear | Ataques em grande escala | Reserve para alvos de alto valor e momentos decisivos |
+| Jatos | Ataque aéreo rápido | Ataques rápidos, defesa móvel, atingir estruturas expostas |
+| Navios de Guerra | Pressão naval | Ataques costeiros sustentados e apoio a invasões de ilhas |
+
+**Táticas de assalto que funcionam:**
+- Reconheça a ilha alvo antes de comprometer seus veículos mais fortes
+- Use jatos para velocidade e navios para pressão sustentada, não um ou outro isoladamente
+- Priorize estruturas econômicas e estratégicas durante um assalto
+- Mantenha uma força de resposta defensiva em casa em vez de enviar tudo para fora
+
+<Callout type="info" title="Seleção de Alvos">
+Analise a ilha inimiga antes de lançar. Um ataque que elimina a geração de renda de um rival causa muito mais dano ao longo do tempo do que um que destrói edifícios externos baratos, e deixa sua própria ilha menos exposta a contra-ataques.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de Longo Prazo: Maravilhas e o Dispositivo do Juízo Final">
+
+A progressão avançada em World of Nukes leva às **maravilhas** e ao **Dispositivo do Juízo Final**, o nível mais alto de desenvolvimento de ilha. Estes são objetivos de longo prazo, não projetos da primeira semana.
+
+A ordem recomendada para a preparação do final do jogo:
+
+| Estágio | Objetivo | Ação Principal |
+|---|---|---|
+| 1 | Renda estável | Melhore edifícios de renda antes das estruturas opcionais |
+| 2 | Infraestrutura principal | Desbloqueie opções adicionais de construção e utilidades |
+| 3 | Capacidade defensiva | Melhore antiaéreas e escudos antes de criar alvos de alto valor |
+| 4 | Prontidão militar | Coloque jatos e navios de guerra em campo para defesa e pressão |
+| 5 | Projetos avançados | Comprometa recursos em maravilhas e o Dispositivo do Juízo Final |
+
+<Callout type="warning" title="Não Acelere o Final do Jogo">
+Começar uma maravilha ou o Dispositivo do Juízo Final antes que sua economia e defesas consigam sustentá-lo cria um alvo de alto valor que você não consegue proteger. Construa a fundação primeiro.
+</Callout>
+
+<Checklist
+  id="beginner-milestones"
+  title="Checklist de Marcos para Iniciantes:"
+  items={[
+    "Estabeleça um primeiro acampamento compacto com renda confiável",
+    "Expanda a ilha em um padrão organizado",
+    "Reserve espaço para mísseis, antiaéreas e escudos",
+    "Implante seu primeiro sistema de mísseis e aprenda a interface de lançamento",
+    "Proteja o núcleo da ilha com antiaéreas e escudos",
+    "Alcance uma economia estável antes de buscar maravilhas"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "O que devo construir primeiro em World of Nukes?",
+    answer: "Comece com estruturas geradoras de recursos em um layout compacto. Uma renda estável financia todo o resto, incluindo mísseis, defesas antiaéreas e escudos. Expanda para fora em um padrão organizado e reserve espaço para sistemas militares e defensivos."
+  },
+  {
+    question: "Como protejo minha ilha de ataques nucleares?",
+    answer: "Combine defesas antiaéreas e escudos em um layout em camadas. Posicione antiaéreas perto da sua base central e rotas de ataque prováveis, mantenha escudos próximos à sua seção mais valiosa e proteja o núcleo da ilha antes das estruturas externas."
+  },
+  {
+    question: "Iniciantes devem atacar outros jogadores imediatamente?",
+    answer: "Não. Este guia para iniciantes de World of Nukes recomenda construir defesas e uma economia estável primeiro. Trate lançamentos de mísseis como decisões estratégicas: confirme alcance, custo e valor do alvo, e nunca lance um ataque que deixe sua própria ilha indefendida."
+  },
+  {
+    question: "Quando posso começar a trabalhar em direção às maravilhas e ao Dispositivo do Juízo Final?",
+    answer: "Somente depois que sua renda for confiável, a infraestrutura principal estiver melhorada e suas defesas puderem proteger estruturas de alto valor. Acelerar projetos do final do jogo cedo cria alvos caros que rivais podem destruir."
+  }
+]} />
+
+</Section>
+
+## Leituras Relacionadas
+
+- [Guia de World of Nukes: Da Primeira Base ao Dia do Juízo Final](/pt/guide/World-of-Nukes-gameplay-guide)
+- [World of Nukes: Como Jogar — Guia Completo para Iniciantes](/pt/guide/World-of-Nukes-how-to-play)
+- [Melhores Nukes de World of Nukes: Comparação de Armas e Guia](/pt/weapons/World-of-Nukes-best-nukes)

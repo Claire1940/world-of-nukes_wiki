@@ -1,46 +1,74 @@
 {
   "categories": [
     {
-      "category": "Guides",
+      "category": "guide",
       "keywords": [
-        "lucid blocks guide"
+        "world of nukes guide",
+        "world of nukes how to play",
+        "world of nukes gameplay guide",
+        "world of nukes tips and tricks",
+        "world of nukes strategy",
+        "world of nukes how to win"
       ]
     },
     {
-      "category": "Crafting",
+      "category": "weapons",
       "keywords": [
-        "lucid blocks crafting recipes",
-        "lucid blocks apotheosis"
+        "world of nukes biggest nuke",
+        "world of nukes best nukes",
+        "world of nukes nuclear weapons",
+        "world of nukes nuke types",
+        "world of nukes strongest nuke",
+        "world of nukes nuclear bomb comparison",
+        "world of nukes weapon tier list"
       ]
     },
     {
-      "category": "Items",
+      "category": "countries",
       "keywords": [
-        "lucid blocks faith wand",
-        "lucid blocks bee glider",
-        "lucid blocks chest",
-        "lucid blocks osmium"
+        "world of nukes countries with nukes",
+        "world of nukes who has the most nukes",
+        "world of nukes nukes by country",
+        "world of nukes nuclear powers",
+        "world of nukes country ranking",
+        "world of nukes how many nukes are in the world"
       ]
     },
     {
-      "category": "Biomes",
+      "category": "map",
       "keywords": [
-        "lucid blocks tiamana leyline"
+        "world of nukes map",
+        "world of nukes world map",
+        "world of nukes nuclear map",
+        "world of nukes locations",
+        "world of nukes map guide"
       ]
     },
     {
-      "category": "Building",
+      "category": "simulation",
       "keywords": [
-        "lucid blocks qualia"
+        "world of nukes nuclear war simulation",
+        "world of nukes world war 3",
+        "world of nukes nuclear explosion",
+        "world of nukes nuke size comparison",
+        "world of nukes nuclear blast radius",
+        "world of nukes nuclear destruction"
       ]
     },
     {
-      "category": "Support",
+      "category": "progression",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks full screen",
-        "lucid blocks multiplayer",
-        "lucid blocks android"
+        "world of nukes progression guide",
+        "world of nukes how to unlock nukes",
+        "world of nukes upgrades",
+        "world of nukes how to get better nukes",
+        "world of nukes rewards"
+      ]
+    },
+    {
+      "category": "codes",
+      "keywords": [
+        "world of nukes codes"
       ]
     }
   ]

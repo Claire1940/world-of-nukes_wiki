@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "World of Nukes Nuclear Explosion: Blast Zones & Yield Rankings",
+  description: "Learn how nuclear explosions work in World of Nukes: yield classes, blast radius zones, fallout mechanics, and targeting tips for maximum destruction.",
+  category: "simulation",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Nuclear+Explosion+Guide",
+  date: "2026-10-30",
+  author: "World of Nukes Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Nuclear explosion** is the core destruction mechanic in World of Nukes — every strategy revolves around it
+- **Yield class** determines blast radius: bigger warheads cover more zones but cost far more resources
+- **Blast zones** (fireball, shockwave, thermal, fallout) each deal different damage to targets
+- **Targeting terrain** matters: ground bursts create heavy fallout, air bursts maximize structural damage
+- **Best practice**: match warhead yield to target value instead of overspending on maximum yield
+</Callout>
+
+<Section icon={Map} title="Nuclear Explosion Basics in World of Nukes">
+
+The **World of Nukes nuclear explosion** system is the heart of the game. When a warhead detonates, the simulation divides the affected area into concentric damage zones, each with its own destruction profile. Understanding these zones is the difference between wiping out a high-value target and wasting an expensive warhead on empty terrain.
+
+Detonation outcomes depend on three variables: the **warhead yield class**, the **detonation altitude** (ground burst versus air burst), and the **target environment** (dense cities, military installations, or open land). Players who learn how these variables interact can plan strikes with precision instead of guessing.
+
+**Key Explosion Variables:**
+- Yield class (kiloton to multi-megaton range)
+- Detonation altitude and burst type
+- Target density and structural hardening
+- Terrain features that channel or block blast effects
+
+<Callout type="tip" title="Editor Tip">
+Before committing a warhead, scout the target. A high-yield strike on scattered rural targets wastes most of the blast radius on empty ground, while low-yield strikes against hardened bunkers may barely scratch them.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Blast Zone Breakdown and Damage Zones">
+
+Every detonation in World of Nukes generates a layered set of damage zones. Each zone shrinks or expands based on the yield class you deploy, so knowing the layer order helps you estimate outcomes at a glance.
+
+| Blast Zone | Relative Radius | Damage Effect | Best Used Against |
+|---|---|---|---|
+| Fireball | Smallest, innermost | Total vaporization, nothing survives | Command centers, hard bunkers |
+| Shockwave | Medium | Structural collapse, building destruction | Cities, industrial districts |
+| Thermal Radiation | Large | Fires, burns, secondary ignition | Sprawling urban areas |
+| Fallout Zone | Largest (ground bursts) | Lingering area denial, residual damage | Blocking enemy reinforcement routes |
+
+<Callout type="warning" title="Watch the Fallout">
+Fallout zones persist after the initial flash. If your strategy depends on occupying or moving forces through the region afterward, ground bursts can deny the area to you as much as to your opponent.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Yield Class Comparison">
+
+Warheads in World of Nukes come in multiple yield classes, and cost scales steeply with destructive coverage. The table below compares the general tiers you will encounter as you progress.
+
+| Yield Class | Blast Coverage | Cost Level | Reload/Cooldown | Ideal Target |
+|---|---|---|---|---|
+| Low (tactical) | Small radius, tight zones | Low | Short | Military convoys, small bases |
+| Medium (strategic) | Moderate city-scale coverage | Medium | Moderate | Towns, industrial complexes |
+| High (multi-megaton) | Massive multi-zone coverage | High | Long | Major metros, hardened complexes |
+| MIRV-style multi-warhead | Several smaller overlapping bursts | High | Long | Spread-out metro clusters |
+
+<CardGrid cols={3}>
+  <Card title="Efficiency Build">
+    - **Low-yield spam strategy**
+    - Fast reloads, flexible targeting
+    - Best for early and mid-game pressure
+  </Card>
+  <Card title="Decapitation Build">
+    - **Single high-yield strike**
+    - Aimed at enemy command assets
+    - High cost, decisive payoff
+  </Card>
+  <Card title="Area Denial Build">
+    - **Ground bursts for fallout**
+    - Slows enemy movement and recovery
+    - Strong defensive tempo tool
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Cost Efficiency Note">
+Two medium-yield strikes on separate districts often destroy more total value than one high-yield strike covering both, because damage concentrates where structures actually stand.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Step-by-Step: Planning a Perfect Strike">
+
+Follow this workflow every time you commit a warhead. Rushing the targeting phase is the most common way players waste resources.
+
+<Steps>
+  <Step num="1" title="Scout and Value the Target">
+    Identify what sits inside the projected blast zones. Tag high-value structures such as command posts, factories, and population centers, and estimate their durability.
+  </Step>
+  <Step num="2" title="Select the Yield Class">
+    Match warhead size to target value. If the fireball and shockwave zones already cover every key structure, a larger yield adds cost without adding destruction.
+  </Step>
+  <Step num="3" title="Choose Burst Type">
+    Pick an air burst for maximum structural damage across a wide area, or a ground burst when fallout and area denial matter more than raw destruction.
+  </Step>
+  <Step num="4" title="Set the Detonation Point">
+    Position the blast so the highest-value cluster sits near the center of the shockwave zone, not the edge, to guarantee destruction instead of partial damage.
+  </Step>
+  <Step num="5" title="Follow Up">
+    After the strike, reassess the map. Damaged-but-standing targets may be finished with a cheap tactical warhead rather than another full-scale launch.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Strike Checklist Passed">
+A well-planned detonation destroys the target cluster, preserves your resource pool, and leaves your reload cycle free for the next threat. If any of those three fail, review your yield choice before the next launch.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Common Mistakes and Checklist">
+
+Most failed strikes trace back to the same handful of errors. Run through this checklist before every launch to catch them early.
+
+| Mistake | Consequence | Fix |
+|---|---|---|
+| Oversized yield on sparse targets | Wasted resources, long cooldown | Downgrade one yield class and re-target |
+| Ground burst on land you need | Fallout denies your own advance | Switch to air burst |
+| Target on zone edge | Partial damage, target survives | Center the shockwave on key structures |
+| Ignoring enemy interception | Warhead lost before detonation | Suppress defenses or bait interceptors first |
+
+<Checklist
+  id="pre-launch-checklist"
+  title="Pre-Launch Checklist:"
+  items={[
+    "Target scouted and valued",
+    "Yield class matched to target size",
+    "Burst type selected for the objective",
+    "Detonation point centered on key structures",
+    "Enemy defenses accounted for"
+  ]}
+/>
+
+<Callout type="warning" title="Avoid Tunnel Vision">
+A spectacular explosion is not the same as a winning strike. Score in World of Nukes comes from destroyed value, not from blast size — always measure success by what the explosion actually removed from the board.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What is a nuclear explosion in World of Nukes?",
+    answer: "It is the game's core destruction mechanic. Each warhead detonation creates layered damage zones — fireball, shockwave, thermal radiation, and fallout — whose size depends on the warhead's yield class and burst type."
+  },
+  {
+    question: "Is a bigger yield always better?",
+    answer: "No. Cost and cooldown scale steeply with yield. A medium warhead centered on the target cluster often destroys the same value as a high-yield strike while preserving resources for follow-up attacks."
+  },
+  {
+    question: "What is the difference between an air burst and a ground burst?",
+    answer: "An air burst maximizes structural damage across a wide area with minimal fallout. A ground burst produces a smaller effective destruction footprint but generates heavy fallout, making it useful for area denial."
+  },
+  {
+    question: "Can enemy defenses stop my warhead?",
+    answer: "Yes, interception mechanics can destroy incoming warheads before detonation. Suppressing or baiting defenses before a launch is part of the standard strike workflow covered in the step-by-step section above."
+  }
+]} />
+
+</Section>
+
+## Related Reading
+
+- [World of Nukes Nuclear War Simulation: Stage-by-Stage Breakdown](/simulation/World-of-Nukes-nuclear-war-simulation)
+- [World of Nukes Nuke Size Comparison: Strike Scale Explained](/simulation/World-of-Nukes-nuke-size-comparison)
+- [World of Nukes How to Get Better Nukes: Progression Tips & Tricks](/progression/World-of-Nukes-how-to-get-better-nukes)

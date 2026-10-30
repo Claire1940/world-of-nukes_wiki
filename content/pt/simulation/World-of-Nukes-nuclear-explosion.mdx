@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Explosão Nuclear em World of Nukes: Zonas de Impacto e Rankings",
+  description: "Aprenda como as explosões nucleares funcionam em World of Nukes: classes de potência, zonas de raio de impacto, mecânicas de fallout e dicas de mira.",
+  category: "simulation",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Nuclear+Explosion+Guide",
+  date: "2026-10-30",
+  author: "Equipe do Wiki de World of Nukes"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **explosão nuclear** é a mecânica central de destruição em World of Nukes — toda estratégia gira em torno dela
+- A **classe de potência** determina o raio de impacto: ogivas maiores cobrem mais zonas, mas custam muito mais recursos
+- As **zonas de impacto** (bola de fogo, onda de choque, térmica, fallout) causam tipos diferentes de dano aos alvos
+- O **terreno visado** importa: explosões no solo criam fallout intenso, explosões aéreas maximizam o dano estrutural
+- **Melhor prática**: corresponda a potência da ogiva ao valor do alvo em vez de gastar demais na potência máxima
+</Callout>
+
+<Section icon={Map} title="Noções Básicas da Explosão Nuclear em World of Nukes">
+
+O sistema de **explosão nuclear do World of Nukes** é o coração do jogo. Quando uma ogiva detona, a simulação divide a área afetada em zonas concêntricas de dano, cada uma com seu próprio perfil de destruição. Entender essas zonas é a diferença entre eliminar um alvo de alto valor e desperdiçar uma ogiva cara em terreno vazio.
+
+Os resultados da detonação dependem de três variáveis: a **classe de potência da ogiva**, a **altitude de detonação** (explosão no solo versus explosão aérea) e o **ambiente do alvo** (cidades densas, instalações militares ou terra aberta). Jogadores que aprendem como essas variáveis interagem podem planejar ataques com precisão em vez de adivinhar.
+
+**Principais Variáveis da Explosão:**
+- Classe de potência (faixa de quilotons a multimegatons)
+- Altitude de detonação e tipo de explosão
+- Densidade do alvo e endurecimento estrutural
+- Características do terreno que canalizam ou bloqueiam os efeitos da explosão
+
+<Callout type="tip" title="Dica do Editor">
+Antes de comprometer uma ogiva, faça reconhecimento do alvo. Um ataque de alta potência em alvos rurais dispersos desperdiça a maior parte do raio de impacto em terreno vazio, enquanto ataques de baixa potência contra bunkers endurecidos mal arranham a superfície.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Detalhamento das Zonas de Impacto e Zonas de Dano">
+
+Cada detonação em World of Nukes gera um conjunto em camadas de zonas de dano. Cada zona encolhe ou se expande conforme a classe de potência que você usa, então conhecer a ordem das camadas ajuda a estimar resultados de relance.
+
+| Zona de Impacto | Raio Relativo | Efeito de Dano | Melhor Uso Contra |
+|---|---|---|---|
+| Bola de Fogo | Menor, mais interna | Vaporização total, nada sobrevive | Centros de comando, bunkers endurecidos |
+| Onda de Choque | Médio | Colapso estrutural, destruição de construções | Cidades, distritos industriais |
+| Radiação Térmica | Grande | Incêndios, queimaduras, ignição secundária | Áreas urbanas extensas |
+| Zona de Fallout | Maior (explosões no solo) | Negação de área persistente, dano residual | Bloquear rotas de reforço inimigas |
+
+<Callout type="warning" title="Atenção ao Fallout">
+As zonas de fallout persistem após o clarão inicial. Se sua estratégia depende de ocupar ou mover forças pela região depois, explosões no solo podem negar a área para você tanto quanto para seu oponente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Comparação de Classes de Potência">
+
+As ogivas em World of Nukes vêm em várias classes de potência, e o custo cresce drasticamente com a cobertura destrutiva. A tabela abaixo compara os níveis gerais que você encontrará conforme avança.
+
+| Classe de Potência | Cobertura de Impacto | Nível de Custo | Recarga/Tempo de Espera | Alvo Ideal |
+|---|---|---|---|---|
+| Baixa (tática) | Raio pequeno, zonas estreitas | Baixo | Curto | Comboios militares, bases pequenas |
+| Média (estratégica) | Cobertura moderada em escala de cidade | Médio | Moderado | Cidades pequenas, complexos industriais |
+| Alta (multimegaton) | Cobertura massiva de múltiplas zonas | Alto | Longo | Grandes metrópoles, complexos endurecidos |
+| Multi-ogiva estilo MIRV | Várias explosões menores sobrepostas | Alto | Longo | Aglomerados metropolitanos espalhados |
+
+<CardGrid cols={3}>
+  <Card title="Build de Eficiência">
+    - **Estratégia de spam de baixa potência**
+    - Recargas rápidas, mira flexível
+    - Ideal para pressão no início e meio do jogo
+  </Card>
+  <Card title="Build de Decapitação">
+    - **Ataque único de alta potência**
+    - Mirado em ativos de comando inimigos
+    - Custo alto, retorno decisivo
+  </Card>
+  <Card title="Build de Negação de Área">
+    - **Explosões no solo para fallout**
+    - Desacelera o movimento e a recuperação inimiga
+    - Forte ferramenta de ritmo defensivo
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Nota sobre Eficiência de Custo">
+Dois ataques de potência média em distritos separados frequentemente destroem mais valor total do que um ataque de alta potência cobrindo ambos, porque o dano se concentra onde as estruturas realmente estão.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Passo a Passo: Planejando um Ataque Perfeito">
+
+Siga este fluxo de trabalho toda vez que comprometer uma ogiva. Apressar a fase de mira é a forma mais comum de jogadores desperdiçarem recursos.
+
+<Steps>
+  <Step num="1" title="Reconhecer e Avaliar o Alvo">
+    Identifique o que está dentro das zonas de impacto projetadas. Marque estruturas de alto valor, como postos de comando, fábricas e centros populacionais, e estime sua durabilidade.
+  </Step>
+  <Step num="2" title="Selecionar a Classe de Potência">
+    Corresponda o tamanho da ogiva ao valor do alvo. Se as zonas de bola de fogo e onda de choque já cobrem todas as estruturas-chave, uma potência maior adiciona custo sem adicionar destruição.
+  </Step>
+  <Step num="3" title="Escolher o Tipo de Explosão">
+    Escolha uma explosão aérea para dano estrutural máximo em uma área ampla, ou uma explosão no solo quando o fallout e a negação de área importam mais do que a destruição bruta.
+  </Step>
+  <Step num="4" title="Definir o Ponto de Detonação">
+    Posicione a explosão de modo que o aglomerado de maior valor fique perto do centro da zona de onda de choque, não da borda, para garantir a destruição em vez de dano parcial.
+  </Step>
+  <Step num="5" title="Acompanhar">
+    Após o ataque, reavalie o mapa. Alvos danificados mas de pé podem ser finalizados com uma ogiva tática barata em vez de outro lançamento em larga escala.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Checklist de Ataque Aprovado">
+Uma detonação bem planejada destrói o aglomerado de alvos, preserva sua reserva de recursos e deixa seu ciclo de recarga livre para a próxima ameaça. Se qualquer um desses três falhar, revise sua escolha de potência antes do próximo lançamento.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Erros Comuns e Checklist">
+
+A maioria dos ataques malsucedidos se resume aos mesmos poucos erros. Passe por este checklist antes de cada lançamento para capturá-los cedo.
+
+| Erro | Consequência | Solução |
+|---|---|---|
+| Potência excessiva em alvos dispersos | Recursos desperdiçados, recarga longa | Reduza uma classe de potência e realve a mira |
+| Explosão no solo em terreno que você precisa | Fallout nega seu próprio avanço | Mude para explosão aérea |
+| Alvo na borda da zona | Dano parcial, alvo sobrevive | Centralize a onda de choque nas estruturas-chave |
+| Ignorar interceptação inimiga | Ogiva perdida antes da detonação | Suprima as defesas ou atraia interceptadores primeiro |
+
+<Checklist
+  id="pre-launch-checklist"
+  title="Checklist Pré-Lançamento:"
+  items={[
+    "Alvo reconhecido e avaliado",
+    "Classe de potência correspondente ao tamanho do alvo",
+    "Tipo de explosão selecionado para o objetivo",
+    "Ponto de detonação centralizado nas estruturas-chave",
+    "Defesas inimigas consideradas"
+  ]}
+/>
+
+<Callout type="warning" title="Evite a Visão em Túnel">
+Uma explosão espetacular não é o mesmo que um ataque vencedor. A pontuação em World of Nukes vem do valor destruído, não do tamanho da explosão — sempre meça o sucesso pelo que a explosão realmente removeu do tabuleiro.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "O que é uma explosão nuclear em World of Nukes?",
+    answer: "É a mecânica central de destruição do jogo. Cada detonação de ogiva cria zonas de dano em camadas — bola de fogo, onda de choque, radiação térmica e fallout — cujo tamanho depende da classe de potência da ogiva e do tipo de explosão."
+  },
+  {
+    question: "Uma potência maior é sempre melhor?",
+    answer: "Não. O custo e o tempo de recarga crescem drasticamente com a potência. Uma ogiva média centralizada no aglomerado de alvos frequentemente destrói o mesmo valor que um ataque de alta potência, preservando recursos para ataques subsequentes."
+  },
+  {
+    question: "Qual a diferença entre explosão aérea e explosão no solo?",
+    answer: "Uma explosão aérea maximiza o dano estrutural em uma área ampla com fallout mínimo. Uma explosão no solo produz uma pegada de destruição efetiva menor, mas gera fallout intenso, tornando-se útil para negação de área."
+  },
+  {
+    question: "As defesas inimigas podem deter minha ogiva?",
+    answer: "Sim, as mecânicas de interceptação podem destruir ogivas em aproximação antes da detonação. Suprimir ou atrair defesas antes de um lançamento faz parte do fluxo de trabalho padrão de ataque coberto na seção passo a passo acima."
+  }
+]} />
+
+</Section>
+
+## Leituras Relacionadas
+
+- [Simulação de Guerra Nuclear do World of Nukes: Análise Estágio](/pt/simulation/World-of-Nukes-nuclear-war-simulation)
+- [Comparação de Tamanho de Mísseis Nucleares em World of Nukes](/pt/simulation/World-of-Nukes-nuke-size-comparison)
+- [World of Nukes: Como Conseguir Nukes Melhores — Dicas e Truques](/pt/progression/World-of-Nukes-how-to-get-better-nukes)

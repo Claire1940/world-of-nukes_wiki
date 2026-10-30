@@ -1,0 +1,180 @@
+import { Map, Swords, Shield, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "World of Nukes Map Guide: Island Layout & Zone Strategy",
+  description: "Learn how to plan your World of Nukes island map: base layout, defense zones, missile placement, expansion patterns, and attack routing tips.",
+  category: "map",
+  image: "https://placehold.co/800x400/F97316/1a1a1a?text=World+of+Nukes+Map+Guide",
+  date: "2026-10-30",
+  author: "World of Nukes Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **World of Nukes map guide** core: your island is the map — layout decides survival
+- **Zone your island**: separate economy core, missile zone, and defense ring
+- **Defense first**: protect economic buildings before expanding outward
+- **Attack routing**: scout enemy islands with jets before committing warships
+- **Reserve space**: always leave room for anti-air, shields, and future wonders
+</Callout>
+
+<Section icon={Map} title="Understanding the World of Nukes Map">
+
+In World of Nukes, the "map" is your island and the rival islands surrounding it. Every server holds up to **7 players**, each developing their own island into a military nation. How you organize space — economy, missiles, defenses, and vehicle access — determines whether your country thrives or gets flattened in the first exchange of strikes.
+
+Think of your island as four functional zones. Each zone has a purpose, and keeping them separated makes your base easier to defend, upgrade, and expand.
+
+| Zone | Primary Purpose | Key Structures | Priority |
+| --- | --- | --- | --- |
+| **Economy Core** | Income and progression | Resource-generating buildings | ★★★★★ |
+| **Military Zone** | Offensive strikes | Missile launch systems, nuclear infrastructure | ★★★★ |
+| **Defense Ring** | Protection from attacks | Anti-air defenses, shields | ★★★★★ |
+| **Expansion Border** | Future growth | Reserved open space | ★★★ |
+
+<Callout type="tip" title="Layout Principle">
+Keep the initial layout compact. A scattered base wastes space, dilutes anti-air coverage, and makes rebuilding after an attack far more painful than it needs to be.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Island Layout: Step-by-Step Map Planning">
+
+Follow this progression to turn a small camp into a defensible military nation. The order matters — building missiles before your economy can sustain them is the most common beginner mistake.
+
+<Steps>
+  <Step num="1" title="Establish the First Camp">
+    Place your initial camp and organize the available island space. Prioritize resource-generating structures first, and keep the footprint tight so later expansion stays efficient.
+  </Step>
+  <Step num="2" title="Expand in an Organized Pattern">
+    Use collected resources to construct additional buildings, expanding outward deliberately instead of scattering structures. Reserve open space for missile systems, anti-air defenses, and shields.
+  </Step>
+  <Step num="3" title="Deploy Missile Systems">
+    Build missile-related structures once resources allow. Learn the launch interface before committing to an attack, and select enemy targets carefully — offensive resources are limited.
+  </Step>
+  <Step num="4" title="Add Early Defenses">
+    Place anti-air defenses around important buildings and likely attack routes. Use shields to protect the island core, and keep growing the economy so defensive coverage expands with the country.
+  </Step>
+  <Step num="5" title="Progress Toward Advanced Structures">
+    Once income and defenses are stable, commit resources to wonders and endgame systems like the Doomsday Device as part of a clear strategic plan.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Common Mistake">
+Avoid spending everything on military assets early. A broken economy cannot fund rebuilds, replacements, or the upgrades needed to survive repeated enemy pressure.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Defense Placement and Map Zones">
+
+Defense in World of Nukes protects the island's most important structures first, then expands outward as the country grows. A layered layout means one attack never wipes out everything you have built.
+
+<CardGrid cols={3}>
+  <Card title="Anti-Air Defense">
+    - **Intercepts incoming aerial attacks**
+    - Position near core buildings and attack paths
+    - Sustains coverage under repeated pressure
+  </Card>
+  <Card title="Island Shield">
+    - **Protects the core from nuclear strikes**
+    - Preserves critical buildings during offensives
+    - Grows more valuable as investment grows
+  </Card>
+  <Card title="Layered Layout">
+    - **Inner protection for the core**
+    - Outer anti-air coverage for exposed areas
+    - Reserved space for future upgrades
+  </Card>
+</CardGrid>
+
+| Defense Layer | What It Protects | Placement Rule |
+| --- | --- | --- |
+| Inner shield | Economy core, critical buildings | Close to the most valuable island section |
+| Mid anti-air ring | Military and production buildings | Around central base and attack routes |
+| Outer coverage | Exposed expansion areas | Extend only after the core is secure |
+
+<Callout type="success" title="Survival Rule">
+Protect the island core before extending defenses to less important areas. A defended core can rebuild a lost border; a lost core ends the game.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Attacking Rival Islands: Map Movement">
+
+The map around your island is where offense happens. Jets and warships approach enemy islands from different angles, and combining them creates openings that neither achieves alone.
+
+| Vehicle | Role | Best Use | Tactical Note |
+| --- | --- | --- | --- |
+| **Jets** | Fast air attack | Rapid strikes, exposed targets | Control distance, retreat after runs |
+| **Warships** | Naval pressure | Sustained coastal attacks | Coordinate with air operations |
+| **Combined assault** | Full island attack | Developed rival nations | Scout first, prioritize economic targets |
+
+Key routing principles:
+
+- Scout the target island with fast jets before committing your strongest vehicles
+- Attack vulnerable structures instead of grinding against heavily defended positions
+- Maintain a defensive response force at home instead of sending everything out
+- Prioritize economic and strategic structures during an assault to cripple rival recovery
+
+<Callout type="tip" title="Attack Timing">
+Reserve major nuclear strikes for high-value enemy targets and moments when the attack creates a decisive advantage — not for opportunistic potshots.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Map Progression Goals">
+
+Use this checklist to keep your island development on track from first camp to endgame systems.
+
+<Checklist
+  id="map-progression-goals"
+  title="Island Map Milestones:"
+  items={[
+    "Establish a compact first camp with stable income",
+    "Reserve space for missile systems and defenses",
+    "Deploy first missile infrastructure",
+    "Complete inner shield and anti-air ring",
+    "Expand economy before major military spending",
+    "Begin construction toward wonders or the Doomsday Device"
+  ]}
+/>
+
+<Callout type="info" title="Endgame Note">
+Wonders and the Doomsday Device are long-term construction objectives. Prepare your economy, complete the required progression, and protect the construction area from enemy attacks while you build.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the best island layout in the World of Nukes map guide?",
+    answer: "A compact, zoned layout works best: keep the economy core in the center protected by shields, surround it with an anti-air ring, place missile systems in a dedicated military zone, and reserve border space for expansion and future upgrades."
+  },
+  {
+    question: "How much space should I reserve on my island?",
+    answer: "Reserve open space for missile systems, anti-air defenses, and shields from the very first camp. Expanding in an organized pattern instead of scattering structures keeps future upgrades and defensive coverage efficient."
+  },
+  {
+    question: "Should I build missiles or defenses first?",
+    answer: "Secure basic resources and a stable economy first, then add early defenses around important buildings, then deploy missile systems. Treating missile deployment as a strategic decision rather than an automatic action prevents wasted offensive resources."
+  },
+  {
+    question: "How do I attack rival islands on the map?",
+    answer: "Scout with jets first, use jets for speed and warships for sustained pressure, and prioritize economic and strategic structures during an assault. Always keep a defensive response force at home to protect your own island."
+  }
+]} />
+
+</Section>
+
+## Related Reading
+
+- [World of Nukes Nuclear Map: Escalation Stages & Strike Targets](/map/World-of-Nukes-nuclear-map)
+- [World of Nukes World Map: Nuclear Powers, Arsenals & Test Sites](/map/World-of-Nukes-world-map)
+- [World of Nukes Nuclear Blast Radius: Strike Coverage & Targeting](/simulation/World-of-Nukes-nuclear-blast-radius)

@@ -1,0 +1,172 @@
+import { Map, Swords, Target, Shield, Sparkles, Crosshair } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Raio de Explosão Nuclear no World of Nukes: Cobertura de Ataque",
+  description: "Aprenda como a cobertura de explosão nuclear, a mira de mísseis e o alcance dos ataques funcionam no World of Nukes, além de dicas de defesa.",
+  category: "simulation",
+  image: "https://placehold.co/800x400/F97316/111827?text=Nuclear+Blast+Radius+Guide",
+  date: "2026-10-30",
+  author: "Equipe do Wiki de World of Nukes"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **raio de explosão nuclear do World of Nukes** determina quanto de uma ilha inimiga um ataque pode danificar.
+- **O nível da arma importa**: mísseis padrão atingem zonas mais concentradas, enquanto ataques nucleares aplicam pressão em toda a ilha.
+- **A mira é manual**: confirme alcance, disponibilidade e custo antes de lançar qualquer ataque.
+- **Escudos neutralizam nukes**: os escudos da ilha protegem seu núcleo contra ataques de grande escala.
+- **Defesa em camadas vence**: antiaérea mais escudos protegem muito mais do que qualquer um sozinho.
+</Callout>
+
+<Section icon={Crosshair} title="Como Funciona a Cobertura da Explosão Nuclear">
+
+Entender o **raio de explosão nuclear** no World of Nukes é a base para atacar e defender com eficácia. Toda arma ofensiva do jogo causa dano em uma zona de cobertura definida ao redor do ponto que você seleciona. Sistemas de mísseis padrão concentram a destruição em uma área menor, enquanto o sistema de ataque nuclear aplica uma pressão muito mais ampla, atingindo toda a ilha contra alvos de alto valor.
+
+A cobertura interage com três fatores práticos:
+
+- **Nível da arma**: armas estratégicas maiores ameaçam mais estruturas por ataque do que mísseis táticos.
+- **Layout do alvo**: núcleos de ilha densos absorvem mais dano total do que layouts dispersos.
+- **Camadas defensivas**: escudos e defesa antiaérea reduzem quanto da zona de explosão se converte em dano real.
+
+<Callout type="warning" title="Nota sobre Dados">
+Os valores exatos de raio de explosão por arma não foram documentados oficialmente. Este guia explica o sistema de ataque confirmado — interface de lançamento, seleção de alvos e papel estratégico — sem inventar números específicos de raio. Confira a página oficial do jogo no Roblox para os detalhes mais recentes das armas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparação de Tipos de Armas e Papéis de Ataque">
+
+O sistema ofensivo se divide em categorias de ataque distintas, cada uma com uma relação diferente com a cobertura da explosão. Compare-as antes de comprometer recursos em um lançamento.
+
+| Sistema de Arma | Perfil de Cobertura | Melhor Uso | Consideração Principal |
+| --- | --- | --- | --- |
+| Sistema de Mísseis Padrão | Zona de dano concentrada | Ataques deliberados em alvos escolhidos | Confirme primeiro o alcance e o custo de recursos |
+| Sistema de Ataque Nuclear | Pressão ampla em toda a ilha | Alvos inimigos de alto valor, momentos decisivos | Requer progressão avançada para desbloquear |
+| Controle de Lançamento Tático | Varia conforme a arma selecionada | Priorização de alvos gerenciada e precisa | Revise a ilha inimiga antes de atirar |
+
+Cada nível de arma recompensa uma mentalidade diferente:
+
+<CardGrid cols={3}>
+  <Card title="Mísseis Concentrados">
+    - **Área de dano reduzida**
+    - Pouco desperdício em estruturas de baixo valor
+    - Ideal para pressão repetida
+  </Card>
+  <Card title="Ataques Nucleares">
+    - **Pressão de ampla cobertura**
+    - Decisivos contra ilhas desenvolvidas
+    - Reserve para momentos de alto valor
+  </Card>
+  <Card title="Controle de Lançamento">
+    - **Seleção manual de alvos**
+    - Controle total sobre cada ataque
+    - Evita desperdício de recursos ofensivos
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Regra de Mira">
+Trate cada lançamento como uma decisão estratégica, não uma ação automática. Um ataque nuclear mirado no núcleo de uma ilha bem protegida por escudo desperdiça recursos que mísseis concentrados poderiam ter usado em estruturas econômicas expostas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Passo a Passo: Maximizando o Dano do Ataque">
+
+Siga este fluxo de lançamento para aproveitar ao máximo a zona de cobertura de cada ataque.
+
+<Steps>
+  <Step num="1" title="Construa a Infraestrutura Ofensiva">
+    Construa e ative as estruturas de mísseis que seu nível de progressão permite. Sem a infraestrutura de lançamento necessária, nenhum ataque — independentemente do raio — é possível.
+  </Step>
+  <Step num="2" title="Reconheça a Ilha Alvo">
+    Revise o layout inimigo antes de atirar. Identifique o núcleo denso, os prédios econômicos e as posições defensivas para que a zona de explosão atinja onde importa.
+  </Step>
+  <Step num="3" title="Confirme Alcance e Custo">
+    Abra a interface de lançamento e verifique se a arma realmente alcança o alvo e se você pode pagar o custo de recursos sem prejudicar sua própria economia.
+  </Step>
+  <Step num="4" title="Selecione Alvos de Alto Valor">
+    Priorize estruturas econômicas e estratégicas dentro da zona de cobertura. Um ataque que elimina a geração de renda prejudica o inimigo mais do que danos dispersos na periferia.
+  </Step>
+  <Step num="5" title="Lance e Reavalie">
+    Confirme o lançamento, observe o resultado e nunca deixe sua própria ilha desprotegida enquanto seus recursos ofensivos estão comprometidos em outro lugar.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Bônus de Armas Combinadas">
+Coordene ataques com jatos e navios de guerra. Os jatos pressionam áreas expostas rapidamente, enquanto os navios mantêm pressão naval sustentada, forçando o inimigo a dividir as defesas antes de seu míssil atingir o alvo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Defendendo-se contra o Raio de Explosão">
+
+A cobertura da explosão é tão perigosa quanto fraca é a sua defesa. Um layout em camadas reduz o dano efetivo de qualquer ataque recebido.
+
+| Camada de Defesa | O Que Neutraliza | Prioridade de Posicionamento |
+| --- | --- | --- |
+| Defesa Antiaérea | Ataques aéreos e mísseis recebidos | Ao redor da base central, recursos e prováveis rotas de ataque |
+| Escudo da Ilha | Ataques nucleares de grande escala | Próximo à seção mais valiosa da ilha |
+| Espaçamento do Layout | Destruição total com um único ataque | Reserve espaço aberto para que uma explosão não apague o núcleo |
+| Veículos Defensivos | Ataques de acompanhamento e repetidos | Mantenha uma força de resposta em casa em vez de um comprometimento total |
+
+<Callout type="tip" title="Regra do Núcleo Primeiro">
+Proteja o núcleo da ilha antes de estender a cobertura às estruturas externas. Perder prédios periféricos é recuperável; perder seu coração econômico para um ataque nuclear não é.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Checklist de Preparação para Ataque">
+
+Antes de sua próxima operação ofensiva, confirme todos os itens desta lista.
+
+<Checklist
+  id="strike-readiness"
+  title="Checklist Pré-Lançamento:"
+  items={[
+    "Infraestrutura de mísseis construída e ativada",
+    "Ilha alvo reconhecida em busca de estruturas de alto valor",
+    "Alcance, disponibilidade e custo de recursos confirmados",
+    "Escudo da ilha principal e cobertura antiaérea em vigor",
+    "Força de resposta com veículos defensivos mantida em reserva"
+  ]}
+/>
+
+<Callout type="info" title="Nota de Endgame">
+Conforme você progride rumo às maravilhas e ao Dispositivo do Fim do Mundo, os sistemas de ataque escalam com o desenvolvimento da sua ilha. Construa renda e defesas confiáveis primeiro — armas avançadas em uma economia fraca tornam-se passivos, não vantagens.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "O World of Nukes tem um número oficial de raio de explosão nuclear para cada arma?",
+    answer: "Nenhum valor oficial de raio por arma foi documentado. As mecânicas confirmadas incluem a interface de lançamento, a seleção de alvos inimigos e a distinção entre o dano concentrado dos mísseis e a pressão nuclear mais ampla em toda a ilha. Trate qualquer número específico de raio que você veja online como não verificado."
+  },
+  {
+    question: "Como o raio de explosão nuclear do World of Nukes afeta o layout da minha base?",
+    answer: "Uma cobertura de ataque mais ampla significa que um núcleo de ilha muito compacto pode perder muitas estruturas em um único ataque. Espaçe seus prédios econômicos mais importantes, mantenha o escudo sobre a seção de maior valor e faça camadas de cobertura antiaérea para que um único ataque não elimine tudo."
+  },
+  {
+    question: "Posso reduzir o dano de explosão nuclear recebido?",
+    answer: "Sim, por meio de defesa em camadas. Os escudos da ilha protegem seu núcleo contra ataques de grande escala, as defesas antiaéreas interceptam ameaças ao longo das prováveis rotas de ataque, e o espaçamento entre prédios limita quanto uma única zona de explosão pode destruir."
+  },
+  {
+    question: "Quando devo usar um ataque nuclear em vez de mísseis padrão?",
+    answer: "Reserve os ataques nucleares para alvos inimigos de alto valor e momentos em que uma vantagem decisiva é possível. Mísseis padrão servem para pressão concentrada e repetida, enquanto ataques nucleares são melhores para ilhas rivais desenvolvidas cujo núcleo justifica a cobertura mais ampla."
+  }
+]} />
+
+</Section>
+
+## Leituras Relacionadas
+
+- [World of Nukes Destruição Nuclear: Efeitos Explicados](/pt/simulation/World-of-Nukes-nuclear-destruction)
+- [Explosão Nuclear em World of Nukes: Zonas de Impacto e Rankings](/pt/simulation/World-of-Nukes-nuclear-explosion)
+- [World of Nukes: Como Conseguir Nukes Melhores — Dicas e Truques](/pt/progression/World-of-Nukes-how-to-get-better-nukes)

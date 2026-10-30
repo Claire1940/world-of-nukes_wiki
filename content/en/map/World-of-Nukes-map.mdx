@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Compass } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "World of Nukes Map: Zone Layout & Navigation Guide",
+  description: "Learn the World of Nukes map layout, key locations, radiation zones, and the fastest routes for farming and exploration in this zone guide.",
+  category: "map",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=World+of+Nukes+Map",
+  date: "2026-10-30",
+  author: "World of Nukes Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **World of Nukes map** is divided into themed zones with increasing danger and reward tiers.
+- **Radiation zones** require protective gear before entry, so prepare before crossing borders.
+- **Fast travel points** unlock permanently once discovered, cutting travel time dramatically.
+- **Loot density** scales with distance from the spawn area, rewarding deeper exploration.
+- **Map knowledge** is the single biggest survival advantage for new and veteran players alike.
+</Callout>
+
+<Section icon={Map} title="World of Nukes Map Overview">
+
+The World of Nukes map is built around a post-nuclear wasteland where safety and opportunity exist on opposite ends of the same road. The spawn region is deliberately forgiving: enemies are weak, supplies are common, and vendors are close together. As you push outward, the terrain changes, radiation increases, and the quality of loot climbs sharply.
+
+Understanding the overall layout is the first skill every survivor should master. Instead of wandering aimlessly, treat the map as a series of concentric rings, each with its own threat level, resource types, and progression requirements.
+
+<CardGrid cols={3}>
+  <Card title="Spawn Ring">
+    - **Low threat level**
+    - Basic supplies and starter quests
+    - Safe vendor access
+    - Ideal for early leveling
+  </Card>
+  <Card title="Mid Wasteland">
+    - **Moderate danger**
+    - Better weapons and armor drops
+    - First radiation pockets appear
+    - Requires upgraded gear
+  </Card>
+  <Card title="Deep Zones">
+    - **High threat, high reward**
+    - Rare materials and elite enemies
+    - Heavy radiation in places
+    - Endgame farming territory
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Pro Tip">
+Open the map screen frequently and mark discovered landmarks manually. The in-game map does not always label points of interest, so personal markers become your most reliable navigation tool over long sessions.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Key Locations and What They Offer">
+
+Every major location on the World of Nukes map serves a purpose, whether it is trading, healing, crafting, or high-risk looting. Learning which location answers which need saves hours of backtracking.
+
+| Location Type | Primary Function | Threat Level | Recommended Level |
+| --- | --- | --- | --- |
+| Settlements | Vendors, quests, storage | Safe | All levels |
+| Ruined towns | Loot, scrap farming | Low-Medium | 5+ |
+| Military outposts | Weapons, ammo caches | Medium-High | 15+ |
+| Bunkers | Rare gear, boss encounters | High | 25+ |
+| Crater zones | Unique materials, radiation | Very High | 30+ |
+
+<Callout type="warning" title="Radiation Warning">
+Crater and blast zones inflict continuous radiation damage. Without proper protective equipment or consumable antidotes, even high-level players can be downed in seconds. Always carry anti-radiation supplies when heading into these regions.
+</Callout>
+
+Beyond the table above, keep these navigation facts in mind:
+
+- **Settlements** double as respawn anchors, so discovering each one effectively extends your safety net across the map.
+- **Ruined towns** restock loot on a timer, making them reliable recurring farm stops rather than one-time visits.
+- **Bunkers** often contain locked doors that require keys found elsewhere on the map, encouraging looped exploration routes.
+- **Crater zones** frequently host the rarest crafting materials, which is why endgame players accept the radiation risk.
+
+</Section>
+
+<Section icon={Compass} title="Step-by-Step: Mapping the Wasteland Efficiently">
+
+A structured exploration order turns the map from a hazard into a roadmap. Follow this sequence when starting a fresh character or relearning the terrain after an update.
+
+<Steps>
+  <Step num="1" title="Secure the Spawn Region">
+    Complete starter quests, stockpile food and water, and fully explore the immediate area around spawn before crossing into the mid wasteland. A solid supply base prevents forced retreats later.
+  </Step>
+  <Step num="2" title="Discover All Settlements">
+    Prioritize finding every settlement on the map. Each one unlocks fast travel, vendors, and a respawn point, which permanently improves every future run.
+  </Step>
+  <Step num="3" title="Establish Farm Routes">
+    Link 3-4 ruined towns into a repeating loop that passes through a settlement for selling and restocking. Efficient loops beat random looting every time.
+  </Step>
+  <Step num="4" title="Gear Up for Bunkers">
+    Use farm route income to upgrade weapons and armor until you can handle military outposts, then use outpost loot to prepare for bunker runs.
+  </Step>
+  <Step num="5" title="Conquer Radiation Zones">
+    Only enter crater zones once you have reliable radiation protection and healing supplies. These areas are the final tier of map progression.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Route Efficiency">
+Players who unlock all fast travel points early typically cut their total travel time by more than half across a full playthrough. Discovery is an investment that pays for itself.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Zone Danger and Loot Comparison">
+
+Not all regions reward the same effort. This comparison breaks down the risk-to-reward math so you can decide where your time is best spent.
+
+| Zone Type | Loot Quality | Enemy Density | Radiation Risk | Farm Value |
+| --- | --- | --- | --- | --- |
+| Spawn region | ★★ | Low | None | ★★ |
+| Ruined towns | ★★★ | Medium | Rare | ★★★★ |
+| Military outposts | ★★★★ | High | Low | ★★★★ |
+| Bunkers | ★★★★★ | Very High | Medium | ★★★★ |
+| Crater zones | ★★★★★ | High | Very High | ★★★ (materials only) |
+
+<Callout type="info" title="Reading the Table">
+Farm value reflects repeat visits, not one-time clears. Bunkers offer the best single-run loot, but ruined towns often outperform them over an hour of looping because enemies are easier and travel is shorter.
+</Callout>
+
+Your ideal farming location also depends on your current goal:
+
+- **Earning currency fast:** loop ruined towns near a settlement for quick sell trips.
+- **Upgrading weapons:** target military outposts for ammo and weapon drops.
+- **Chasing rare gear:** bunker runs offer the highest ceiling, at the highest risk.
+- **Crafting endgame items:** crater materials are mandatory, so plan protection first.
+
+</Section>
+
+<Section icon={Trophy} title="Navigation Goals Checklist">
+
+Track your map mastery with this checklist. Completing it means you have transformed the wasteland from a maze into a tool.
+
+<Checklist
+  id="map-mastery"
+  title="Map Mastery Milestones:"
+  items={[
+    "Explore the entire spawn region and finish starter quests",
+    "Discover every settlement and unlock all fast travel points",
+    "Build a repeatable 3-4 location farm route",
+    "Clear your first military outpost successfully",
+    "Complete a full bunker run with rare loot extracted",
+    "Survive a crater zone trip with materials to show for it"
+  ]}
+/>
+
+<Callout type="tip" title="Group Play Advantage">
+Traveling with a squad changes the map math entirely. Teams can split loot paths, cover each other in bunker fights, and share radiation supplies, opening deep zones far earlier than solo play allows.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "How big is the World of Nukes map?",
+    answer: "The map is divided into multiple themed regions spanning safe spawn areas, mid-tier wasteland, and deep radiation zones. Rather than raw size, what matters most is how many fast travel points you have unlocked, since discovery is what determines practical travel speed."
+  },
+  {
+    question: "Do I need radiation gear for the whole map?",
+    answer: "No. Radiation is concentrated in specific zones such as craters and certain bunker sections. Most of the map, including settlements and ruined towns, is safe from radiation. Check the zone table above before heading out so you only carry protective gear where it is needed."
+  },
+  {
+    question: "What is the fastest way to learn the World of Nukes map?",
+    answer: "Prioritize discovering settlements first, since each one unlocks fast travel and a respawn point. Then build a short farm loop through nearby ruined towns. This approach gives you safe anchors and efficient routes before you attempt high-risk areas."
+  },
+  {
+    question: "Can I access deep zones at a low level?",
+    answer: "Technically the map is open, but deep zones contain high-level enemies and radiation that low-level players cannot survive reliably. It is more efficient to progress through the region tiers in order, upgrading gear as you go, rather than rushing into bunkers or craters early."
+  }
+]} />
+
+</Section>
+
+## Related Reading
+
+- [World of Nukes Map Guide: Island Layout & Zone Strategy](/map/World-of-Nukes-map-guide)
+- [World of Nukes Nuclear Map: Escalation Stages & Strike Targets](/map/World-of-Nukes-nuclear-map)
+- [World of Nukes Nuclear Blast Radius: Strike Coverage & Targeting](/simulation/World-of-Nukes-nuclear-blast-radius)

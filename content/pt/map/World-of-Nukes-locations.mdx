@@ -1,0 +1,185 @@
+import { Map, Swords, Shield, Target, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Localizações do World of Nukes: Guia de Mapa de Ilhas e Escolha",
+  description: "Aprenda como funcionam as localizações no World of Nukes: posicionamento de ilhas, defesas, seleção de alvos inimigos e rotas de ataque aéreas ou navais.",
+  category: "map",
+  image: "https://placehold.co/800x400/B45309/fff?text=Locations+Guide",
+  date: "2026-10-30",
+  author: "Equipe de Wiki do World of Nukes"
+}
+
+<Callout type="info" title="Guia Rápido">
+- As **localizações do World of Nukes** giram em torno da sua própria ilha, das ilhas rivais e das águas compartilhadas ao redor.
+- **Regra básica de posicionamento**: mantenha prédios de renda e escudos perto do centro da ilha, e as defesas no anel externo.
+- **Seleção de alvos**: explore as ilhas rivais antes de lançar mísseis para evitar desperdiçar recursos ofensivos.
+- **Rotas de ataque**: jatos chegam rapidamente pelo ar enquanto navios de guerra aplicam pressão pelas águas costeiras.
+- **Nota sobre servidores**: até 7 jogadores por servidor, então espere ilhas rivais próximas assim que se expandir.
+</Callout>
+
+<Section icon={Map} title="Entendendo as Localizações do World of Nukes">
+
+No World of Nukes, as localizações não são um mapa estático que você explora — são ilhas construídas por jogadores espalhadas pelas águas do servidor. Cada partida coloca você e até seis outros jogadores em ilhas separadas, e toda decisão estratégica sobre localização se resume a três zonas: **o layout da sua ilha**, as **águas ao redor** onde os navios de guerra operam, e o **espaço aéreo** que os jatos usam para alcançar as ilhas rivais.
+
+Como o jogo é um tycoon de estratégia PvP, as localizações rivais são dinâmicas. Uma ilha inimiga próxima pode se tornar uma ameaça nuclear em minutos, o que torna a percepção precoce dos vizinhos uma das habilidades de sobrevivência mais importantes do jogo.
+
+<Callout type="warning" title="A População do Servidor Importa">
+Cada servidor comporta no máximo 7 jogadores. Menos jogadores significa um tempo de expansão mais seguro; um servidor cheio significa ilhas rivais mais próximas e ataques inimigos que podem chegar mais cedo. Verifique quem está online antes de comprometer recursos em projetos de construção demorados.
+</Callout>
+
+### As Três Zonas de Localização
+
+| Zona | Uso Principal | Estruturas-Chave | Nível de Risco |
+| --- | --- | --- | --- |
+| Núcleo da Ilha | Economia, escudos, prédios críticos | Prédios de renda, Escudo da Ilha | Baixo (melhor protegido) |
+| Perímetro da Ilha | Sistemas de defesa e militares | Defesas antiaéreas, lançadores de mísseis | Médio |
+| Águas Abertas e Espaço Aéreo | Ataques a ilhas rivais | Navios de guerra, jatos | Alto (contato inimigo) |
+
+</Section>
+
+<Section icon={Target} title="Layout da Sua Ilha: Onde Posicionar Tudo">
+
+Sua própria ilha é a localização que você controla por completo, e seu layout interno determina quão bem você sobrevive. Siga um padrão em camadas: os prédios mais valiosos no centro, as defesas ao redor deles, e os sistemas militares posicionados onde possam responder rapidamente.
+
+<Steps>
+  <Step num="1" title="Proteja o Núcleo">
+    Posicione seu primeiro acampamento e as estruturas geradoras de renda de forma central. Um início compacto mantém o núcleo da ilha protegido e deixa espaço para uma expansão externa organizada.
+  </Step>
+  <Step num="2" title="Expanda para Fora em um Padrão">
+    Construa estruturas adicionais em anéis organizados em vez de espalhá-las. Reserve espaço aberto dedicado para sistemas de mísseis, cobertura antiaérea e escudos antes que a ilha fique cheia.
+  </Step>
+  <Step num="3" title="Cerca o Núcleo com Defesas">
+    Posicione as defesas antiaéreas onde sua cobertura proteja a base central, as estruturas de recursos e os caminhos de ataque prováveis. Adicione camadas de cobertura externa para áreas expostas.
+  </Step>
+  <Step num="4" title="Posicione Sistemas Ofensivos">
+    Coloque a infraestrutura de mísseis onde ela seja funcional, mas não a primeira coisa que um ataque inimigo destrói. Equilibre a prontidão ofensiva com a proteção da sua economia.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Prioridade de Posicionamento">
+Proteja o núcleo da ilha antes de estender as defesas às estruturas externas menos importantes. Perder um prédio externo dói muito menos do que perder sua base de renda ou o escudo.
+</Callout>
+
+### Referência de Posicionamento na Ilha
+
+| Tipo de Estrutura | Local Recomendado | Por Que Funciona |
+| --- | --- | --- |
+| Prédios de renda | Centro, atrás dos escudos | Os mais difíceis de eliminar por ataques inimigos |
+| Escudo da Ilha | Núcleo, cobrindo os prédios de maior valor | Absorve a pressão nuclear sobre seus investimentos |
+| Defesas antiaéreas | Perímetro e rotas de ataque | Intercepta ameaças que se aproximam antes de chegarem ao núcleo |
+| Lançadores de mísseis | Anel intermediário, defendido mas acessível | Pronto para disparar sem ser um alvo inicial fácil |
+| Espaço para expansão futura | Bordas externas, pré-planejado | Impede que atualizações futuras exijam reconstruções |
+
+</Section>
+
+<Section icon={Swords} title="Localizações das Ilhas Rivais: Exploração e Seleção de Alvos">
+
+Cada ilha rival é um alvo em potencial — e uma ameaça em potencial. A eficácia dos ataques no World of Nukes depende muito de escolher a localização certa do alvo no momento certo.
+
+<CardGrid cols={3}>
+  <Card title="Alvos de Alto Valor">
+    - **Estruturas de economia** — paralisam a renda inimiga
+    - **Núcleos sem escudo** — impacto máximo do ataque
+    - **Concentrações de defesa** — abrem a ilha para ataques seguintes
+  </Card>
+  <Card title="Alvos de Baixo Valor">
+    - Prédios de preenchimento externos
+    - Posições fortemente blindadas
+    - Ilhas vazias ou abandonadas
+  </Card>
+  <Card title="Janelas de Tempo">
+    - Após um ataque inimigo (fase de reconstrução)
+    - Quando as defesas estão em construção
+    - Quando o jogador está offline
+  </Card>
+</CardGrid>
+
+Antes de lançar qualquer ataque, revise primeiro a ilha inimiga. Confirme o alcance e a disponibilidade de armas, priorize alvos valiosos e nunca lance um ataque que deixe sua própria ilha sem defesa. Trate a implantação de mísseis como uma decisão estratégica, e não como uma ação automática.
+
+<Callout type="info" title="Ataques Combinados Funcionam Melhor">
+Explore o alvo antes de comprometer seus veículos mais fortes. Use jatos para velocidade e navios de guerra para pressão contínua, e priorize estruturas econômicas e estratégicas durante o assalto.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Rotas de Ataque: Localizações Aéreas e Navais">
+
+Jatos e navios de guerra alcançam as ilhas rivais por localizações diferentes, e cada sistema favorece rotas distintas.
+
+| Veículo | Tipo de Rota | Pontos Fortes | Melhores Locais-Alvo |
+| --- | --- | --- | --- |
+| Jatos | Espaço aéreo, aproximação direta | Velocidade, ângulos de ataque flexíveis | Estruturas expostas, flancos sem defesa |
+| Navios de guerra | Águas abertas e costeiras | Durabilidade, pressão contínua | Prédios costeiros, cercos prolongados |
+| Força combinada | Aérea mais naval | Cria múltiplos vetores de ataque | Ilhas desenvolvidas e bem defendidas |
+
+**Táticas de jatos:** use a velocidade para controlar a distância das defesas inimigas, ataque alvos vulneráveis em vez de desgastar posições protegidas, e retorne a uma posição segura após cada investida.
+
+**Táticas de navios:** mantenha o posicionamento naval ao redor das ilhas inimigas para aplicar pressão constante, coordene com as operações aéreas, e evite expor o navio quando o alvo está fortemente defendido.
+
+<Callout type="warning" title="Mantenha uma Força de Defesa em Casa">
+Mantenha uma força de resposta defensiva em vez de comprometer todos os veículos no ataque. Use unidades aéreas e navais para cobrir diferentes rotas de ataque rumo à sua própria ilha, e reconstrua as perdas antes de lançar outra grande operação.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Localizações do Endgame: Maravilhas e o Dispositivo do Fim do Mundo">
+
+As estruturas de fim de jogo mudam as prioridades de localização da sua ilha. As Maravilhas e o Dispositivo do Fim do Mundo são obras de alto valor que atraem a atenção inimiga, então seu posicionamento e proteção se tornam uma preocupação estratégica central.
+
+- **As Maravilhas** são objetivos de construção de longo prazo para ilhas desenvolvidas — trate-as como investimentos estratégicos posicionados dentro do seu núcleo protegido.
+- **O Dispositivo do Fim do Mundo** representa a progressão militar definitiva e deve ser defendido como seu prédio mais importante.
+- **Ambos** criam alvos de alto valor, então melhore sua capacidade defensiva antes de começar a construí-los.
+
+<Checklist
+  id="locations-goals"
+  title="Marcos de Domínio das Localizações:"
+  items={[
+    "Construa um núcleo de ilha compacto e em camadas com a renda no centro",
+    "Cerque o núcleo com cobertura antiaérea nas rotas de ataque prováveis",
+    "Estabeleça uma força de veículos defensiva permanente",
+    "Explore pelo menos três ilhas rivais antes do seu primeiro grande ataque",
+    "Posicione e proteja com escudo uma estrutura de fim de jogo (Maravilha ou Dispositivo do Fim do Mundo)"
+  ]}
+/>
+
+<Callout type="success" title="Regra de Posicionamento no Endgame">
+Não se apresse em projetos avançados antes que sua economia e defesas consigam sustentá-los. Uma Maravilha construída em um local exposto é um convite para ataques inimigos.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ sobre Localizações">
+
+<FAQ items={[
+  {
+    question: "As localizações do World of Nukes são um mapa fixo que posso explorar?",
+    answer: "Não. As localizações no World of Nukes são ilhas construídas por jogadores dentro de um servidor de até 7 jogadores, além das águas e do espaço aéreo compartilhados ao redor delas. O mapa é efetivamente reconstruído a cada servidor, então suas escolhas de layout definem o valor da sua localização."
+  },
+  {
+    question: "Onde devo colocar meu escudo para ter a melhor proteção?",
+    answer: "Mantenha o escudo próximo à seção mais valiosa da sua ilha — o núcleo com seus prédios de renda e infraestrutura crítica — e desenhe o layout ao redor baseando-se na cobertura protetora dele."
+  },
+  {
+    question: "Como encontro a melhor ilha inimiga para atacar?",
+    answer: "Explore antes de comprometer recursos. Priorize ilhas com estruturas econômicas expostas, escudos fracos ou ausentes, e jogadores que estão se reconstruindo após um ataque anterior. Evite posições fortemente defendidas, a menos que combine jatos e navios de guerra."
+  },
+  {
+    question: "Posso mover meus prédios para um local melhor depois?",
+    answer: "Reconstruir é possível, mas custoso, especialmente com o gamepass Quick Rebuild reduzindo o tempo de recuperação. Por isso, planejar o layout da sua ilha em anéis organizados desde o início é mais eficiente do que realocar estruturas depois."
+  }
+]} />
+
+</Section>
+
+## Leituras Relacionadas
+
+- [Mapa do World of Nukes: Layout das Zonas e Guia de Navegação](/pt/map/World-of-Nukes-map)
+- [Guia de Mapa do World of Nukes: Layout da Ilha e Estratégia](/pt/map/World-of-Nukes-map-guide)
+- [Raio de Explosão Nuclear no World of Nukes: Cobertura de Ataque](/pt/simulation/World-of-Nukes-nuclear-blast-radius)

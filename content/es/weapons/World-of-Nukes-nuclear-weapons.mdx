@@ -1,0 +1,190 @@
+import { Map, Swords, Target, Shield, Rocket, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Armas Nucleares de World of Nukes: Guía de Lanzamiento",
+  description: "Aprende cómo funcionan las armas nucleares en World of Nukes: sistemas de lanzamiento, selección de objetivos, estrategia de ataque y cómo apoyar.",
+  category: "weapons",
+  image: "https://placehold.co/800x400/F97316/1a1a1a?text=Nuclear+Weapons+Guide",
+  date: "2026-10-30",
+  author: "Equipo de Wiki de World of Nukes"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Las armas nucleares de World of Nukes** son el sistema ofensivo central del juego para atacar islas rivales.
+- **El lanzamiento requiere infraestructura**: construye y activa estructuras de misiles antes de poder realizar cualquier ataque.
+- **La selección de objetivos importa**: prioriza estructuras económicas y militares de alto valor.
+- **Primero la economía**: una base de ingresos sólida financia ataques nucleares sostenidos.
+- **La defensa acompaña al ataque**: nunca lances un ataque que deje tu isla expuesta.
+</Callout>
+
+<Section icon={Rocket} title="Cómo Funcionan las Armas Nucleares en World of Nukes">
+
+World of Nukes es un tycoon de estrategia de Roblox centrado en la guerra nuclear. Desarrollas tu isla hasta convertirla en una nación militar, despliegas sistemas de misiles y lanzas ataques ofensivos contra otros jugadores. Las armas nucleares representan el nivel ofensivo de gran escala del juego, situándose por encima de los ataques con misiles convencionales tanto en impacto como en requisitos de progresión.
+
+<Callout type="warning" title="Nota sobre los Datos de las Armas">
+Los nombres específicos de las armas, los valores de daño y los costos de desbloqueo no han sido documentados oficialmente en detalle. Esta guía cubre los sistemas de ataque confirmados y los principios estratégicos sin inventar estadísticas. Verifica siempre los números actuales en el juego.
+</Callout>
+
+El sistema ofensivo opera en tres niveles conectados:
+
+| Nivel de Ataque | Función | Qué Implica | Base de Desbloqueo |
+| --- | --- | --- | --- |
+| Sistema de Lanzamiento de Misiles | Ofensiva central | Interfaz de lanzamiento, selección de objetivos enemigos, costo de recursos | Construir la infraestructura de misiles requerida |
+| Sistema de Ataque Nuclear | Ataques estratégicos | Ataques de gran escala que generan presión en toda la isla | Progresar hacia la infraestructura de ataque nuclear |
+| Control de Lanzamiento | Gestión de ataques | Revisión de objetivos, confirmación, disponibilidad de armas | Acceder a controles de lanzamiento activos mediante estructuras ofensivas |
+
+La efectividad de las armas depende de cuatro factores que trabajan en conjunto: la disponibilidad del arma, tu nivel de progresión, el valor del objetivo y si la economía y las defensas de tu isla pueden sostener ataques repetidos.
+
+</Section>
+
+<Section icon={Target} title="Lanzar un Ataque Nuclear: Paso a Paso">
+
+Un ataque nuclear en World of Nukes siempre debe ser una decisión estratégica deliberada, no una acción automática. Sigue esta secuencia para evitar desperdiciar recursos ofensivos.
+
+<Steps>
+  <Step num="1" title="Construye la Infraestructura de Misiles">
+    Construye y activa las estructuras relacionadas con misiles que tu isla requiere. Estos edificios desbloquean la interfaz de lanzamiento y determinan qué opciones de ataque tienes disponibles.
+  </Step>
+  <Step num="2" title="Aprende la Interfaz de Lanzamiento">
+    Abre los controles de lanzamiento y practica el flujo de selección de objetivos antes de comprometer recursos. Comprende el alcance, la disponibilidad y el costo de cada opción de arma que puedas desplegar.
+  </Step>
+  <Step num="3" title="Explora la Isla Enemiga">
+    Revisa el objetivo antes de lanzar. Identifica estructuras económicas expuestas, secciones mal defendidas y edificios militares de alto valor que justifiquen el ataque.
+  </Step>
+  <Step num="4" title="Confirma y Lanza">
+    Selecciona el objetivo, confirma el lanzamiento y supervisa el resultado. Los ataques nucleares más grandes deben reservarse para momentos en que el ataque cree una ventaja decisiva.
+  </Step>
+  <Step num="5" title="Reevalúa tus Defensas">
+    Después de cualquier ataque importante, verifica que tu propia isla permanezca protegida. Los ataques suelen provocar represalias, así que mantén la cobertura antiaérea y los escudos listos.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo Profesional">
+Reserva tus ataques más grandes para naciones rivales desarrolladas con densos conglomerados económicos. Un arma nuclear gastada en una isla débil y dispersa rara vez devuelve suficiente valor para justificar el costo de recursos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategia de Ataque: Eligiendo tus Objetivos">
+
+La selección de objetivos diferencia a las potencias nucleares efectivas de los jugadores que desperdician su arsenal. Cada ataque debe responder a una pregunta: ¿qué me gana con este ataque?
+
+<CardGrid cols={3}>
+  <Card title="Objetivos Económicos">
+    - **Mayor valor a largo plazo**
+    - Daña la generación de ingresos del enemigo
+    - Ralentiza su capacidad de reconstrucción
+    - Ideal para presión sostenida
+  </Card>
+  <Card title="Objetivos Militares">
+    - **Reduce la amenaza a tu isla**
+    - Desactiva estructuras ofensivas
+    - Debilita la capacidad de represalia
+    - Ideal antes de un asalto total
+  </Card>
+  <Card title="Estructuras Estratégicas">
+    - **Objetivos de valor de endgame**
+    - Impacta maravillas y construcciones avanzadas
+    - Crea presión psicológica
+    - Ideal para momentos decisivos
+  </Card>
+</CardGrid>
+
+| Tipo de Objetivo | Prioridad | Beneficio Estratégico | Nivel de Riesgo |
+| --- | --- | --- | --- |
+| Edificios de ingresos | Alta | Daño económico a largo plazo | Bajo a Medio |
+| Estructuras de misiles | Alta | Reduce la capacidad de contraataque enemigo | Medio |
+| Defensas antiaéreas | Media | Abre la isla a ataques de seguimiento | Medio |
+| Edificios exteriores | Baja | Retorno estratégico mínimo | Bajo |
+| Maravillas / estructuras avanzadas | Situacional | Ataques de alto valor y alta visibilidad | Alto |
+
+<Callout type="info" title="Ataques Combinados">
+Los asaltos a islas más efectivos combinan sistemas. Explora con jets para velocidad, aplica presión naval con buques de guerra y usa ataques nucleares para romper el núcleo cuando las defensas estén extendidas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Apoyando tu Arsenal: Economía y Defensa">
+
+Las armas nucleares son tan fuertes como la isla que las respalda. Los jugadores que se apresuran con construcciones ofensivas sin una economía no pueden sostener los ataques, y los que atacan sin defensa lo pierden todo por represalias.
+
+Tu progresión debe seguir este orden de prioridad:
+
+| Etapa | Enfoque | Por qué Importa para los Ataques Nucleares |
+| --- | --- | --- |
+| 1 | Asentamiento central e ingresos | Financia toda la construcción de misiles y los costos de lanzamiento |
+| 2 | Mejoras económicas | Permite ataques repetidos y recuperación más rápida |
+| 3 | Expansión de infraestructura | Desbloquea construcciones ofensivas avanzadas |
+| 4 | Defensa y poder militar | Protege tu arsenal de ataques enemigos |
+| 5 | Estructuras avanzadas y maravillas | Sistemas de endgame incluyendo el Dispositivo del Juicio Final |
+
+<Callout type="warning" title="Evita este Error">
+No gastes todos tus recursos en activos militares al principio. Una isla con armas poderosas pero una economía débil no puede reconstruirse tras un contraataque, convirtiendo tu arsenal en una amenaza de un solo uso.
+</Callout>
+
+<Checklist
+  id="nuclear-readiness"
+  title="Lista de Verificación de Preparación para Ataques Nucleares:"
+  items={[
+    "Base de ingresos estable que financia la producción regular",
+    "Infraestructura de misiles construida y activada",
+    "Interfaz de lanzamiento practicada en objetivos de bajo valor",
+    "Defensas antiaéreas cubriendo el núcleo de la isla",
+    "Escudos en su lugar antes de cualquier lanzamiento importante",
+    "Fuerza de vehículos defensivos mantenida en reserva"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Armas de Endgame: el Dispositivo del Juicio Final">
+
+En el nivel más alto de progresión, World of Nukes ofrece el Dispositivo del Juicio Final, un sistema estratégico de fase final conectado con la ruta definitiva de progresión militar. Al igual que las maravillas, representa el punto culminante del desarrollo sostenido de la isla en lugar de un desbloqueo rápido.
+
+| Sistema de Endgame | Qué Es | Ruta de Desbloqueo | Valor Estratégico |
+| --- | --- | --- | --- |
+| Maravillas | Estructuras avanzadas emblemáticas | Desarrollo central, acceso a construcción avanzada | Objetivo de endgame visible, especialización estratégica |
+| Dispositivo del Juicio Final | Sistema de armas estratégico definitivo | Progresión de nivel superior, infraestructura de endgame | Cúspide de progresión militar más allá de los vehículos estándar |
+
+Ambos sistemas exigen la misma base: ingresos confiables, infraestructura central mejorada y defensas lo suficientemente fuertes para proteger un objetivo de alto valor. Una vez completadas, estas estructuras se convierten en objetivos prioritarios para los rivales, por lo que la preparación defensiva debe crecer junto con ellas.
+
+<Callout type="success" title="Regla del Endgame">
+Comprométete con las maravillas y el Dispositivo del Juicio Final solo después de que tu economía y defensas puedan sostenerlos. La construcción avanzada debe servir a un objetivo estratégico claro, no simplemente llenar el espacio disponible.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo las armas nucleares en World of Nukes?",
+    answer: "Los sistemas de ataque nuclear se vuelven disponibles después de progresar lo suficiente para acceder a la infraestructura de ataque nuclear. Construye las estructuras de misiles requeridas, desarrolla la economía de tu isla para financiarlas y avanza a través de los niveles centrales de progresión."
+  },
+  {
+    question: "¿Existen valores de daño confirmados para cada bomba nuclear?",
+    answer: "No se han documentado estadísticas oficiales detalladas para las armas nucleares individuales. Esta guía evita inventar números. Consulta la interfaz de lanzamiento dentro del juego para ver la disponibilidad, los costos y los requisitos actuales."
+  },
+  {
+    question: "¿Cuál es el mejor objetivo para un ataque nuclear?",
+    answer: "Los conglomerados económicos de alto valor y las estructuras de misiles ofrecen el mejor retorno. Usa el reconocimiento para encontrar secciones expuestas de una isla enemiga y reserva tus ataques más grandes para rivales desarrollados donde el daño sea decisivo."
+  },
+  {
+    question: "¿Debo construir armas nucleares antes que las defensas?",
+    answer: "Construye primero una economía estable y defensas básicas. Las armas nucleares requieren recursos sostenidos para construirse y usarse, y lanzar ataques sin protección invita a represalias que pueden destruir tu progreso."
+  }
+]} />
+
+</Section>
+
+## Lecturas Relacionadas
+
+- [Tipos de Nukes en World of Nukes: Comparativa de Categorías](/es/weapons/World-of-Nukes-nuke-types)
+- [World of Nukes: La Ojiva Más Poderosa, Clasificación por Niveles](/es/weapons/World-of-Nukes-strongest-nuke)
+- [Países con armas nucleares: Las 9 potencias nucleares explicadas](/es/countries/World-of-Nukes-countries-with-nukes)

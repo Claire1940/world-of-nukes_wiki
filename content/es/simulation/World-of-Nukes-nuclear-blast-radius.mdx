@@ -1,0 +1,172 @@
+import { Map, Swords, Target, Shield, Sparkles, Crosshair } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Radio de Explosión Nuclear en World of Nukes: Cobertura de Ataque",
+  description: "Aprende cómo funcionan la cobertura de explosión nuclear, el apuntado de misiles y el alcance de ataque en World of Nukes, además de consejos de defensa.",
+  category: "simulation",
+  image: "https://placehold.co/800x400/F97316/111827?text=Nuclear+Blast+Radius+Guide",
+  date: "2026-10-30",
+  author: "Equipo de Wiki de World of Nukes"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **radio de explosión nuclear en World of Nukes** determina cuánto de una isla enemiga puede dañar un ataque.
+- **El nivel del arma importa**: los misiles estándar impactan zonas más reducidas, mientras que los ataques nucleares ejercen presión a escala de toda la isla.
+- **El apuntado es manual**: confirma el alcance, la disponibilidad y el costo antes de lanzar cualquier ataque.
+- **Los escudos contrarrestan los nukes**: los escudos de isla protegen tu núcleo contra ataques de gran escala.
+- **Gana la defensa por capas**: la antiaérea junto con los escudos protege mucho más que cualquiera de los dos por separado.
+</Callout>
+
+<Section icon={Crosshair} title="Cómo Funciona la Cobertura de Explosión Nuclear">
+
+Entender el **radio de explosión nuclear** en World of Nukes es la base para atacar y defender con eficacia. Cada arma ofensiva del juego inflige daño en una zona de cobertura definida alrededor del punto que selecciones. Los sistemas de misiles estándar concentran la destrucción en una huella más reducida, mientras que el sistema de ataque nuclear aplica una presión mucho más amplia, a escala de toda la isla, contra objetivos de alto valor.
+
+La cobertura interactúa con tres factores prácticos:
+
+- **Nivel del arma**: las armas estratégicas más grandes amenazan más estructuras por ataque que los misiles tácticos.
+- **Distribución del objetivo**: los núcleos de isla densos absorben más daño total que las distribuciones dispersas.
+- **Capas defensivas**: los escudos y la antiaérea reducen cuánto de la zona de explosión se convierte en daño real.
+
+<Callout type="warning" title="Nota sobre Datos">
+Los valores exactos del radio de explosión por arma no han sido documentados oficialmente. Esta guía explica el sistema de ataque confirmado — interfaz de lanzamiento, selección de objetivos y rol estratégico — sin inventar cifras específicas de radio. Consulta la página oficial del juego en Roblox para conocer los detalles más recientes de las armas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparativa de Tipos de Armas y Roles de Ataque">
+
+El sistema ofensivo se divide en categorías de ataque distintas, cada una con una relación diferente con la cobertura de explosión. Compáralas antes de comprometer recursos en un lanzamiento.
+
+| Sistema de Armas | Perfil de Cobertura | Mejor Uso | Consideración Clave |
+| --- | --- | --- | --- |
+| Sistema de Misiles Estándar | Zona de daño concentrado | Ataques deliberados sobre objetivos elegidos | Confirma primero el alcance y el costo de recursos |
+| Sistema de Ataque Nuclear | Presión amplia a escala de isla | Objetivos enemigos de alto valor, momentos decisivos | Requiere progresión avanzada para desbloquearse |
+| Control de Lanzamiento Táctico | Varía según el arma seleccionada | Priorización de objetivos precisa y gestionada | Revisa la isla enemiga antes de disparar |
+
+Cada nivel de arma premia una mentalidad diferente:
+
+<CardGrid cols={3}>
+  <Card title="Misiles de Precisión">
+    - **Huella de daño reducida**
+    - Poco desperdicio en estructuras de bajo valor
+    - Ideales para presión repetida
+  </Card>
+  <Card title="Ataques Nucleares">
+    - **Presión de cobertura amplia**
+    - Decisivos contra islas desarrolladas
+    - Resérvalos para momentos de alto valor
+  </Card>
+  <Card title="Control de Lanzamiento">
+    - **Selección manual de objetivos**
+    - Control total sobre cada ataque
+    - Evita desperdiciar recursos ofensivos
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Regla de Apuntado">
+Trata cada lanzamiento como una decisión estratégica, no como una acción automática. Un ataque nuclear dirigido a un núcleo de isla bien protegido con escudos desperdicia recursos que los misiles de precisión podrían haber usado contra estructuras económicas expuestas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Paso a Paso: Maximizar el Daño de Ataque">
+
+Sigue este flujo de trabajo de lanzamiento para aprovechar al máximo la zona de cobertura de cada ataque.
+
+<Steps>
+  <Step num="1" title="Construye Infraestructura Ofensiva">
+    Construye y activa las estructuras de misiles que permita tu nivel de progresión. Sin la infraestructura de lanzamiento requerida, ningún ataque — independientemente de su radio — es posible.
+  </Step>
+  <Step num="2" title="Explora la Isla Objetivo">
+    Revisa la distribución enemiga antes de disparar. Identifica el núcleo denso, los edificios económicos y las posiciones defensivas para que la zona de explosión caiga donde importa.
+  </Step>
+  <Step num="3" title="Confirma Alcance y Costo">
+    Abre la interfaz de lanzamiento y verifica que el arma realmente pueda alcanzar el objetivo y que puedas pagar el costo de recursos sin arruinar tu propia economía.
+  </Step>
+  <Step num="4" title="Selecciona Objetivos de Alto Valor">
+    Prioriza las estructuras económicas y estratégicas dentro de la zona de cobertura. Un ataque que elimina la generación de ingresos daña más al enemigo que un daño externo disperso.
+  </Step>
+  <Step num="5" title="Lanza y Reevalúa">
+    Confirma el lanzamiento, observa el resultado y nunca dejes tu propia isla sin defensa mientras tus recursos ofensivos están comprometidos en otra parte.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Bono de Armas Combinadas">
+Coordina ataques con jets y buques de guerra. Los jets presionan rápidamente las áreas expuestas mientras los buques mantienen una presión naval sostenida, forzando al enemigo a dividir sus defensas antes de que tu misil caiga.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Defensa contra el Radio de Explosión">
+
+La cobertura de explosión solo es tan peligrosa como débil sea tu defensa. Una distribución por capas reduce el daño efectivo de cualquier ataque entrante.
+
+| Capa de Defensa | Qué Contrarresta | Prioridad de Colocación |
+| --- | --- | --- |
+| Defensa Antiaérea | Ataques aéreos y misiles entrantes | Alrededor de la base central, los recursos y las rutas de ataque probables |
+| Escudo de Isla | Ataques nucleares de gran escala | Cerca de la sección más valiosa de la isla |
+| Espaciado de la Distribución | Destrucción total con un solo ataque | Reserva espacio abierto para que una sola explosión no pueda arrasar el núcleo |
+| Vehículos Defensivos | Ataques de seguimiento y repetidos | Mantén una fuerza de respuesta en casa en lugar de comprometerla por completo |
+
+<Callout type="tip" title="Regla del Núcleo Primero">
+Protege el núcleo de la isla antes de extender la cobertura a las estructuras exteriores. Perder edificios periféricos es recuperable; perder tu corazón económico por un solo ataque nuclear, no.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Lista de Verificación de Preparación de Ataque">
+
+Antes de tu próxima operación ofensiva, confirma cada elemento de esta lista.
+
+<Checklist
+  id="strike-readiness"
+  title="Lista de Verificación Pre-Lanzamiento:"
+  items={[
+    "Infraestructura de misiles construida y activada",
+    "Isla objetivo explorada en busca de estructuras de alto valor",
+    "Alcance, disponibilidad y costo de recursos confirmados",
+    "Escudo de la isla base y cobertura antiaérea en su lugar",
+    "Fuerza de respuesta de vehículos defensivos mantenida en reserva"
+  ]}
+/>
+
+<Callout type="info" title="Nota del Endgame">
+A medida que progreses hacia las maravillas y el Dispositivo del Juicio Final, los sistemas de ataque escalan con el desarrollo de tu isla. Construye primero ingresos y defensas confiables — las armas avanzadas sobre una economía débil se convierten en pasivos, no en ventajas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿World of Nukes tiene un número oficial de radio de explosión nuclear para cada arma?",
+    answer: "No se han documentado valores oficiales de radio por arma. Las mecánicas confirmadas incluyen la interfaz de lanzamiento, la selección de objetivos enemigos y la distinción entre el daño concentrado de los misiles y la presión nuclear más amplia a escala de isla. Trata cualquier cifra específica de radio que veas en línea como no verificada."
+  },
+  {
+    question: "¿Cómo afecta el radio de explosión nuclear de World of Nukes a la distribución de mi base?",
+    answer: "Una cobertura de ataque más amplia significa que un núcleo de isla muy compacto puede perder muchas estructuras con un solo ataque. Espacia tus edificios económicos más importantes, mantén el escudo sobre la sección de mayor valor y superpone cobertura antiaérea para que un solo ataque no pueda eliminarlo todo."
+  },
+  {
+    question: "¿Puedo reducir el daño de explosión nuclear entrante?",
+    answer: "Sí, mediante defensa por capas. Los escudos de isla añaden protección contra ataques de gran escala para tu núcleo, las defensas antiaéreas interceptan amenazas entrantes a lo largo de las rutas de ataque probables, y el espaciado entre edificios limita cuánto puede destruir una sola zona de explosión."
+  },
+  {
+    question: "¿Cuándo debo usar un ataque nuclear en lugar de misiles estándar?",
+    answer: "Reserva los ataques nucleares para objetivos enemigos de alto valor y momentos en los que sea posible una ventaja decisiva. Los misiles estándar son adecuados para presión concentrada repetida, mientras que los ataques nucleares se guardan mejor para islas rivales desarrolladas cuyo núcleo justifica la cobertura más amplia."
+  }
+]} />
+
+</Section>
+
+## Lecturas Relacionadas
+
+- [World of Nukes Destrucción Nuclear: Efectos Explicados](/es/simulation/World-of-Nukes-nuclear-destruction)
+- [Explosión Nuclear en World of Nukes: Zonas de Impacto y Ranking](/es/simulation/World-of-Nukes-nuclear-explosion)
+- [World of Nukes: Cómo Conseguir Mejores Bombas Nucleares: Consejos](/es/progression/World-of-Nukes-how-to-get-better-nukes)

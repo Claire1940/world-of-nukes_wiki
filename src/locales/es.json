@@ -1,1 +1,692 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Wiki de World of Nukes - Misiles, Defensa y Guía para Principiantes",
+      "description": "Explora la Wiki de World of Nukes con guías de misiles, consejos de construcción de bases, defensas antiaéreas, jets, buques de guerra, maravillas, recompensas gratis y estrategias para principiantes.",
+      "keywords": "World of Nukes, Roblox, wiki, misiles, defensa, edificios, jets, buques de guerra, guía para principiantes",
+      "ogTitle": "Wiki de World of Nukes - Misiles, Defensa y Guía para Principiantes",
+      "ogDescription": "Explora la Wiki de World of Nukes con guías de misiles, consejos de construcción de bases, defensas antiaéreas, jets, buques de guerra, maravillas, recompensas gratis y estrategias para principiantes.",
+      "twitterTitle": "Wiki de World of Nukes - Misiles, Defensa y Guía para Principiantes",
+      "twitterDescription": "Explora la Wiki de World of Nukes con guías de misiles, consejos de construcción de bases, defensas antiaéreas, jets, buques de guerra, maravillas, recompensas gratis y estrategias para principiantes."
+    }
+  },
+  "nav": {
+    "guide": "Guía",
+    "weapons": "Armas",
+    "countries": "Países",
+    "map": "Mapa",
+    "simulation": "Simulación",
+    "progression": "Progresión",
+    "codes": "Codes"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar Idioma",
+    "switchTheme": "Cambiar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Oscuro",
+    "notFound": "Página No Encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al Inicio",
+    "relatedArticles": "Artículos Relacionados",
+    "readMore": "Leer Más",
+    "articlesComingSoon": "Artículos disponibles próximamente"
+  },
+  "hero": {
+    "badge": "Tycoon de Estrategia con Guerra Nuclear",
+    "title": "Wiki de World of Nukes",
+    "description": "¡Convierte tu isla en una superpotencia militar en World of Nukes! Lanza misiles, pilota jets de combate, comanda buques de guerra, despliega defensas antiaéreas y desbloquea poderosas maravillas. Explora guías para principiantes, estrategias de construcción de bases y recompensas gratis.",
+    "getFreeCodesCTA": "Reclamar Recompensas Gratis",
+    "playOnRobloxCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "1.9M+",
+        "label": "Visitas Totales"
+      },
+      "stat2": {
+        "value": "9.3K+",
+        "label": "CCU Máximo"
+      },
+      "stat3": {
+        "value": "91%",
+        "label": "Valoraciones Positivas"
+      },
+      "stat4": {
+        "value": "7",
+        "label": "Jugadores por Servidor"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Construye. Defiende. Destruye.",
+    "description": "World of Nukes combina la construcción de islas, la guerra con misiles, jets de combate, buques de guerra y maravillas de endgame en un tycoon de estrategia de Roblox."
+  },
+  "tools": {
+    "title": "World of Nukes",
+    "titleHighlight": "Centro de la Wiki",
+    "subtitle": "Todo lo que necesitas para construir, defender y dominar en World of Nukes: salta directo a la guía que necesitas.",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Codes de World of Nukes",
+        "description": "Sigue los codes activos y todas las formas de reclamar recompensas gratis."
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guía para Principiantes de World of Nukes",
+        "description": "Progresión paso a paso del inicio del juego, desde tu primer campamento hasta una isla fortificada."
+      },
+      {
+        "icon": "Rocket",
+        "title": "Mejores Nukes de World of Nukes",
+        "description": "Compara misiles, ataques nucleares, control de lanzamiento y selección de objetivos."
+      },
+      {
+        "icon": "Shield",
+        "title": "Defensa en World of Nukes",
+        "description": "Cobertura antiaérea, escudos de isla y diseños que sobreviven ataques nucleares."
+      },
+      {
+        "icon": "Hammer",
+        "title": "Construcción en World of Nukes",
+        "description": "Orden de construcción, crecimiento económico y prioridades de mejora para tu isla."
+      },
+      {
+        "icon": "Swords",
+        "title": "Jets y Buques de World of Nukes",
+        "description": "Roles de combate aéreo y naval, tácticas de vehículos y estrategia de asalto a islas."
+      },
+      {
+        "icon": "Crown",
+        "title": "Maravillas de World of Nukes",
+        "description": "Maravillas de endgame, el Dispositivo del Juicio Final y objetivos de progresión avanzada."
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Actualizaciones de World of Nukes",
+        "description": "Últimas funciones, cambios de balance y beneficios de gamepass de un vistazo."
+      }
+    ]
+  },
+  "modules": {
+    "worldOfNukesCodes": {
+      "title": "Codes de World of Nukes y Recompensas Gratis",
+      "subtitle": "Encuentra la información más reciente sobre codes y aprende a reclamar recompensas gratis a través de la comunidad oficial de Roblox.",
+      "intro": "Las recompensas de World of Nukes pueden provenir de codes canjeables y de la participación en la comunidad oficial. Usa el flujo de canje dentro del juego para los codes disponibles y luego únete a la comunidad oficial de Roblox para acceder a recompensas y novedades basadas en la comunidad.",
+      "items": [
+        {
+          "icon": "Ticket",
+          "badge": "Codes dentro del Juego",
+          "title": "Codes Canjeables",
+          "description": "Abre la interfaz de canje de codes del juego, ingresa un code disponible exactamente como se muestra y confirma el canje para recibir tu recompensa."
+        },
+        {
+          "icon": "Users",
+          "badge": "Recompensa de la Comunidad",
+          "title": "Recompensa de la Comunidad Oficial de Roblox",
+          "description": "Unirse a la comunidad oficial de Roblox es el principal método comunitario para reclamar recompensas gratis vinculadas al juego."
+        },
+        {
+          "icon": "ListChecks",
+          "badge": "Guía de Reclamación",
+          "title": "Lista de Verificación para Reclamar Recompensas",
+          "steps": [
+            "Inicia World of Nukes desde la página oficial del juego en Roblox.",
+            "Abre la interfaz de codes o recompensas disponible en el juego.",
+            "Ingresa el code o completa el requisito oficial de la comunidad.",
+            "Confirma la reclamación y revisa el inventario de tu cuenta o la notificación de recompensa."
+          ]
+        }
+      ]
+    },
+    "worldOfNukesBeginnerGuide": {
+      "title": "Guía para principiantes de World of Nukes",
+      "subtitle": "Construye tu primera isla y haz crecer tu país",
+      "intro": "Un buen comienzo en World of Nukes depende de equilibrar la expansión, la construcción, la preparación militar y la defensa. Primero crea una base estable de recursos y luego expande tu isla mientras preparas misiles y sistemas defensivos antes de que comiencen los ataques enemigos.",
+      "steps": [
+        {
+          "title": "Establecer el primer campamento",
+          "objective": "Crear una base inicial estable",
+          "actions": [
+            "Coloca el campamento inicial y organiza el espacio disponible en la isla.",
+            "Prioriza las estructuras necesarias para generar y gestionar recursos.",
+            "Mantén el primer diseño compacto para que la expansión posterior siga siendo eficiente."
+          ],
+          "priority": "Asegura los recursos básicos antes de invertir fuertemente en sistemas militares."
+        },
+        {
+          "title": "Expandir la isla",
+          "objective": "Convertir el campamento en un país funcional",
+          "actions": [
+            "Usa los recursos recolectados para construir edificios adicionales.",
+            "Expándete hacia afuera con un patrón organizado en lugar de esparcir estructuras.",
+            "Reserva espacio libre para sistemas de misiles, defensas antiaéreas y escudos."
+          ],
+          "priority": "Planifica la isla pensando tanto en la producción como en la protección."
+        },
+        {
+          "title": "Desplegar sistemas de misiles",
+          "objective": "Preparar una respuesta ofensiva",
+          "actions": [
+            "Construye y coloca estructuras relacionadas con misiles cuando los recursos necesarios estén disponibles.",
+            "Aprende a usar la interfaz de lanzamiento antes de comprometerte con un ataque.",
+            "Elige los objetivos enemigos con cuidado y evita desperdiciar recursos ofensivos limitados."
+          ],
+          "priority": "Trata el despliegue de misiles como una decisión estratégica, no como una acción automática."
+        },
+        {
+          "title": "Añadir defensas tempranas",
+          "objective": "Sobrevivir a los ataques entrantes",
+          "actions": [
+            "Coloca defensas antiaéreas alrededor de edificios importantes y rutas de ataque probables.",
+            "Usa escudos para proteger el núcleo de la isla de ataques nucleares.",
+            "Sigue mejorando la economía para que la cobertura defensiva pueda expandirse junto con el país."
+          ],
+          "priority": "Protege el núcleo de la isla antes de extender las defensas a zonas menos importantes."
+        }
+      ],
+      "quickTips": [
+        "Haz crecer tu economía primero: cada misil, jet y defensa se financia con ingresos constantes.",
+        "Reserva terreno libre desde el principio para que las estructuras militares nunca te obliguen a una reconstrucción incómoda.",
+        "Explora una isla rival antes de lanzar para que cada ataque cuente.",
+        "Reconstruye las estructuras dañadas justo después de un ataque en lugar de acumular recursos para más tarde."
+      ]
+    },
+    "worldOfNukesBestNukesMissiles": {
+      "title": "Las mejores bombas nucleares y misiles de World of Nukes",
+      "subtitle": "Bombas nucleares y misiles: lanzamiento y selección de objetivos",
+      "intro": "World of Nukes usa sistemas de ataque con misiles y armas nucleares que permiten a los jugadores elegir objetivos enemigos y lanzar ataques ofensivos. La eficacia de las armas depende de su disponibilidad, los requisitos de desbloqueo, el valor del objetivo y la capacidad del jugador para respaldar los ataques con una economía y defensas sólidas en su isla.",
+      "tiers": [
+        {
+          "tier": "Núcleo",
+          "icon": "Crosshair",
+          "title": "Sistema de lanzamiento de misiles",
+          "category": "Sistema ofensivo",
+          "stats": [
+            "Interfaz de lanzamiento",
+            "Selección de objetivos enemigos",
+            "Construcción y recursos requeridos"
+          ],
+          "unlock": "Construye y activa la infraestructura de misiles necesaria.",
+          "strategy": "Úsalo para ataques deliberados contra objetivos enemigos seleccionados tras comprobar el alcance, la disponibilidad y el coste de recursos."
+        },
+        {
+          "tier": "Estratégico",
+          "icon": "Radiation",
+          "title": "Sistema de ataque nuclear",
+          "category": "Sistema ofensivo de gran escala",
+          "stats": [
+            "Capacidad de ataque nuclear",
+            "Selección de objetivos",
+            "Presión de ataque en toda la isla"
+          ],
+          "unlock": "Progresa lo suficiente para acceder a la infraestructura de ataque nuclear y sus requisitos.",
+          "strategy": "Reserva los grandes ataques para objetivos enemigos de alto valor y momentos en que el ataque genere una ventaja decisiva."
+        },
+        {
+          "tier": "Táctico",
+          "icon": "Radar",
+          "title": "Selección de objetivos y control de lanzamiento",
+          "category": "Gestión de ataques",
+          "stats": [
+            "Selección de objetivos enemigos",
+            "Confirmación de lanzamiento",
+            "Disponibilidad de armas"
+          ],
+          "unlock": "Obtén acceso a los controles activos de lanzamiento mediante las estructuras ofensivas correspondientes.",
+          "strategy": "Revisa la isla enemiga antes de lanzar, prioriza objetivos valiosos y evita ataques que dejen tu propia isla indefensa."
+        }
+      ]
+    },
+    "worldOfNukesBestDefenseStrategy": {
+      "title": "La mejor estrategia de defensa en World of Nukes",
+      "subtitle": "Protege tu isla de ataques nucleares entrantes",
+      "intro": "Una defensa sólida en World of Nukes protege primero las estructuras más importantes de la isla y expande la cobertura a medida que crece el país. Las defensas antiaéreas ayudan a responder a los ataques entrantes, mientras que los escudos ofrecen protección vital para el núcleo de la isla contra ataques nucleares.",
+      "options": [
+        {
+          "icon": "Target",
+          "title": "Defensa antiaérea",
+          "role": "Interceptar ataques aéreos entrantes",
+          "strengths": [
+            "Ofrece protección activa contra amenazas entrantes.",
+            "Puede situarse cerca de estructuras importantes y rutas de ataque probables.",
+            "Apoya a la isla frente a la presión enemiga constante."
+          ],
+          "placement": "Coloca las defensas antiaéreas donde su cobertura proteja la base central, las estructuras de recursos y los principales edificios militares."
+        },
+        {
+          "icon": "ShieldHalf",
+          "title": "Escudo de la isla",
+          "role": "Proteger el núcleo de la isla de ataques nucleares",
+          "strengths": [
+            "Añade una capa defensiva contra ataques nucleares de gran escala.",
+            "Ayuda a preservar edificios críticos durante las ofensivas enemigas.",
+            "Se vuelve más valioso a medida que la isla crece y acumula más inversiones."
+          ],
+          "placement": "Mantén el escudo cerca de la sección más valiosa de la isla y organiza el diseño circundante en torno a su función protectora."
+        },
+        {
+          "icon": "Layers",
+          "title": "Diseño de defensa por capas",
+          "role": "Combinar sistemas defensivos para maximizar la supervivencia",
+          "strengths": [
+            "Protege el núcleo antes que las estructuras exteriores.",
+            "Reduce el riesgo de perder todos los edificios importantes en un solo ataque.",
+            "Permite que la red defensiva crezca junto con el país."
+          ],
+          "placement": "Usa protección interior para el núcleo y los edificios clave, cobertura antiaérea exterior para las zonas expuestas y reserva espacio para futuras mejoras defensivas."
+        }
+      ]
+    },
+    "worldOfNukesIslandBuilding": {
+      "title": "Construcción y mejoras de islas en World of Nukes",
+      "subtitle": "Convierte tu isla en una nación militar",
+      "intro": "Una isla fuerte combina crecimiento económico, eficiencia de construcción y preparación defensiva. Comienza con los edificios que generan ingresos estables y luego expande tu infraestructura y mejora tus capacidades militares a medida que tu isla se desarrolla.",
+      "steps": [
+        {
+          "title": "Establece el asentamiento central",
+          "description": "Comienza desarrollando las estructuras esenciales que permiten que tu isla genere recursos y respalde una expansión futura. Mantén el trazado inicial organizado para que los edificios importantes sigan siendo fáciles de acceder y mejorar.",
+          "priorities": [
+            "Asegura una fuente de ingresos confiable",
+            "Construye las estructuras básicas necesarias para progresar",
+            "Deja espacio para la expansión defensiva y militar"
+          ]
+        },
+        {
+          "title": "Fortalece la economía",
+          "description": "Prioriza las mejoras que aumentan la generación de ingresos y ayudan a financiar la construcción. Una economía estable te permite recuperarte más rápido, comprar activos militares y mantener un ritmo de desarrollo constante.",
+          "priorities": [
+            "Mejora los edificios generadores de ingresos antes que las estructuras opcionales",
+            "Reinvierte las ganancias en edificios que impulsen el crecimiento a largo plazo",
+            "Evita gastar todos los recursos en activos militares demasiado pronto"
+          ]
+        },
+        {
+          "title": "Expande la infraestructura",
+          "description": "Añade las instalaciones necesarias para respaldar la construcción avanzada y las operaciones militares. Organiza los edificios de producción, servicios y defensa para que la isla pueda seguir avanzando sin necesidad de reconstrucciones constantes.",
+          "priorities": [
+            "Desbloquea opciones de construcción adicionales",
+            "Mejora la capacidad de la isla para sostener instalaciones avanzadas",
+            "Mantén los edificios clave protegidos y accesibles"
+          ]
+        },
+        {
+          "title": "Mejora la defensa y el poder militar",
+          "description": "Una vez que la economía sea estable, invierte en estructuras defensivas y sistemas militares. La defensa reduce el impacto de los ataques enemigos, mientras que las mejoras militares te dan más opciones para atacar islas rivales.",
+          "priorities": [
+            "Protege los edificios económicos importantes",
+            "Prepara las defensas antes de lanzar ataques importantes",
+            "Equilibra el gasto defensivo con la expansión ofensiva"
+          ]
+        },
+        {
+          "title": "Avanza hacia estructuras avanzadas",
+          "description": "Sigue mejorando la isla hasta que las estructuras militares avanzadas, las maravillas y los sistemas de endgame formen parte de tu plan de desarrollo. La construcción avanzada debe respaldar un objetivo estratégico claro y no limitarse a llenar el espacio disponible.",
+          "priorities": [
+            "Completa las mejoras de desarrollo requeridas",
+            "Ahorra recursos para estructuras de alto impacto",
+            "Coordina los edificios avanzados con tu estrategia militar preferida"
+          ]
+        }
+      ]
+    },
+    "worldOfNukesJetsWarships": {
+      "title": "Guía de jets y buques de guerra en World of Nukes",
+      "subtitle": "Domina los jets, los buques de guerra y los ataques a islas",
+      "intro": "Los jets y los buques de guerra ofrecen enfoques distintos para la guerra entre islas. Las unidades aéreas aportan velocidad y ángulos de ataque flexibles, mientras que las fuerzas navales ejercen presión sostenida desde las aguas circundantes. Usa ambos sistemas en conjunto para hacer tus ataques más efectivos.",
+      "units": [
+        {
+          "icon": "Plane",
+          "title": "Jets",
+          "role": "Ataque aéreo rápido",
+          "description": "Los jets están diseñados para el movimiento rápido y el combate aéreo. Úsalos para acercarte a los objetivos con rapidez, presionar zonas expuestas y reposicionarte antes de que los oponentes puedan responder.",
+          "tactics": [
+            "Usa la velocidad para controlar la distancia respecto a las defensas enemigas",
+            "Ataca objetivos vulnerables en lugar de perder tiempo contra posiciones muy protegidas",
+            "Vuelve a una posición segura tras completar una pasada de ataque"
+          ],
+          "bestFor": "Ataques rápidos, defensa móvil y ataques a estructuras expuestas de la isla"
+        },
+        {
+          "icon": "Anchor",
+          "title": "Buques de guerra",
+          "role": "Presión y apoyo naval",
+          "description": "Los buques de guerra operan desde el agua y ofrecen una plataforma resistente para atacar o respaldar operaciones contra islas rivales.",
+          "tactics": [
+            "Usa el posicionamiento naval para mantener la presión alrededor de las islas enemigas",
+            "Coordina los ataques de los barcos con las operaciones aéreas",
+            "Evita exponer un buque innecesariamente cuando el objetivo está muy defendido"
+          ],
+          "bestFor": "Ataques sostenidos, presión costera y apoyo a asaltos de islas"
+        },
+        {
+          "icon": "Zap",
+          "title": "Asaltos a islas",
+          "role": "Ataques de armas combinadas",
+          "description": "Atacar una isla rival es más efectivo cuando se combinan los roles de los vehículos. Usa la movilidad, el alcance y el momento oportuno para crear aperturas, en lugar de enviar todas las unidades directamente contra las defensas enemigas.",
+          "tactics": [
+            "Reconoce el objetivo antes de comprometer tus vehículos más poderosos",
+            "Usa los jets para la velocidad y los buques para la presión sostenida",
+            "Prioriza las estructuras económicas y estratégicas durante un asalto"
+          ],
+          "bestFor": "Ataques coordinados contra naciones rivales desarrolladas"
+        },
+        {
+          "icon": "Wrench",
+          "title": "Operaciones defensivas con vehículos",
+          "role": "Protección de la isla",
+          "description": "Los vehículos también son valiosos para defender tu propia isla. Mantén las unidades adecuadas disponibles para responder a ataques entrantes y proteger los edificios que impulsan tu economía y tu progreso.",
+          "tactics": [
+            "Mantén una fuerza de respuesta defensiva en lugar de comprometer todos los vehículos al ataque",
+            "Usa unidades aéreas y navales para cubrir distintas rutas de ataque",
+            "Reconstruye y repone las pérdidas antes de lanzar otra operación importante"
+          ],
+          "bestFor": "Contraataques, defensa de emergencia y protección de estructuras de alto valor"
+        }
+      ]
+    },
+    "worldOfNukesWondersDoomsday": {
+      "title": "Maravillas y Dispositivo del Juicio Final de World of Nukes",
+      "subtitle": "Persigue las Maravillas y el Dispositivo del Juicio Final",
+      "intro": "Las Maravillas y el Dispositivo del Juicio Final representan el nivel más alto de progresión de tu isla. Desarrolla primero tu economía, infraestructura y poder militar, y luego destina tus recursos a los sistemas avanzados que definen a una nación poderosa.",
+      "panels": [
+        {
+          "icon": "Landmark",
+          "title": "Maravillas",
+          "summary": "Estructuras emblemáticas avanzadas que representan un gran avance en el desarrollo de la isla.",
+          "content": "Las Maravillas son objetivos de construcción a largo plazo para islas desarrolladas. Trátalas como inversiones estratégicas: prepara tu economía, completa la progresión requerida y protege la zona de construcción de los ataques enemigos.",
+          "requirementsLabel": "Ruta de desbloqueo",
+          "requirements": [
+            "Avanza por los sistemas principales de desarrollo de la isla",
+            "Alcanza la etapa en la que está disponible la construcción avanzada",
+            "Prepara recursos suficientes e infraestructura de apoyo"
+          ],
+          "effectsLabel": "Lo que obtienes",
+          "effects": [
+            "Añade una estructura avanzada de gran envergadura a la isla",
+            "Apoya la progresión de final de partida y la especialización estratégica",
+            "Proporciona un objetivo visible para una nación militar desarrollada"
+          ]
+        },
+        {
+          "icon": "Bomb",
+          "title": "Dispositivo del Juicio Final",
+          "summary": "Un sistema estratégico de final de partida ligado a la progresión militar definitiva.",
+          "content": "El Dispositivo del Juicio Final se persigue cuando la isla se ha desarrollado más allá del asentamiento básico y los sistemas militares convencionales. Construye hacia él mediante un crecimiento económico sostenido, construcción avanzada y preparación militar.",
+          "requirementsLabel": "Ruta de desbloqueo",
+          "requirements": [
+            "Avanza por la progresión de niveles superiores de la isla",
+            "Desarrolla la infraestructura necesaria para la construcción de final de partida",
+            "Mantén los recursos y defensas necesarios para completar el proyecto"
+          ],
+          "effectsLabel": "Lo que obtienes",
+          "effects": [
+            "Introduce un objetivo estratégico de final de partida",
+            "Amplía la progresión militar de la isla más allá de los vehículos estándar",
+            "Crea una estructura de alto valor que debe ser protegida"
+          ]
+        },
+        {
+          "icon": "Route",
+          "title": "Plan de progresión de final de partida",
+          "summary": "Una ruta práctica para preparar los sistemas avanzados.",
+          "content": "No te apresures con los proyectos avanzados antes de que tu economía y tus defensas puedan sostenerlos. Construye una base de ingresos fiable, mejora la infraestructura principal, asegura tu isla y luego destina recursos a las Maravillas o al Dispositivo del Juicio Final.",
+          "requirementsLabel": "Objetivos",
+          "requirements": [
+            "Mantén ingresos estables antes de comenzar grandes proyectos",
+            "Mejora tu capacidad defensiva antes de crear objetivos de alto valor",
+            "Usa cazas y buques de guerra para defender la isla y presionar a tus rivales",
+            "Completa la construcción avanzada como parte de una estrategia militar más amplia"
+          ],
+          "effectsLabel": "",
+          "effects": []
+        }
+      ]
+    },
+    "worldOfNukesUpdatesGamepasses": {
+      "title": "Actualizaciones y Gamepasses de World of Nukes",
+      "subtitle": "Sigue funciones, mejoras y gamepasses",
+      "intro": "World of Nukes combina el desarrollo continuo del juego con gamepasses opcionales que mejoran la comodidad, la detección de amenazas, la velocidad de reconstrucción y el acceso a beneficios VIP. Revisa cada función antes de elegir qué mejoras se adaptan mejor a tu estilo de juego.",
+      "entries": [
+        {
+          "category": "Gamepass",
+          "name": "VIP",
+          "benefit": "Proporciona beneficios relacionados con el VIP para jugadores que buscan ventajas y reconocimiento adicionales mientras desarrollan su isla.",
+          "price": "Se muestra en la tienda de la experiencia de Roblox",
+          "recommendedFor": "Jugadores que buscan una experiencia premium mejorada"
+        },
+        {
+          "category": "Gamepass",
+          "name": "Offline Tycoon",
+          "benefit": "Apoya la progresión mientras el jugador está desconectado, ayudando a mantener el desarrollo del tycoon entre sesiones de juego activas.",
+          "price": "Se muestra en la tienda de la experiencia de Roblox",
+          "recommendedFor": "Jugadores enfocados en un crecimiento económico constante"
+        },
+        {
+          "category": "Gamepass",
+          "name": "Early Warning Radar",
+          "benefit": "Mejora la detección de amenazas entrantes y da a los jugadores más tiempo para preparar las defensas de su isla.",
+          "price": "Se muestra en la tienda de la experiencia de Roblox",
+          "recommendedFor": "Jugadores que priorizan la defensa y el tiempo de reacción"
+        },
+        {
+          "category": "Gamepass",
+          "name": "Quick Rebuild",
+          "benefit": "Reduce el tiempo y la fricción necesarios para recuperarse de ataques y reconstruir la infraestructura dañada de la isla.",
+          "price": "Se muestra en la tienda de la experiencia de Roblox",
+          "recommendedFor": "Jugadores que participan con frecuencia en la guerra entre islas"
+        },
+        {
+          "category": "Actualizaciones",
+          "name": "Actualizaciones de la experiencia",
+          "benefit": "Las nuevas funciones, ajustes de balance, cambios en la jugabilidad y anuncios se presentan a través de la página de la experiencia de Roblox y su información de actualizaciones.",
+          "price": "Incluido con la experiencia",
+          "recommendedFor": "Todos los jugadores que quieran la versión y el conjunto de funciones actuales"
+        }
+      ],
+      "tableHeaders": {
+        "feature": "Función",
+        "category": "Categoría",
+        "benefit": "Beneficio",
+        "price": "Precio",
+        "bestFor": "Ideal para"
+      }
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre World of Nukes",
+    "questions": [
+      {
+        "question": "¿Qué es World of Nukes?",
+        "answer": "World of Nukes es un tycoon de estrategia de guerra nuclear en Roblox creado por Build. Defend. Nuke. Empiezas con un pequeño campamento en una isla, lo conviertes en una nación militar poderosa, despliegas misiles y nukes, pilotas jets, comandas buques de guerra y atacas islas rivales mientras defiendes la tuya."
+      },
+      {
+        "question": "¿World of Nukes es gratis?",
+        "answer": "Sí. World of Nukes es gratis en Roblox. El juego ofrece gamepasses opcionales como VIP, Offline Tycoon, Early Warning Radar y Quick Rebuild que añaden comodidad y beneficios extra, y todos los sistemas principales se pueden disfrutar sin ellos."
+      },
+      {
+        "question": "¿Cuántos jugadores pueden unirse a un servidor de World of Nukes?",
+        "answer": "Cada servidor de World of Nukes admite hasta 7 jugadores. Esto mantiene la guerra de islas en un plano personal: cada nación rival cercana está dirigida por un jugador real que construye, se expande y lanza sus propios ataques."
+      },
+      {
+        "question": "¿Cómo consigo recompensas gratis en World of Nukes?",
+        "answer": "Únete a la comunidad oficial de World of Nukes en Roblox y está atento a los avisos dentro del juego. La membresía de la comunidad es la forma principal de reclamar recompensas gratis, y cualquier codes vigente se muestra a través de los canales oficiales del juego y su interfaz de canje."
+      },
+      {
+        "question": "¿Qué debo construir primero en World of Nukes?",
+        "answer": "Empieza con estructuras generadoras de ingresos en un diseño compacto y luego expande hacia afuera de forma organizada. Reserva espacio abierto para sistemas de misiles, defensas antiaéreas y escudos, para que tu isla pueda convertirse en una potencia militar sin reconstruir constantemente."
+      },
+      {
+        "question": "¿Cómo defiendo mi isla en World of Nukes?",
+        "answer": "Estratifica tus defensas. Coloca sistemas antiaéreos cerca de los edificios importantes y de las rutas de ataque probables, mantén un escudo alrededor del núcleo de la isla para amortiguar los ataques nucleares y conserva una economía lo suficientemente sólida como para reconstruir y ampliar la cobertura a medida que tu país crece."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para lanzar tu primera nuke?",
+    "description": "¡Únete al grupo oficial de Build. Defend. Nuke. en Roblox para recibir recompensas gratis, novedades del juego y debates de la comunidad!",
+    "joinCommunity": "Unirse al grupo de Roblox",
+    "joinGame": "Jugar a World of Nukes"
+  },
+  "footer": {
+    "title": "Wiki de World of Nukes",
+    "description": "Tu centro de recursos completo para guías de misiles de World of Nukes, construcción de bases, estrategias de defensa, jets, buques de guerra, maravillas y consejos para principiantes.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "robloxGame": "Jugar a World of Nukes",
+    "robloxGroup": "Grupo de Roblox",
+    "about": "Acerca de",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Wiki de World of Nukes. No afiliado a los desarrolladores de World of Nukes ni a Roblox Corporation.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans. Roblox es una marca registrada de Roblox Corporation."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guía de World of Nukes",
+      "description": "Guía completa de World of Nukes que cubre bases insulares, lanzamientos de misiles, configuraciones de defensa y estrategias ganadoras para comandantes nuevos y veteranos.",
+      "metaTitle": "Guía de World of Nukes - Estrategia, Bases y Fundamentos de Combate",
+      "metaDescription": "Domina World of Nukes con nuestra guía completa: construcción de islas, ataques con misiles, unidades aéreas y navales, defensa antiaérea y estrategias probadas para dominar a tus rivales.",
+      "categoryLabel": "GUÍAS",
+      "whatIs": "¿Qué es la guía de World of Nukes?",
+      "whatIsDescription": "Un recorrido completo por World of Nukes, el juego de estrategia de Roblox donde construyes bases insulares, despliegas misiles y comandas aeronaves y buques de guerra contra otros jugadores. Cubre las mecánicas principales, la disposición de la base y el flujo de combate desde tu primera isla hasta la guerra nuclear a gran escala.",
+      "why": "¿Por qué seguir esta guía?",
+      "whySteps": {
+        "step1Title": "Aprende rápido el ciclo básico",
+        "step1Description": "Entiende cómo encajan la construcción, la producción de recursos y el lanzamiento de ataques para que cada sesión te haga avanzar.",
+        "step2Title": "Construye una base que sobreviva",
+        "step2Description": "Coloca silos, defensas antiaéreas y edificios de producción en diseños que resistan los ataques enemigos y mantengan tu economía funcionando.",
+        "step3Title": "Gana más enfrentamientos",
+        "step3Description": "Aplica patrones de ataque y combinaciones de unidades probados, usados por los mejores comandantes, para defender tu isla y presionar a tus rivales."
+      },
+      "featured": "Destacadas y Esenciales",
+      "all": "Todas las Guías"
+    },
+    "weapons": {
+      "title": "Armas de World of Nukes",
+      "description": "Cada nuke y sistema de ataque en World of Nukes: tipos de misiles, requisitos de desbloqueo, roles de daño y cómo elegir el arma adecuada para cada objetivo.",
+      "metaTitle": "Armas de World of Nukes - Tipos de Nukes y Tier List",
+      "metaDescription": "Compara todas las armas de World of Nukes: tipos de nukes, requisitos de desbloqueo, roles de explosión y rankings de tier list para elegir el arsenal más poderoso para tu isla.",
+      "categoryLabel": "ARMAS NUCLEARES",
+      "whatIs": "¿Qué son las armas de World of Nukes?",
+      "whatIsDescription": "El arsenal completo de World of Nukes: nukes intercontinentales, tiers de misiles, bombas lanzadas desde el aire y ataques de apoyo que desbloqueas a medida que tu isla crece. Cada arma tiene su propio coste, radio y papel estratégico tanto en ataque como en defensa.",
+      "why": "¿Por qué estudiar la lista de armas?",
+      "whySteps": {
+        "step1Title": "Elige la nuke adecuada para cada caso",
+        "step1Description": "Ajusta el radio y el coste del arma al objetivo para que nunca pagues de más por un ataque excesivo.",
+        "step2Title": "Planifica tu orden de desbloqueo",
+        "step2Description": "Sabe qué silos y ojivas investigar primero para que tu progresión nunca se estanque.",
+        "step3Title": "Construye un arsenal equilibrado",
+        "step3Description": "Combina nukes pesadas con misiles rápidos y apoyo aéreo para cubrir todos los escenarios de combate."
+      },
+      "featured": "Destacadas y Esenciales",
+      "all": "Todas las Armas"
+    },
+    "countries": {
+      "title": "Países de World of Nukes",
+      "description": "Cómo funcionan las naciones y los arsenales nucleares en World of Nukes: rankings de países, tamaño de arsenales y lo que aportan las mayores potencias nucleares a una partida.",
+      "metaTitle": "Países de World of Nukes - Potencias nucleares y rankings",
+      "metaDescription": "Explora los países de World of Nukes: qué potencias nucleares dominan, cómo se comparan los tamaños de los arsenales y qué significa cada rango de nación para tu estrategia.",
+      "categoryLabel": "PAÍSES",
+      "whatIs": "¿Qué son los países de World of Nukes?",
+      "whatIsDescription": "World of Nukes te permite lanzar desde naciones inspiradas en el mundo real con distintos tamaños de arsenal y posiciones estratégicas. Esta sección clasifica las potencias nucleares, compara cantidades de ojivas y explica cómo la elección del país moldea tu apertura y tus planes a largo plazo.",
+      "why": "¿Por qué comparar países?",
+      "whySteps": {
+        "step1Title": "Elige un comienzo fuerte",
+        "step1Description": "Descubre qué potencias nucleares poseen los arsenales más grandes y qué ventajas aporta cada nación a la agresión temprana.",
+        "step2Title": "Lee el campo de batalla",
+        "step2Description": "Entiende de un vistazo los tamaños de los arsenales rivales para saber cuándo atacar y cuándo acumular.",
+        "step3Title": "Domina el escalado en la partida tardía",
+        "step3Description": "Aprende cómo cambian los rankings de países a medida que las partidas se intensifican y los gigantes intercambian salvas completas."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los países"
+    },
+    "map": {
+      "title": "Mapa de World of Nukes",
+      "description": "Un recorrido completo por el mapa de World of Nukes: regiones, ubicaciones de ataque y cómo interpretar la cobertura nuclear para colocar bases y atacar enemigos.",
+      "metaTitle": "Mapa de World of Nukes - Ubicaciones y zonas de ataque",
+      "metaDescription": "Navega el mapa de World of Nukes con confianza: regiones clave, ubicaciones de ataque, alcances de cobertura y consejos de colocación de bases para cada comandante.",
+      "categoryLabel": "MAPA",
+      "whatIs": "¿Qué es el mapa de World of Nukes?",
+      "whatIsDescription": "El mapa de World of Nukes es el tablero global donde se encuentran islas, alcances de misiles y objetivos de ataque. Aprende cómo se conectan las regiones, dónde están los sitios de lanzamiento y cómo la distancia afecta los tiempos de vuelo y las ventanas de defensa.",
+      "why": "¿Por qué aprender el mapa?",
+      "whySteps": {
+        "step1Title": "Coloca tu isla con más inteligencia",
+        "step1Description": "Entiende la distribución regional para que tu base esté donde la cobertura defensiva y las rutas de suministro jueguen a tu favor.",
+        "step2Title": "Ataca con precisión",
+        "step2Description": "Conoce las zonas de ataque y los límites de alcance para impactar misiles donde más duelen en lugar de desperdiciar ojivas.",
+        "step3Title": "Reacciona antes del impacto",
+        "step3Description": "Reconoce rápidamente los puntos de origen de los lanzamientos para activar las defensas antes de que lleguen los nukes enemigos."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las ubicaciones del mapa"
+    },
+    "simulation": {
+      "title": "Simulación de World of Nukes",
+      "description": "Escenarios de guerra nuclear en World of Nukes: simulaciones de la Tercera Guerra Mundial, desgloses de radio de explosión, física de las detonaciones y comparaciones de destrucción.",
+      "metaTitle": "Simulación de World of Nukes - Escenarios de GM3 y radio de explosión",
+      "metaDescription": "Sumérgete en las simulaciones de World of Nukes: escenarios de escalada de la Tercera Guerra Mundial, datos de radio de explosión nuclear, comparaciones de tamaño de explosión y mecánicas de destrucción.",
+      "categoryLabel": "SIMULACIONES",
+      "whatIs": "¿Qué es la simulación de World of Nukes?",
+      "whatIsDescription": "Las simulaciones desglosan lo que ocurre cuando las escaladas de World of Nukes se vuelven globales: escenarios de Tercera Guerra Mundial en múltiples frentes, cálculos de radio de explosión y cómo se comparan los tamaños de explosión en todo el arsenal. Úsalas para poner a prueba tus estrategias antes de comprometer tus ojivas.",
+      "why": "¿Por qué hacer simulaciones?",
+      "whySteps": {
+        "step1Title": "Observa cómo se desarrolla la escalada",
+        "step1Description": "Sigue los escenarios de la Tercera Guerra Mundial paso a paso para entender cómo los conflictos pequeños se vuelven nucleares.",
+        "step2Title": "Conoce tu radio de explosión",
+        "step2Description": "Compara tamaños de explosión y cobertura para calcular el impacto real de cada ataque.",
+        "step3Title": "Prepara contramedidas",
+        "step3Description": "Convierte los conocimientos de las simulaciones en planes defensivos que sobrevivan a intercambios a gran escala."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las simulaciones"
+    },
+    "progression": {
+      "title": "Progresión de World of Nukes",
+      "description": "El camino de progresión de World of Nukes: cómo desbloquear nukes más rápido, mejorar tu arsenal y ganar recompensas en cada etapa del crecimiento de tu isla.",
+      "metaTitle": "Progresión de World of Nukes - Desbloqueos, mejoras y recompensas",
+      "metaDescription": "Acelera tu progresión en World of Nukes: desbloquea nukes más grandes, prioriza mejoras, consigue recompensas y pasa de isla principiante a superpotencia nuclear.",
+      "categoryLabel": "PROGRESIÓN",
+      "whatIs": "¿Qué es la progresión de World of Nukes?",
+      "whatIsDescription": "La progresión es el camino de una isla inicial a una superpotencia nuclear: desbloquear nuevos silos, mejorar ojivas y defensas, y recolectar recompensas en el camino. Estas guías mapean cada hito para que siempre sepas cuál es la siguiente mejor inversión.",
+      "why": "¿Por qué seguir el camino de progresión?",
+      "whySteps": {
+        "step1Title": "Desbloquea nukes más rápido",
+        "step1Description": "Sigue el orden de desbloqueo más veloz, desde el primer misil hasta las superarmas del final de partida, sin gastar de más.",
+        "step2Title": "Mejora en el orden correcto",
+        "step2Description": "Prioriza las mejoras de silos, ojivas y defensa aérea que multipliquen tu poder por dólar.",
+        "step3Title": "Reclama todas las recompensas",
+        "step3Description": "Sigue las recompensas comunitarias y los hitos para que las bonificaciones gratis sigan aumentando tu arsenal."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de progresión"
+    },
+    "codes": {
+      "title": "Códigos de World of Nukes",
+      "description": "El estado actual de los códigos de World of Nukes, además de todos los canales oficiales que entregan recompensas gratuitas, anuncios y bonos para la comunidad.",
+      "metaTitle": "Códigos de World of Nukes - Recompensas Gratis y Canales Oficiales",
+      "metaDescription": "Consulta el estado actual de los códigos de World of Nukes y encuentra todos los canales oficiales para recompensas gratuitas, regalos y anuncios de la comunidad.",
+      "categoryLabel": "CANJEAR CÓDIGOS",
+      "whatIs": "¿Qué son los códigos de World of Nukes?",
+      "whatIsDescription": "Los códigos son recompensas canjeables que los juegos de estrategia de Roblox usan para regalar obsequios gratuitos. World of Nukes aún no ha lanzado un sistema público de códigos, por lo que esta página sigue el estado oficial y te indica los canales que entregarán los códigos primero si llegan a aparecer.",
+      "why": "¿Por qué consultar esta página?",
+      "whySteps": {
+        "step1Title": "Conoce el estado real",
+        "step1Description": "Sabe exactamente si los códigos están activos ahora mismo, en lugar de perseguir listas desactualizadas en sitios de terceros.",
+        "step2Title": "Usa los canales oficiales",
+        "step2Description": "Accede a la página oficial del juego en Roblox y a los centros comunitarios donde se anuncian las recompensas reales.",
+        "step3Title": "Sé el primero cuando salgan códigos",
+        "step3Description": "Configura las fuentes oficiales para canjear los nuevos códigos en cuanto aparezcan."
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todos los Códigos"
+    }
+  }
+}

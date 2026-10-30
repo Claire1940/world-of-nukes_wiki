@@ -1,0 +1,163 @@
+import { Map, Swords, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "World of Nukes Nuke Size Comparison: Strike Scale Explained",
+  description: "Compare strike scale and strategic impact in World of Nukes: nuke size comparison, target value, blast coverage vs defenses, and best-use tactics.",
+  category: "simulation",
+  image: "https://placehold.co/800x400/F97316/fff?text=Nuke+Size+Comparison",
+  date: "2026-10-30",
+  author: "World of Nukes Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **World of Nukes nuke size comparison** measures strategic impact, not published blast-radius numbers.
+- **Attack tiers**: conventional missile strikes vs full nuclear attacks differ in scope and pressure.
+- **Target value matters**: high-value economic and military structures justify large strikes.
+- **Defenses scale with threat**: shields and anti-air reduce the effective size of any strike.
+- **Verified data first**: exact damage values are not officially documented, so compare by role.
+</Callout>
+
+<Section icon={Map} title="How Nuke Size Comparison Works in World of Nukes">
+
+World of Nukes does not publish an official stat sheet with exact blast radii or damage values for each weapon. A useful World of Nukes nuke size comparison is therefore built from three verifiable factors: the weapon category, its unlock requirements, and the strategic scope of the strike it produces. The game's offensive systems fall into a clear hierarchy, from targeted missile launches to island-wide nuclear attack pressure.
+
+| Comparison Factor | Conventional Missile | Nuclear Strike |
+|---|---|---|
+| Scope | Selected enemy targets | Island-wide attack pressure |
+| Unlock | Missile infrastructure | Higher-tier progression |
+| Best use | Precise, low-cost attacks | High-value decisive targets |
+| Resource cost | Lower | Higher |
+| Risk when used | Moderate | Leaves island committed |
+
+<Callout type="tip" title="Editor's Note">
+For the values that apply to your setup, check the official Roblox game page and in-game descriptions. The only confirmed comparison dimensions are weapon category, unlock requirements, and strategic role described on the official Roblox game page.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Strike Scale Tier Comparison">
+
+The practical "size" of a strike in World of Nukes is best understood as a tier system. Each offensive option occupies a distinct strategic niche, and choosing the right tier for the right moment is what separates strong players from wasteful ones.
+
+<CardGrid cols={3}>
+  <Card title="Tier 1: Tactical Missiles">
+    - **Single-target strikes**
+    - Cheap and repeatable
+    - Best for harassment and scouting responses
+    - Low unlock requirements
+  </Card>
+  <Card title="Tier 2: Strategic Missiles">
+    - **Multi-structure pressure**
+    - Requires developed missile infrastructure
+    - Best for breaking defensive clusters
+    - Moderate resource investment
+  </Card>
+  <Card title="Tier 3: Nuclear Attacks">
+    - **Island-wide strike pressure**
+    - Highest unlock and resource cost
+    - Reserve for decisive advantages
+    - Demands economic support
+  </Card>
+</CardGrid>
+
+| Tier | Attack Scope | Economy Needed | Defeat Condition | Recommended Frequency |
+|---|---|---|---|---|
+| Tactical | One target | Low | Missile silo destroyed | Frequent |
+| Strategic | Cluster of buildings | Medium | Infrastructure loss | Situational |
+| Nuclear | Island-wide | High | Tier progression lost | Rare, decisive |
+
+<Callout type="warning" title="Avoid Overkill">
+Launching a nuclear-tier strike at a weak or low-value island wastes resources you will need for defense and rebuilding. Match strike size to target value.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="How Defense Shrinks Effective Strike Size">
+
+A strike's effective size is not fixed—enemy defenses reduce it. When comparing nuke sizes, always factor in what the target's defenses will absorb. Anti-air defenses intercept incoming attacks, while shields add a protective layer over the island core against large-scale nuclear strikes.
+
+| Defense Layer | Counters | Effect on Strike Size | Placement Priority |
+|---|---|---|---|
+| Anti-air defense | Aerial and missile attacks | Reduces repeat strike impact | Near core and attack routes |
+| Island shield | Nuclear strikes | Blunts large-scale damage | Over highest-value section |
+| Layered layout | All attack types | Prevents total loss in one hit | Inner core, then outer ring |
+
+<Steps>
+  <Step num="1" title="Scout the Target">
+    Review the enemy island before launching. Identify where the shield and anti-air coverage sits, and locate economic structures.
+  </Step>
+  <Step num="2" title="Match Tier to Target">
+    Choose the smallest strike tier that accomplishes your objective. Save nuclear-tier attacks for islands where the payoff justifies the cost.
+  </Step>
+  <Step num="3" title="Confirm Launch Controls">
+    Verify weapon availability and target selection in the launch interface before committing resources.
+  </Step>
+  <Step num="4" title="Secure Your Own Island">
+    Never launch a major strike while your own defenses are thin. Enemy counterattacks exploit committed offensive resources.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Combined Pressure">
+Coordinate jets and warships with missile strikes. Mobility and sustained naval pressure create openings that let a smaller strike achieve large-strike results.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Target Value and Strike Size Matching">
+
+The core principle of nuke size comparison is matching strike scale to target value. A high-value target—a developed economy, missile infrastructure, or an endgame project like a Wonder or the Doomsday Device—justifies a larger strike. Scattered low-tier buildings rarely do.
+
+| Target Type | Value Level | Recommended Strike Tier | Notes |
+|---|---|---|---|
+| Income buildings | High | Strategic | Cripples enemy recovery |
+| Missile infrastructure | High | Strategic or Nuclear | Removes retaliation threat |
+| Wonders and Doomsday Device | Very high | Nuclear (if defended) | Must be protected on your own island too |
+| Outer low-tier buildings | Low | Tactical | Not worth heavy investment |
+
+<Checklist
+  id="strike-matching"
+  title="Before Every Launch:"
+  items={[
+    "Scout the target island and its defenses",
+    "Confirm the strike tier matches target value",
+    "Verify your own shield and anti-air coverage",
+    "Reserve resources for rebuilding after retaliation"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Does World of Nukes publish official blast-radius or damage numbers for nukes?",
+    answer: "No. The official game page describes missiles, nuclear attacks, and target selection but does not document exact damage values or blast radii. Any nuke size comparison should be based on weapon category, unlock requirements, and strategic role."
+  },
+  {
+    question: "What is the largest strike type in World of Nukes?",
+    answer: "The nuclear attack system delivers island-wide attack pressure and represents the highest-tier offensive option. It requires advanced progression and significant resources, so it is best reserved for high-value decisive targets."
+  },
+  {
+    question: "How do shields affect nuke size comparison?",
+    answer: "Shields add a defensive layer over the island core that blunts large-scale nuclear strikes. A shielded island effectively reduces the impact size of any incoming strike, which is why defended targets often require higher-tier attacks."
+  },
+  {
+    question: "Should I always use the biggest nuke available?",
+    answer: "No. Match strike tier to target value. Oversized strikes waste resources and leave your island underdefended against counterattacks, while tactical missiles handle low-value targets efficiently."
+  }
+]} />
+
+</Section>
+
+## Related Reading
+
+- [World of Nukes World War 3: Scenario Breakdown & Escalation Paths](/simulation/World-of-Nukes-world-war-3)
+- [World of Nukes Nuclear Blast Radius: Strike Coverage & Targeting](/simulation/World-of-Nukes-nuclear-blast-radius)
+- [World of Nukes How to Get Better Nukes: Progression Tips & Tricks](/progression/World-of-Nukes-how-to-get-better-nukes)

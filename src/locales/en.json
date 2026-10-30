@@ -10,7 +10,15 @@
       "twitterDescription": "Explore the World of Nukes Wiki for missile guides, base building tips, anti-air defenses, jets, warships, wonders, free rewards and beginner strategies."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "weapons": "Weapons",
+    "countries": "Countries",
+    "map": "Map",
+    "simulation": "Simulation",
+    "progression": "Progression",
+    "codes": "Codes"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -540,125 +548,145 @@
     "disclaimer": "Unofficial fan-made resource website. Roblox is a trademark of Roblox Corporation."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "guide": {
+      "title": "World of Nukes Guide",
+      "description": "Complete World of Nukes guide covering island bases, missile launches, defense setups, and winning strategies for new and veteran commanders.",
+      "metaTitle": "World of Nukes Guide - Strategy, Bases & Combat Basics",
+      "metaDescription": "Master World of Nukes with our complete guide: island building, missile strikes, air and naval units, air defense, and proven strategies to dominate rivals.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What is the World of Nukes Guide?",
+      "whatIsDescription": "A complete walkthrough of World of Nukes, the Roblox strategy game where you build island bases, deploy missiles, and command aircraft and warships against other players. It covers core mechanics, base layout, and combat flow from your first island to full-scale nuclear warfare.",
+      "why": "Why follow this guide?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Learn the core loop fast",
+        "step1Description": "Understand how building, resource production, and launching attacks fit together so every session moves you forward.",
+        "step2Title": "Build a base that survives",
+        "step2Description": "Place silos, air defenses, and production buildings in layouts that shrug off enemy strikes and keep your economy running.",
+        "step3Title": "Win more confrontations",
+        "step3Description": "Apply proven attack patterns and unit combos used by top commanders to defend your island and pressure rivals."
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "weapons": {
+      "title": "World of Nukes Weapons",
+      "description": "Every nuke and strike system in World of Nukes: missile types, unlock requirements, damage roles, and how to pick the right weapon for each target.",
+      "metaTitle": "World of Nukes Weapons - Nuke Types & Tier List",
+      "metaDescription": "Compare every World of Nukes weapon: nuke types, unlock requirements, blast roles, and tier rankings to pick the strongest arsenal for your island.",
+      "categoryLabel": "NUCLEAR WEAPONS",
+      "whatIs": "What are World of Nukes Weapons?",
+      "whatIsDescription": "The full arsenal of World of Nukes: intercontinental nukes, missile tiers, air-dropped bombs, and support strikes you unlock as your island grows. Each weapon has its own cost, radius, and strategic role in offensive and defensive play.",
+      "why": "Why study the weapons list?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Pick the right nuke for the job",
+        "step1Description": "Match weapon radius and cost to the target so you never overpay for an overkill strike.",
+        "step2Title": "Plan your unlock order",
+        "step2Description": "Know which silos and warheads to research first so your progression never stalls.",
+        "step3Title": "Build a balanced arsenal",
+        "step3Description": "Combine heavy nukes with fast missiles and air support to cover every combat scenario."
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Weapons"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "countries": {
+      "title": "World of Nukes Countries",
+      "description": "How nations and nuclear arsenals work in World of Nukes: country rankings, arsenal sizes, and what the biggest nuclear powers bring to a match.",
+      "metaTitle": "World of Nukes Countries - Nuclear Powers & Rankings",
+      "metaDescription": "Explore World of Nukes countries: which nuclear powers dominate, how arsenal sizes compare, and what each nation rank means for your strategy.",
+      "categoryLabel": "COUNTRIES",
+      "whatIs": "What are World of Nukes Countries?",
+      "whatIsDescription": "World of Nukes lets you launch from real-world inspired nations with different arsenal sizes and strategic positions. This section ranks nuclear powers, compares warhead counts, and explains how country choice shapes your opening and long-game plans.",
+      "why": "Why compare countries?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Choose a strong start",
+        "step1Description": "See which nuclear powers field the biggest arsenals and what bonuses each nation brings to early aggression.",
+        "step2Title": "Read the battlefield",
+        "step2Description": "Understand rival arsenal sizes at a glance so you know when to strike and when to stockpile.",
+        "step3Title": "Master late-game scaling",
+        "step3Description": "Learn how country rankings shift as matches escalate and giants trade full salvos."
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Countries"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "map": {
+      "title": "World of Nukes Map",
+      "description": "A full tour of the World of Nukes map: regions, strike locations, and how to read nuclear coverage to place bases and target enemies.",
+      "metaTitle": "World of Nukes Map - Locations & Strike Zones",
+      "metaDescription": "Navigate the World of Nukes map with confidence: key regions, strike locations, coverage ranges, and base placement tips for every commander.",
+      "categoryLabel": "MAP",
+      "whatIs": "What is the World of Nukes Map?",
+      "whatIsDescription": "The World of Nukes map is the global board where islands, missile ranges, and strike targets meet. Learn how regions connect, where launch sites sit, and how distance shapes flight times and defense windows.",
+      "why": "Why learn the map?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Place your island smarter",
+        "step1Description": "Understand regional layout so your base sits where defense coverage and supply routes work in your favor.",
+        "step2Title": "Target with precision",
+        "step2Description": "Know strike zones and range limits to land missiles where they hurt instead of wasting warheads.",
+        "step3Title": "React before impact",
+        "step3Description": "Recognize launch origin points fast to trigger defenses before enemy nukes arrive."
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Map Locations"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "simulation": {
+      "title": "World of Nukes Simulation",
+      "description": "Nuclear war scenarios in World of Nukes: World War 3 simulations, blast radius breakdowns, explosion physics, and destruction comparisons.",
+      "metaTitle": "World of Nukes Simulation - WW3 Scenarios & Blast Radius",
+      "metaDescription": "Dive into World of Nukes simulations: WW3 escalation scenarios, nuclear blast radius data, explosion size comparisons, and destruction mechanics.",
+      "categoryLabel": "SIMULATIONS",
+      "whatIs": "What is the World of Nukes Simulation?",
+      "whatIsDescription": "Simulations break down what happens when World of Nukes escalations go global: multi-front World War 3 scenarios, blast radius math, and how explosion sizes stack up across the arsenal. Use them to pressure-test strategies before you commit warheads.",
+      "why": "Why run simulations?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "See escalation play out",
+        "step1Description": "Follow World War 3 scenarios step by step to understand how small conflicts go nuclear.",
+        "step2Title": "Know your blast radius",
+        "step2Description": "Compare explosion sizes and coverage so you can gauge the real impact of each strike.",
+        "step3Title": "Prepare counter-strategies",
+        "step3Description": "Turn simulation insights into defense plans that survive full-scale exchanges."
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Simulations"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "progression": {
+      "title": "World of Nukes Progression",
+      "description": "The World of Nukes progression path: how to unlock nukes faster, upgrade your arsenal, and earn rewards through every stage of island growth.",
+      "metaTitle": "World of Nukes Progression - Unlocks, Upgrades & Rewards",
+      "metaDescription": "Speed up World of Nukes progression: unlock bigger nukes, prioritize upgrades, farm rewards, and push from starter island to nuclear superpower.",
+      "categoryLabel": "PROGRESSION",
+      "whatIs": "What is World of Nukes Progression?",
+      "whatIsDescription": "Progression is the path from a starter island to a nuclear superpower: unlocking new silos, upgrading warheads and defenses, and collecting rewards along the way. These guides map every milestone so you always know the next best investment.",
+      "why": "Why follow the progression path?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Unlock nukes faster",
+        "step1Description": "Follow the fastest unlock order from first missile to late-game superweapons without wasted spending.",
+        "step2Title": "Upgrade in the right order",
+        "step2Description": "Prioritize silos, warheads, and air defense upgrades that multiply your power per dollar.",
+        "step3Title": "Claim every reward",
+        "step3Description": "Track community rewards and milestones so free bonuses keep compounding your arsenal."
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Progression Guides"
+    },
+    "codes": {
+      "title": "World of Nukes Codes",
+      "description": "The current state of World of Nukes codes, plus every official channel that delivers free rewards, announcements, and community bonuses.",
+      "metaTitle": "World of Nukes Codes - Free Rewards & Official Channels",
+      "metaDescription": "Get the current status of World of Nukes codes and find every official channel for free rewards, gifts, and community announcements.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are World of Nukes Codes?",
+      "whatIsDescription": "Codes are redeemable rewards that Roblox strategy games use to hand out free gifts. World of Nukes has not launched a public code system yet, so this page tracks the official status and points you to the channels that will deliver codes first if they arrive.",
+      "why": "Why check this page?",
+      "whySteps": {
+        "step1Title": "Get the real status",
+        "step1Description": "Know exactly whether codes are live right now instead of chasing stale lists on third-party sites.",
+        "step2Title": "Use official channels",
+        "step2Description": "Reach the official Roblox game page and community hubs where real rewards are announced.",
+        "step3Title": "Be first when codes drop",
+        "step3Description": "Set up the official sources so you redeem new codes the moment they appear."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
     }
   }
 }

@@ -1,0 +1,182 @@
+import { Map, Shield, Target, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Potências Nucleares do World of Nukes: Ranking Global dos Arsenal",
+  description: "Explore as potências nucleares do mundo: quem possui arsenais atômicos, status dos tratados, marcos históricos e esforços de desarmamento explicados.",
+  category: "countries",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Nuclear+Powers+Overview",
+  date: "2026-10-30",
+  author: "Equipe do Wiki World of Nukes"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Potências nucleares** são estados que possuem armas nucleares e os meios para entregá-las.
+- **Nove estados** atualmente mantêm arsenais nucleares, embora apenas cinco sejam formalmente reconhecidos.
+- **O TNP** de 1968 permanece como a estrutura jurídica central que rege as armas nucleares em todo o mundo.
+- **O Cazaquistão** abriu mão voluntariamente do quarto maior arsenal do mundo, herdado da URSS.
+- **Movimentos de desarmamento**, incluindo grupos de médicos, mantêm pressão sobre os estados nucleares para eliminar ogivas.
+</Callout>
+
+<Section icon={Shield} title="O Que Define uma Potência Nuclear?">
+
+Uma potência nuclear é qualquer estado que possui armas nucleares e mantém a infraestrutura para construí-las, mantê-las e entregá-las. O termo geralmente carrega tanto um significado técnico quanto político: tecnicamente, descreve capacidade; politicamente, separa os "tem" reconhecidos dos "não têm" sob o direito internacional.
+
+Apenas cinco nações são oficialmente reconhecidas como estados dotados de armas nucleares pelo Tratado de Não Proliferação de Armas Nucleares (TNP): os **Estados Unidos**, a **Rússia**, a **China**, a **França** e o **Reino Unido**. Quatro estados adicionais possuem armas nucleares fora da estrutura do tratado, o que torna o quadro global mais complicado do que o jurídico.
+
+<Callout type="tip" title="O Reconhecimento Importa">
+Apenas a capacidade de armas nucleares não concede status formal. Índia, Paquistão, Israel e Coreia do Norte testaram ou adquiriram armas fora do TNP, e nenhum deles desfruta dos privilégios do tratado concedidos às cinco potências reconhecidas.
+</Callout>
+
+As nove potências nucleares diferem enormemente em tamanho de arsenal, sistemas de entrega, doutrina e transparência. A tabela abaixo oferece uma comparação rápida de suas principais características.
+
+| País | Status | Primeiro Teste | Sistemas de Entrega Notáveis |
+| --- | --- | --- | --- |
+| Estados Unidos | Reconhecido pelo TNP | 1945 | ICBMs, SLBMs, bombardeiros estratégicos |
+| Rússia | Reconhecido pelo TNP | 1949 | ICBMs, SLBMs, sistemas hipersônicos |
+| Reino Unido | Reconhecido pelo TNP | 1952 | Mísseis lançados por submarino |
+| França | Reconhecido pelo TNP | 1960 | Mísseis lançados por ar e por mar |
+| China | Reconhecido pelo TNP | 1964 | ICBMs, SLBMs, frota de bombardeiros |
+| Índia | Fora do TNP | 1974 | Mísseis terrestres, aeronaves |
+| Paquistão | Fora do TNP | 1998 | Mísseis terrestres, aeronaves |
+| Israel | Não declarado | N/D | Amplamente avaliado como capaz nuclearmente |
+| Coreia do Norte | Retirou-se do TNP | 2006 | Mísseis de curto alcance e em desenvolvimento |
+
+</Section>
+
+<Section icon={Map} title="De Trinity aos Dias de Hoje: Como se Formou o Clube Nuclear">
+
+A era nuclear começou em julho de 1945 com o teste Trinity, no Novo México, seguido pelos bombardeios de guerra de Hiroshima e Nagasaki. Em quatro anos, a União Soviética testou seu próprio dispositivo, e a corrida armamentista acelerou ao longo dos anos 1950, enquanto Reino Unido, França e China entravam no clube em rápida sucessão.
+
+<Callout type="warning" title="O Pico da Guerra Fria">
+No auge, em meados dos anos 1980, o estoque global atingiu dezenas de milhares de ogivas. A esmagadora maioria pertencia aos Estados Unidos e à União Soviética, cuja rivalidade impulsionou tanto o acúmulo quanto o eventual controle de armas.
+</Callout>
+
+Um capítulo menos conhecido envolve as ex-repúblicas soviéticas. Quando a URSS se dissolveu em 1991, Ucrânia, Bielorrússia e Cazaquistão herdaram armas nucleares em seus territórios. Os três países as transferiram para a Rússia e aderiram ao TNP como estados não nucleares. A decisão do Cazaquistão tem peso especial: o sitio de testes de Semipalatinsk expôs sua população a décadas de radiação, tornando o país um dos lugares mais afetados por testes nucleares em todo o mundo.
+
+Esse legado mantém o Cazaquistão ativo na diplomacia de desarmamento. Grupos internacionais de médicos se reuniram em Astana para pressionar as potências mundiais a eliminar as armas nucleares, aproveitando diretamente a experiência do país como um lembrete vivo do custo humano dos testes.
+
+<CardGrid cols={3}>
+  <Card title="1945-1964: Os Primeiros Cinco">
+    - Estados Unidos, URSS, Reino Unido, França, China
+    - Todos garantiram reconhecimento permanente no TNP
+    - Estabeleceram a hierarquia nuclear ainda vigente
+  </Card>
+  <Card title="1974-1998: Os Dissidentes">
+    - Teste "pacífico" da Índia em 1974
+    - Paquistão responde em 1998
+    - Israel mantém ambiguidade deliberada
+  </Card>
+  <Card title="2006-Presente: Novas Tensões">
+    - Coreia do Norte testa e se retira do TNP
+    - Programas de modernização nas grandes potências
+    - Advocacia renovada de desarmamento em todo o mundo
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Tratados, Doutrinas e Controle de Armas">
+
+A arquitetura jurídica em torno das armas nucleares repousa sobre vários acordos em camadas. O TNP (1970) é a fundação: os estados nucleares reconhecidos se comprometem com o desarmamento eventual, enquanto todos os demais se comprometem a não adquirir armas. Tratados suplementares restringem testes, implantação e contagens de ogivas.
+
+| Tratado | Ano | Propósito Central | Relevância Atual |
+| --- | --- | --- | --- |
+| TNP | 1968/1970 | Evitar proliferação, promover desarmamento | Adesão quase universal |
+| CTBT | 1996 | Proibir todas as explosões nucleares | Não totalmente em vigor; moratória de testes resiste em geral |
+| START / New START | 2010 | Limitar ogivas implantadas EUA-Rússia | Estrutura central de limitação bilateral |
+| TPNW | 2017 | Proibir armas nucleares completamente | Estados nucleares não aderiram |
+| Tratados NWFZ | 1967+ | Zonas regionais livres de armas nucleares | Cobrem América Latina, África, Ásia Central, Pacífico |
+
+<Callout type="info" title="A Doutrina Molda o Risco">
+O tamanho do arsenal é apenas metade da história. Se um estado se compromete com o "não uso primeiro", mantém armas em alerta máximo ou as trata como ferramentas de guerra determina o quão perigosas essas armas são em uma crise.
+</Callout>
+
+Compreender a doutrina de uma potência nuclear ajuda a explicar suas escolhas de arsenal:
+
+- **Destruição assegurada**: manter uma força de retaliação que sobreviva a qualquer ataque.
+- **Não uso primeiro**: compromisso declarado de usar armas nucleares apenas em resposta a um ataque nuclear.
+- **Dissuasão estendida**: prometer defender aliados com armas nucleares, como os Estados Unidos fazem por meio da OTAN e de alianças no Pacífico.
+- **Dissuasão mínima**: manter um arsenal pequeno suficiente apenas para retaliação, como praticam vários estados nucleares menores.
+
+</Section>
+
+<Section icon={Sparkles} title="Como Pesquisar Potências Nucleares com Responsabilidade">
+
+Siga este fluxo de trabalho para construir um quadro preciso e fundamentado em fontes dos arsenais nucleares do mundo, sem cair em especulação ou propaganda.
+
+<Steps>
+  <Step num="1" title="Comece com Fontes Oficiais">
+    Consulte primeiro a AIEA, o Escritório da ONU para Assuntos de Desarmamento e publicações de ministérios da defesa nacionais. Elas fornecem textos de tratados, declarações e estruturas de inspeção que ancoram todo o resto.
+  </Step>
+  <Step num="2" title="Referencie Estimativas Independentes">
+    Compare números de rastreadores independentes respeitados, como a Federation of American Scientists e o SIPRI. As contagens exatas de ogivas são estimativas para a maioria dos estados, então intervalos importam mais do que números únicos.
+  </Step>
+  <Step num="3" title="Separe Capacidade de Intenção">
+    Distinga testes verificados e sistemas implantados de alegações, rumores e programas em desenvolvimento. Programas não declarados exigem várias fontes corroborantes antes de serem tratados como fato.
+  </Step>
+  <Step num="4" title="Acompanhe Marcos de Tratados">
+    Siga os ciclos de revisão do TNP, os prazos do New START e as reuniões do TPNW. Desenvolvimentos jurídicos frequentemente remodelam o cenário estratégico mais rápido do que novas armas.
+  </Step>
+  <Step num="5" title="Estude o Legado Humano">
+    Leia testemunhos de sobreviventes e pesquisas de saúde de Hiroshima, Nagasaki, Semipalatinsk e sitios de testes no Pacífico. Esse contexto explica por que a advocacy de desarmamento permanece persistente e crível.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Melhor Prática">
+Trate toda contagem de ogivas como uma estimativa com intervalo declarado e fonte nomeada. Números que soam precisos sem atribuição são o sinal mais comum de relatórios nucleares não confiáveis.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Marcos Históricos">
+
+Use este checklist para verificar se você cobriu o essencial ao estudar as potências nucleares do mundo.
+
+<Checklist
+  id="nuclear-powers-basics"
+  title="Objetivos de Estudo sobre Potências Nucleares:"
+  items={[
+    "Identificar todos os nove estados armados com nucleares e seu status de tratado",
+    "Explicar por que apenas cinco estados possuem reconhecimento no TNP",
+    "Descrever o desarmamento voluntário do Cazaquistão e seu legado de testes",
+    "Nomear os principais tratados de controle de armas e seus propósitos",
+    "Distinguir doutrinas de dissuasão como não uso primeiro e dissuasão estendida"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Quantas potências nucleares existem no mundo?",
+    answer: "Nove estados possuem armas nucleares: Estados Unidos, Rússia, China, França e Reino Unido sob reconhecimento do TNP, além de Índia, Paquistão, Israel e Coreia do Norte fora do tratado ou dele retirados."
+  },
+  {
+    question: "Por que o Cazaquistão é significativo na história das armas nucleares?",
+    answer: "O Cazaquistão herdou um grande arsenal soviético e o fortemente irradiado sitio de testes de Semipalatinsk, depois renunciou voluntariamente às armas nucleares nos anos 1990. Sua experiência o torna uma voz líder pelo desarmamento, sediando defensores internacionais como grupos de médicos que atuam pela abolição global."
+  },
+  {
+    question: "Uma potência nuclear pode manter legalmente suas armas?",
+    answer: "Os cinco estados reconhecidos pelo TNP podem reter armas enquanto buscam formalmente o desarmamento. Os outros quatro as possuem fora da estrutura do tratado, o que a maioria dos estados considera ilegal, embora os mecanismos de fiscalização sejam limitados."
+  },
+  {
+    question: "Algum país já abriu mão de armas nucleares?",
+    answer: "Sim. A África do Sul desmantelou seu próprio arsenal antes de aderir ao TNP, e Ucrânia, Bielorrússia e Cazaquistão transferiram as armas soviéticas herdadas para a Rússia nos anos 1990."
+  }
+]} />
+
+</Section>
+
+## Leituras Relacionadas
+
+- [Armas Nucleares por País: Nove Potências Nucleares e Arsenais](/pt/countries/World-of-Nukes-nukes-by-country)
+- [Quem Tem as Bombas Nucleares: Ranking Global dos Arsenalistas](/pt/countries/World-of-Nukes-who-has-the-most-nukes)
+- [Localizações do World of Nukes: Guia de Mapa de Ilhas e Escolha](/pt/map/World-of-Nukes-locations)

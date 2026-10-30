@@ -1,0 +1,177 @@
+import { Map, Swords, Shield, Target, Sparkles, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "World of Nukes Nuclear Destruction: Effects Explained",
+  description: "A clear breakdown of nuclear destruction: blast physics, thermal damage, radiation, EMP, and fallout timelines explained for wiki readers.",
+  category: "simulation",
+  image: "https://placehold.co/800x400/7f1d1d/fff?text=Nuclear+Destruction+Effects",
+  date: "2026-10-30",
+  author: "World of Nukes Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **World of Nukes nuclear destruction** covers four main damage mechanisms: blast, thermal, radiation, and EMP
+- **Blast yield matters**: a weapon's destructive radius scales with the cube root of its yield
+- **Fallout is time-sensitive**: roughly 80% of external radiation decays within the first 48 hours
+- **Survivability improves with shielding**: dense materials, distance, and time underground all reduce exposure
+- **Deterrence context**: understanding these effects explains Cold War doctrine and modern arms-control debates
+</Callout>
+
+<Section icon={Map} title="What Is Nuclear Destruction?">
+
+Nuclear destruction is the combined physical damage produced when a nuclear weapon detonates. Unlike conventional explosives, a nuclear explosion releases energy through fission, fusion, or both, producing destruction across four nearly simultaneous channels: the blast wave, intense thermal radiation, ionizing radiation, and electromagnetic pulse (EMP). The interplay of these effects is what makes nuclear weapons categorically different from any other armament.
+
+Each channel damages targets in a distinct way, summarized below:
+
+| Effect | Speed | Primary Target | Range Factor |
+|---|---|---|---|
+| Blast wave | Seconds | Buildings, infrastructure | Scales with yield^(1/3) |
+| Thermal radiation | Instant to seconds | People, flammable surfaces | Scales with yield^(1/2) |
+| Prompt radiation | First minute | Living tissue | Limited to a few km |
+| EMP | Nanoseconds | Electronics, power grid | Widest for high-altitude bursts |
+| Fallout | Hours to years | Land, water, survivors | Wind-dependent |
+
+<Callout type="tip" title="Scaling Rule of Thumb">
+A weapon with 8 times the yield does not produce 8 times the destruction radius. Because radius scales with the cube root of yield, an 800 kt weapon's blast radius is only about twice that of a 100 kt weapon.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="The Four Damage Channels in Detail">
+
+### Blast Wave
+
+Roughly half of a nuclear explosion's energy becomes the blast wave. The sudden expansion of superheated air creates an overpressure front that flattens structures, then a following negative phase sucks debris outward. Wooden homes collapse at around 5 psi overpressure; reinforced concrete survives to roughly 10 psi but loses windows and cladding far earlier.
+
+### Thermal Radiation
+
+About a third of the energy is emitted as heat and light. Surfaces facing the fireball can experience temperatures that ignite clothing, foliage, and paint, and cause severe flash burns on exposed skin. Thermal range scales with the square root of yield, meaning large weapons ignite fires across areas much larger than their blast zones, producing mass fire risk.
+
+### Prompt and Residual Radiation
+
+Prompt radiation (neutrons and gamma rays) is emitted within the first minute and is lethal within a limited radius, generally smaller than the lethal blast range for yields above roughly 10 kt. Residual radiation, better known as fallout, arrives later and downwind.
+
+### Electromagnetic Pulse
+
+A detonation at high altitude generates EMP across a vast area, damaging unhardened electronics and long power lines. EMP causes no direct injuries but can cripple communications, grid power, and emergency response systems.
+
+<CardGrid cols={2}>
+  <Card title="Ground Burst">
+  - **Maximum fallout**
+  - Crater formation
+  - Reduced blast range
+  - Used against hardened targets
+  </Card>
+  <Card title="Air Burst">
+  - **Maximum blast and thermal damage**
+  - Minimal local fallout
+  - Wide area of destruction
+  - Historical choice against cities
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Common Misconception">
+Fallout is not the primary killer in an air burst against a city. Blast and thermal injuries dominate close-in casualties; fallout mainly threatens survivors located downwind of ground bursts.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Fallout Decay and Safety Timeline">
+
+Fallout follows the "7-10 rule": for every sevenfold increase in time after detonation, radiation dose rate drops to roughly one tenth. This principle drives the standard shelter-in-place guidance.
+
+| Time After Detonation | Relative Dose Rate | Recommended Action |
+|---|---|---|
+| 1 hour | 100% baseline | Shelter immediately, deepest interior space |
+| 7 hours | ~10% | Stay sheltered, no outdoor movement |
+| 48 hours | ~1-2% | Limited movement if essential |
+| 2 weeks | under 0.1% | Evacuation may be considered |
+
+<Steps>
+  <Step num="1" title="Get Inside Fast">
+  Move to a basement or the center of a large building within minutes. Bricks and concrete absorb far more radiation than wood or glass.
+  </Step>
+  <Step num="2" title="Decontaminate">
+  Remove outer clothing and seal it in a plastic bag; this alone can remove up to 90% of fallout particles from a person.
+  </Step>
+  <Step num="3" title="Shelter 24-48 Hours">
+  Stay put unless authorities direct otherwise. Dose rates fall steeply during the first two days.
+  </Step>
+  <Step num="4" title="Consume Stored Supplies">
+  Use sealed food and water. Untouched packaged goods are safe; open containers exposed to dust should be avoided.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Shielding Basics">
+Distance, time, and mass are the three pillars of radiation protection. Half the radiation is blocked by about 4 inches of concrete or 6 inches of packed earth per halving thickness; each additional layer halves exposure again.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Nuclear Destruction in Deterrence Doctrine">
+
+The physics of nuclear destruction shapes policy. Leaders weigh arsenal decisions against the catastrophic, irreparable consequences of use. A notable example: in a 2016 Bloomberg interview ahead of the Nuclear Security Summit, South Korean President Park Geun-hye stated her conviction that "the vision for a nuclear-free world must begin with the Korean peninsula," rejecting domestic calls for an independent arsenal despite North Korean provocations ([Bloomberg / Arirang News, 2016](https://www.youtube.com/watch?v=Z6jkYtUrDcY)). She warned that continued provocations would risk an "irreparable catastrophe" undermining peace in Northeast Asia.
+
+| Doctrine | Core Idea | Stability Impact |
+|---|---|---|
+| Mutually Assured Destruction | Both sides retain second-strike capability | Discourages first use |
+| No First Use | Pledge to only retaliate | Reduces crisis escalation risk |
+| Nonproliferation | Prevent new arsenals | Limits number of decision-makers |
+| Extended Deterrence | Allies shelter under a nuclear umbrella | Deters ally proliferation |
+
+<Callout type="info" title="Why Effects Knowledge Matters">
+Arms-control debates, civil-defense planning, and proliferation decisions all rest on accurate public understanding of what nuclear destruction actually does. Misjudged effects lead to misjudged policy.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Reader Study Checklist">
+
+<Checklist
+  id="nuclear-destruction-study"
+  title="Core Concepts to Master:"
+  items={[
+    "Explain the four damage channels: blast, thermal, radiation, EMP",
+    "Apply the cube-root rule for blast radius scaling",
+    "Recite the 7-10 rule for fallout decay",
+    "Distinguish ground burst versus air burst consequences",
+    "Describe the three pillars of radiation protection: distance, time, mass"
+  ]}
+/>
+
+</Section>
+
+<Section icon={AlertTriangle} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What causes most destruction in a World of Nukes nuclear destruction scenario?",
+    answer: "For typical strategic yields, the blast wave and thermal radiation dominate casualties within the destruction radius. Fallout becomes the dominant hazard only downwind of surface bursts and for survivors who remain unsheltered."
+  },
+  {
+    question: "Does doubling a weapon's yield double its destruction radius?",
+    answer: "No. Blast radius scales with the cube root of yield, so a 200 kt weapon destroys a radius only about 26% larger than a 100 kt weapon. Thermal radius scales with the square root of yield."
+  },
+  {
+    question: "How long should you shelter after a nuclear detonation?",
+    answer: "Civil-defense guidance generally recommends sheltering at least 24 to 48 hours. Under the 7-10 rule, dose rates fall to roughly 1-2% of the initial level within 48 hours."
+  },
+  {
+    question: "Why does EMP matter if it causes no direct injuries?",
+    answer: "A high-altitude EMP can disable power grids, communications, and emergency services across a wide region, crippling disaster response and turning a survivable event into a prolonged infrastructure crisis."
+  }
+]} />
+
+</Section>
+
+## Related Reading
+
+- [World of Nukes Nuclear Explosion: Blast Zones & Yield Rankings](/simulation/World-of-Nukes-nuclear-explosion)
+- [World of Nukes Nuclear War Simulation: Stage-by-Stage Breakdown](/simulation/World-of-Nukes-nuclear-war-simulation)
+- [World of Nukes How to Get Better Nukes: Progression Tips & Tricks](/progression/World-of-Nukes-how-to-get-better-nukes)

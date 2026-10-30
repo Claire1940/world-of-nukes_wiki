@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Compass } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mapa do World of Nukes: Layout das Zonas e Guia de Navegação",
+  description: "Aprenda o layout do mapa do World of Nukes, locais importantes, zonas de radiação e as rotas mais rápidas para farm e exploração neste guia de zonas.",
+  category: "map",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=World+of+Nukes+Map",
+  date: "2026-10-30",
+  author: "Equipe do Wiki World of Nukes"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **mapa do World of Nukes** é dividido em zonas temáticas com níveis crescentes de perigo e recompensa.
+- As **zonas de radiação** exigem equipamento de proteção antes da entrada, então prepare-se antes de cruzar as fronteiras.
+- Os **pontos de viagem rápida** são desbloqueados permanentemente quando descobertos, reduzindo drasticamente o tempo de deslocamento.
+- A **densidade de loot** aumenta com a distância da área de spawn, recompensando a exploração mais profunda.
+- O **conhecimento do mapa** é a maior vantagem de sobrevivência, tanto para jogadores novos quanto para veteranos.
+</Callout>
+
+<Section icon={Map} title="Visão Geral do Mapa do World of Nukes">
+
+O mapa do World of Nukes é construído em torno de um deserto pós-nuclear onde segurança e oportunidade existem em extremos opostos da mesma estrada. A região de spawn é deliberadamente indulgente: inimigos são fracos, suprimentos são comuns e vendedores estão próximos uns dos outros. À medida que você avança para fora, o terreno muda, a radiação aumenta e a qualidade do loot sobe vertiginosamente.
+
+Entender o layout geral é a primeira habilidade que todo sobrevivente deve dominar. Em vez de vagar sem rumo, trate o mapa como uma série de anéis concêntricos, cada um com seu próprio nível de ameaça, tipos de recursos e requisitos de progressão.
+
+<CardGrid cols={3}>
+  <Card title="Anel de Spawn">
+    - **Baixo nível de ameaça**
+    - Suprimentos básicos e missões iniciais
+    - Acesso seguro a vendedores
+    - Ideal para subir de nível no início
+  </Card>
+  <Card title="Deserto Intermediário">
+    - **Perigo moderado**
+    - Drops melhores de armas e armaduras
+    - Primeiros bolsões de radiação aparecem
+    - Exige equipamento melhorado
+  </Card>
+  <Card title="Zonas Profundas">
+    - **Alta ameaça, alta recompensa**
+    - Materiais raros e inimigos de elite
+    - Radiação intensa em alguns pontos
+    - Território de farm do endgame
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica Profissional">
+Abra a tela do mapa com frequência e marque os pontos de referência descobertos manualmente. O mapa do jogo nem sempre rotula pontos de interesse, então marcadores pessoais se tornam sua ferramenta de navegação mais confiável em sessões longas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Locais Principais e o Que Oferecem">
+
+Cada local importante no mapa do World of Nukes tem uma finalidade, seja comércio, cura, criação de itens ou loot de alto risco. Saber qual local atende a qual necessidade economiza horas de retorno.
+
+| Tipo de Local | Função Principal | Nível de Ameaça | Nível Recomendado |
+| --- | --- | --- | --- |
+| Assentamentos | Vendedores, missões, armazenamento | Seguro | Todos os níveis |
+| Cidades em ruínas | Loot, farm de sucata | Baixo-Médio | 5+ |
+| Postos militares | Armas, esconderijos de munição | Médio-Alto | 15+ |
+| Bunkers | Equipamentos raros, encontros com chefes | Alto | 25+ |
+| Zonas de cratera | Materiais únicos, radiação | Muito Alto | 30+ |
+
+<Callout type="warning" title="Aviso de Radiação">
+Zonas de cratera e de explosão infligem dano de radiação contínuo. Sem equipamento de proteção adequado ou antídotos consumíveis, até jogadores de nível alto podem ser derrubados em segundos. Sempre carregue suprimentos anti-radiação ao se dirigir a essas regiões.
+</Callout>
+
+Além da tabela acima, leve em conta estes fatos de navegação:
+
+- **Assentamentos** também funcionam como âncoras de respawn, então descobrir cada um efetivamente amplia sua rede de segurança pelo mapa.
+- **Cidades em ruínas** repõem loot em um temporizador, tornando-as paradas de farm recorrentes e confiáveis, e não visitas únicas.
+- **Bunkers** muitas vezes contêm portas trancadas que exigem chaves encontradas em outros lugares do mapa, incentivando rotas de exploração em loop.
+- **Zonas de cratera** frequentemente abrigam os materiais de criação mais raros, e é por isso que jogadores de endgame aceitam o risco da radiação.
+
+</Section>
+
+<Section icon={Compass} title="Passo a Passo: Mapeando o Deserto com Eficiência">
+
+Uma ordem de exploração estruturada transforma o mapa de perigo em roteiro. Siga esta sequência ao iniciar um personagem novo ou reaprender o terreno após uma atualização.
+
+<Steps>
+  <Step num="1" title="Proteja a Região de Spawn">
+    Complete as missões iniciais, acumule comida e água e explore totalmente a área imediata ao redor do spawn antes de cruzar para o deserto intermediário. Uma base de suprimentos sólida evita recuos forçados mais tarde.
+  </Step>
+  <Step num="2" title="Descubra Todos os Assentamentos">
+    Priorize encontrar todos os assentamentos do mapa. Cada um desbloqueia viagem rápida, vendedores e um ponto de respawn, o que melhora permanentemente todas as futuras jornadas.
+  </Step>
+  <Step num="3" title="Estabeleça Rotas de Farm">
+    Vincule 3-4 cidades em ruínas em um loop repetitivo que passe por um assentamento para vender e reabastecer. Loops eficientes superam o loot aleatório sempre.
+  </Step>
+  <Step num="4" title="Prepare-se para os Bunkers">
+    Use a renda das rotas de farm para melhorar armas e armaduras até conseguir lidar com postos militares, e então use o loot dos postos para se preparar para incursões a bunkers.
+  </Step>
+  <Step num="5" title="Conquiste as Zonas de Radiação">
+    Entre em zonas de cratera apenas quando tiver proteção contra radiação confiável e suprimentos de cura. Essas áreas são o nível final da progressão do mapa.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Eficiência de Rota">
+Jogadores que desbloqueiam todos os pontos de viagem rápida cedo normalmente reduzem seu tempo total de deslocamento em mais da metade ao longo de uma jogatina completa. Descobrir é um investimento que se paga por si só.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Comparação de Perigo e Loot por Zona">
+
+Nem todas as regiões recompensam o mesmo esforço. Esta comparação detalha a matemática de risco versus recompensa para que você decida onde seu tempo é melhor gasto.
+
+| Tipo de Zona | Qualidade do Loot | Densidade de Inimigos | Risco de Radiação | Valor de Farm |
+| --- | --- | --- | --- | --- |
+| Região de spawn | ★★ | Baixa | Nenhum | ★★ |
+| Cidades em ruínas | ★★★ | Média | Raro | ★★★★ |
+| Postos militares | ★★★★ | Alta | Baixo | ★★★★ |
+| Bunkers | ★★★★★ | Muito Alta | Médio | ★★★★ |
+| Zonas de cratera | ★★★★★ | Alta | Muito Alto | ★★★ (apenas materiais) |
+
+<Callout type="info" title="Como Ler a Tabela">
+O valor de farm reflete visitas repetidas, não limpezas únicas. Bunkers oferecem o melhor loot em uma única incursão, mas cidades em ruínas frequentemente os superam ao longo de uma hora de loop porque os inimigos são mais fáceis e o deslocamento é mais curto.
+</Callout>
+
+Seu local ideal de farm também depende do seu objetivo atual:
+
+- **Ganhar moeda rápido:** faça loop em cidades em ruínas perto de um assentamento para viagens de venda rápidas.
+- **Melhorar armas:** mire nos postos militares para drops de munição e armas.
+- **Buscando equipamentos raros:** incursões a bunkers oferecem o maior teto, com o maior risco.
+- **Criando itens de endgame:** materiais de cratera são obrigatórios, então planeje a proteção primeiro.
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Metas de Navegação">
+
+Acompanhe seu domínio do mapa com este checklist. Completá-lo significa que você transformou o deserto de um labirinto em uma ferramenta.
+
+<Checklist
+  id="map-mastery"
+  title="Marcos de Domínio do Mapa:"
+  items={[
+    "Explorar toda a região de spawn e terminar as missões iniciais",
+    "Descobrir todos os assentamentos e desbloquear todos os pontos de viagem rápida",
+    "Construir uma rota de farm repetível com 3-4 locais",
+    "Limpar seu primeiro posto militar com sucesso",
+    "Completar uma incursão inteira a bunker com loot raro extraído",
+    "Sobreviver a uma viagem à zona de cratera com materiais para provar"
+  ]}
+/>
+
+<Callout type="tip" title="Vantagem do Jogo em Grupo">
+Viajar com um esquadrão muda completamente a matemática do mapa. Equipes podem dividir rotas de loot, cobrir umas às outras em lutas de bunker e compartilhar suprimentos anti-radiação, abrindo zonas profundas muito antes do que o jogo solo permite.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Qual é o tamanho do mapa do World of Nukes?",
+    answer: "O mapa é dividido em múltiplas regiões temáticas que abrangem áreas de spawn seguras, deserto de nível intermediário e zonas profundas de radiação. Mais do que o tamanho bruto, o que mais importa é quantos pontos de viagem rápida você desbloqueou, já que a descoberta é o que determina a velocidade prática de deslocamento."
+  },
+  {
+    question: "Preciso de equipamento contra radiação no mapa inteiro?",
+    answer: "Não. A radiação está concentrada em zonas específicas, como crateras e certas seções de bunkers. A maior parte do mapa, incluindo assentamentos e cidades em ruínas, é segura contra radiação. Consulte a tabela de zonas acima antes de sair para carregar equipamento de proteção apenas onde for necessário."
+  },
+  {
+    question: "Qual é a forma mais rápida de aprender o mapa do World of Nukes?",
+    answer: "Priorize descobrir assentamentos primeiro, já que cada um desbloqueia viagem rápida e um ponto de respawn. Depois construa um curto loop de farm por cidades em ruínas próximas. Essa abordagem fornece âncoras seguras e rotas eficientes antes de você tentar áreas de alto risco."
+  },
+  {
+    question: "Posso acessar zonas profundas em nível baixo?",
+    answer: "Tecnicamente o mapa é aberto, mas as zonas profundas contêm inimigos de nível alto e radiação que jogadores de baixo nível não conseguem sobreviver de forma confiável. É mais eficiente progredir pelos níveis de região em ordem, melhorando o equipamento conforme avança, em vez de se apressar para bunkers ou crateras cedo demais."
+  }
+]} />
+
+</Section>
+
+## Leituras Relacionadas
+
+- [Guia de Mapa do World of Nukes: Layout da Ilha e Estratégia](/pt/map/World-of-Nukes-map-guide)
+- [Mapa Nuclear do World of Nukes: Estágios de Escalada e Alvos](/pt/map/World-of-Nukes-nuclear-map)
+- [Raio de Explosão Nuclear no World of Nukes: Cobertura de Ataque](/pt/simulation/World-of-Nukes-nuclear-blast-radius)

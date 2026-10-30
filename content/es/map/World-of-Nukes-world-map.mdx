@@ -1,0 +1,174 @@
+import { Map, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mapa Mundial de World of Nukes: Potencias Nucleares, Arsenales",
+  description: "Explora el mapa mundial de World of Nukes: las nueve potencias nucleares, el número de ojivas, los sitios históricos de pruebas y los hitos clave.",
+  category: "map",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=World+Map+of+Nuclear+Powers",
+  date: "2026-10-30",
+  author: "Equipo de Wiki de World of Nukes"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mapa mundial de World of Nukes**: Nueve naciones poseen armas nucleares, y Rusia y Estados Unidos dominan aproximadamente el **86%** de las ojivas del mundo
+- **Primera prueba**: La era nuclear comenzó el 16 de julio de 1945, en el desierto de Nuevo México
+- **Historia de pruebas**: Se han realizado más de **2,000 pruebas nucleares** en todo el mundo
+- **El artefacto más grande**: La Bomba del Zar, detonada por la Unión Soviética en 1961 con una potencia de aproximadamente **50 megatones**
+- **El momento más crítico**: La Crisis de los Misiles de Cuba de 1962 estuvo a punto de desencadenar una guerra nuclear durante 13 días
+</Callout>
+
+<Section icon={Map} title="Mapa Mundial de World of Nukes: Las Nueve Potencias Nucleares">
+
+El mapa mundial de World of Nukes es un estudio del poder concentrado. Nueve países poseen armas nucleares y la distribución está fuertemente sesgada. La Unión Soviética, Reino Unido, Francia, China, India, Pakistán y Corea del Norte se unieron al club nuclear después de que Estados Unidos inaugurara la era atómica en 1945. Se cree ampliamente que Israel también posee armas nucleares, aunque mantiene una deliberada política de ambigüedad.
+
+<Callout type="tip" title="Cómo Leer el Mapa">
+Al estudiar la geografía nuclear, concéntrate en dos capas: quién posee los arsenales y dónde se han probado las armas. Los dos mapas se superponen, pero cuentan historias diferentes sobre el poder y la historia.
+</Callout>
+
+| Potencia Nuclear | Primera Prueba | Región | Notas |
+|---|---|---|---|
+| Estados Unidos | 1945 | América del Norte | Primer estado nuclear; Hiroshima y Nagasaki |
+| Rusia (URSS) | 1949 | Eurasia | Posee uno de los dos arsenales más grandes |
+| Reino Unido | 1952 | Europa | Tercer miembro del club |
+| Francia | 1960 | Europa | Fuerza de disuasión independiente |
+| China | 1964 | Asia Oriental | Probó en Lop Nur |
+| India | 1974 | Asia Meridional | Prueba del "Buda Sonriente" |
+| Pakistán | 1998 | Asia Meridional | Respondió a las pruebas de India |
+| Corea del Norte | 2006 | Asia Oriental | Miembro confirmado más reciente |
+| Israel | Sin confirmar | Oriente Medio | Política de ambigüedad |
+
+<CardGrid cols={3}>
+  <Card title="Los Dos Grandes">
+    - Rusia y Estados Unidos
+    - Aproximadamente el **86%** de las ojivas del mundo
+    - Legado de la carrera armamentista de la Guerra Fría
+  </Card>
+  <Card title="Las Potencias Establecidas">
+    - Reino Unido, Francia y China
+    - Arsenales más pequeños pero avanzados
+    - Doctrinas de disuasión de larga data
+  </Card>
+  <Card title="Los Miembros Más Recientes">
+    - India, Pakistán, Corea del Norte
+    - La rivalidad regional como impulsor
+    - El estatus no confirmado de Israel
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Sitios de Pruebas Globales: Donde el Mapa se Ilumina">
+
+Desde Nevada hasta Kazajistán, desde el Ártico hasta el Pacífico, las pruebas nucleares se han extendido por todo el planeta. Se han realizado más de **2,000 pruebas nucleares** en todo el mundo, dejando una firma geográfica distintiva en el mapa mundial.
+
+<Callout type="warning" title="Legado Ambiental">
+Muchos antiguos sitios de pruebas permanecen contaminados o restringidos décadas después. Mapearlos revela la verdadera huella física de la era nuclear a través de desiertos, islas y tundra.
+</Callout>
+
+| Sitio de Pruebas | País | Región | Importancia |
+|---|---|---|---|
+| Sitio de Pruebas de Nevada | Estados Unidos | América del Norte | Cientos de pruebas atmosféricas y subterráneas |
+| Semipalatinsk | URSS (Kazajistán) | Asia Central | Principal campo de pruebas soviético |
+| Nueva Zembla | URSS (Rusia) | Ártico | Sitio de la detonación de la Bomba del Zar |
+| Campos de Pruebas del Pacífico | Estados Unidos | Océano Pacífico | Pruebas en los atolones Bikini y Enewetak |
+| Lop Nur | China | Asia Oriental | Principal ubicación de pruebas de China |
+
+<Callout type="info" title="Bomba del Zar">
+En 1961, la Unión Soviética detonó la Bomba del Zar sobre Nueva Zembla. Con una potencia de aproximadamente **50 megatones**, sigue siendo el artefacto nuclear más poderoso jamás probado en cualquier punto del mapa mundial.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Puntos Críticos de la Guerra Fría en el Mapa">
+
+El mapa mundial nuclear también es un mapa de catástrofes inminentes. La Crisis de los Misiles de Cuba de 1962 llevó a Estados Unidos y la Unión Soviética peligrosamente cerca de una guerra nuclear — 13 días que cambiaron la historia.
+
+<Steps>
+  <Step num="1" title="1945: El Comienzo">
+    La primera bomba atómica detona en el desierto de Nuevo México el 16 de julio. Semanas después, las bombas golpean Hiroshima y Nagasaki, revelando la devastadora realidad de la guerra nuclear.
+  </Step>
+  <Step num="2" title="1949–1964: El Club Crece">
+    La Unión Soviética, Reino Unido, Francia y China realizan cada una sus primeras pruebas, extendiendo la capacidad nuclear por todo el mapa.
+  </Step>
+  <Step num="3" title="1961: Bomba del Zar">
+    El artefacto más poderoso jamás probado demuestra el aterrador límite superior de las armas nucleares.
+  </Step>
+  <Step num="4" title="1962: Crisis de los Misiles de Cuba">
+    Trece días de enfrentamiento llevan a las superpotencias al borde del abismo antes de que prevalezca la diplomacia.
+  </Step>
+  <Step num="5" title="1998–2006: Nuevos Miembros">
+    India y Pakistán realizan pruebas en 1998; Corea del Norte les sigue en 2006, reconfigurando las dinámicas regionales.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Cómo Estudiar el Mapa Mundial Nuclear">
+
+Abordar el mapa mundial de World of Nukes de forma sistemática te ayuda a entender tanto la geografía como la estrategia que hay detrás.
+
+<CardGrid cols={2}>
+  <Card title="Capa 1: Arsenales">
+    - Mapea qué estados poseen ojivas
+    - Compara los inventarios estimados
+    - Observa el dominio de los dos grandes
+  </Card>
+  <Card title="Capa 2: Historia de Pruebas">
+    - Rastrea las ubicaciones de los sitios de pruebas
+    - Identifica las eras atmosféricas frente a las subterráneas
+    - Conecta los sitios con hitos históricos
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo de Estudio">
+Cruza los sitios de pruebas con las alianzas políticas de cada era. La geografía de las pruebas a menudo refleja los bloques de la Guerra Fría más que la geografía pura.
+</Callout>
+
+<Checklist
+  id="map-study-goals"
+  title="Hitos de Estudio del Mapa Nuclear:"
+  items={[
+    "Identificar las nueve potencias nucleares",
+    "Localizar las cinco regiones principales de sitios de pruebas",
+    "Explicar la importancia de la Bomba del Zar",
+    "Resumir la cronología de la Crisis de los Misiles de Cuba",
+    "Entender por qué el estatus de Israel sigue siendo ambiguo"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuántos países aparecen en el mapa mundial de World of Nukes?",
+    answer: "Nueve países poseen armas nucleares: Estados Unidos, Rusia, Reino Unido, Francia, China, India, Pakistán, Corea del Norte e Israel, aunque Israel nunca ha confirmado oficialmente su arsenal."
+  },
+  {
+    question: "¿Qué dos naciones poseen la mayoría de las ojivas nucleares del mundo?",
+    answer: "Rusia y Estados Unidos juntos representan aproximadamente el 86% del inventario global estimado, un legado de la carrera armamentista de la Guerra Fría."
+  },
+  {
+    question: "¿Cuál fue el artefacto nuclear más poderoso jamás probado?",
+    answer: "La Bomba del Zar, detonada por la Unión Soviética en 1961 con una potencia de aproximadamente 50 megatones. Sigue siendo el artefacto nuclear más poderoso jamás probado."
+  },
+  {
+    question: "¿Cuántas pruebas nucleares se han realizado en todo el mundo?",
+    answer: "Se han realizado más de 2,000 pruebas nucleares en todo el planeta, desde Nevada hasta Kazajistán, el Ártico y el Pacífico."
+  }
+]} />
+
+</Section>
+
+## Lecturas Relacionadas
+
+- [Ubicaciones de World of Nukes: Guía de Mapa de Islas](/es/map/World-of-Nukes-locations)
+- [Mapa de World of Nukes: Distribución de Zonas y Guía](/es/map/World-of-Nukes-map)
+- [Radio de Explosión Nuclear en World of Nukes: Cobertura de Ataque](/es/simulation/World-of-Nukes-nuclear-blast-radius)

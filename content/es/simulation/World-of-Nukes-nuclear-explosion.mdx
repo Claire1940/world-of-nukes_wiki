@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Explosión Nuclear en World of Nukes: Zonas de Impacto y Ranking",
+  description: "Aprende cómo funcionan las explosiones nucleares en World of Nukes: clases de potencia, zonas de radio de explosión, mecánicas de lluvia radiactiva.",
+  category: "simulation",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Nuclear+Explosion+Guide",
+  date: "2026-10-30",
+  author: "Equipo del Wiki de World of Nukes"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **explosión nuclear** es la mecánica de destrucción central de World of Nukes — toda estrategia gira en torno a ella
+- La **clase de potencia** determina el radio de la explosión: las ojivas más grandes cubren más zonas pero cuestan muchos más recursos
+- Las **zonas de impacto** (bola de fuego, onda expansiva, térmica, radiactiva) infligen diferentes daños a los objetivos
+- El **terreno al apuntar** importa: las explosiones en superficie generan mucha lluvia radiactiva, las explosiones aéreas maximizan el daño estructural
+- **Mejor práctica**: ajusta la potencia de la ojiva al valor del objetivo en lugar de gastar de más en la potencia máxima
+</Callout>
+
+<Section icon={Map} title="Fundamentos de la Explosión Nuclear en World of Nukes">
+
+El sistema de **explosión nuclear de World of Nukes** es el corazón del juego. Cuando una ojiva detona, la simulación divide el área afectada en zonas de daño concéntricas, cada una con su propio perfil de destrucción. Comprender estas zonas marca la diferencia entre aniquilar un objetivo de alto valor y desperdiciar una ojiva costosa en terreno vacío.
+
+Los resultados de la detonación dependen de tres variables: la **clase de potencia de la ojiva**, la **altitud de detonación** (explosión en superficie versus explosión aérea) y el **entorno del objetivo** (ciudades densas, instalaciones militares o terreno abierto). Los jugadores que aprenden cómo interactúan estas variables pueden planear ataques con precisión en lugar de adivinar.
+
+**Variables Clave de la Explosión:**
+- Clase de potencia (rango de kilotones a multimegatones)
+- Altitud de detonación y tipo de explosión
+- Densidad del objetivo y blindaje estructural
+- Características del terreno que canalizan o bloquean los efectos de la explosión
+
+<Callout type="tip" title="Consejo del Editor">
+Antes de comprometer una ojiva, explora el objetivo. Un ataque de alta potencia sobre objetivos rurales dispersos desperdicia la mayor parte del radio de explosión en suelo vacío, mientras que los ataques de baja potencia contra búnkeres blindados apenas pueden rayarlos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Desglose de Zonas de Impacto y Zonas de Daño">
+
+Cada detonación en World of Nukes genera un conjunto de zonas de daño en capas. Cada zona se contrae o expande según la clase de potencia que despliegues, así que conocer el orden de las capas te ayuda a estimar los resultados de un vistazo.
+
+| Zona de Impacto | Radio Relativo | Efecto del Daño | Mejor Usada Contra |
+|---|---|---|---|
+| Bola de fuego | La más pequeña, la más interna | Vaporización total, nada sobrevive | Centros de mando, búnkeres reforzados |
+| Onda expansiva | Media | Colapso estructural, destrucción de edificios | Ciudades, distritos industriales |
+| Radiación térmica | Grande | Incendios, quemaduras, ignición secundaria | Zonas urbanas extensas |
+| Zona radiactiva | La más grande (explosiones en superficie) | Negación de área persistente, daño residual | Bloquear rutas de refuerzo enemigas |
+
+<Callout type="warning" title="Cuidado con la Lluvia Radiactiva">
+Las zonas radiactivas persisten después del destello inicial. Si tu estrategia depende de ocupar la región o mover tropas por ella después, las explosiones en superficie pueden negarte el área tanto como a tu oponente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Comparación de Clases de Potencia">
+
+Las ojivas en World of Nukes vienen en varias clases de potencia, y el costo escala abruptamente con la cobertura destructiva. La tabla siguiente compara los niveles generales que encontrarás a medida que progresas.
+
+| Clase de Potencia | Cobertura de Explosión | Nivel de Costo | Recarga/Enfriamiento | Objetivo Ideal |
+|---|---|---|---|---|
+| Baja (táctica) | Radio pequeño, zonas ajustadas | Bajo | Corto | Convoyes militares, bases pequeñas |
+| Media (estratégica) | Cobertura moderada a escala de ciudad | Medio | Moderado | Pueblos, complejos industriales |
+| Alta (multimegatón) | Cobertura masiva de múltiples zonas | Alto | Largo | Grandes metrópolis, complejos reforzados |
+| Multi-ojiva estilo MIRV | Varias explosiones menores superpuestas | Alto | Largo | Grupos metropolitanos dispersos |
+
+<CardGrid cols={3}>
+  <Card title="Build de Eficiencia">
+    - **Estrategia de spam de baja potencia**
+    - Recargas rápidas, apuntado flexible
+    - Ideal para presión en el juego temprano y medio
+  </Card>
+  <Card title="Build de Decapitación">
+    - **Un solo ataque de alta potencia**
+    - Dirigido a los activos de mando enemigos
+    - Alto costo, recompensa decisiva
+  </Card>
+  <Card title="Build de Negación de Área">
+    - **Explosiones en superficie para lluvia radiactiva**
+    - Ralentiza el movimiento y recuperación enemiga
+    - Herramienta potente de ritmo defensivo
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Nota sobre Eficiencia de Costos">
+Dos ataques de potencia media sobre distritos separados a menudo destruyen más valor total que un solo ataque de alta potencia que cubra ambos, porque el daño se concentra donde realmente están las estructuras.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Paso a Paso: Planificando un Ataque Perfecto">
+
+Sigue este flujo de trabajo cada vez que comprometas una ojiva. Apresurar la fase de apuntado es la forma más común en que los jugadores desperdician recursos.
+
+<Steps>
+  <Step num="1" title="Explorar y Valorar el Objetivo">
+    Identifica qué se encuentra dentro de las zonas de impacto proyectadas. Marca las estructuras de alto valor como puestos de mando, fábricas y centros de población, y estima su durabilidad.
+  </Step>
+  <Step num="2" title="Seleccionar la Clase de Potencia">
+    Ajusta el tamaño de la ojiva al valor del objetivo. Si las zonas de bola de fuego y onda expansiva ya cubren cada estructura clave, una potencia mayor añade costo sin añadir destrucción.
+  </Step>
+  <Step num="3" title="Elegir el Tipo de Explosión">
+    Elige una explosión aérea para el máximo daño estructural en una amplia zona, o una explosión en superficie cuando la lluvia radiactiva y la negación de área importan más que la destrucción pura.
+  </Step>
+  <Step num="4" title="Fijar el Punto de Detonación">
+    Posiciona la explosión de modo que el grupo de mayor valor quede cerca del centro de la zona de onda expansiva, no del borde, para garantizar la destrucción en lugar de daño parcial.
+  </Step>
+  <Step num="5" title="Dar Seguimiento">
+    Después del ataque, reevalúa el mapa. Los objetivos dañados pero en pie pueden rematarse con una ojiva táctica barata en lugar de otro lanzamiento a gran escala.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Lista de Verificación del Ataque Superada">
+Una detonación bien planificada destruye el grupo objetivo, preserva tu reserva de recursos y deja tu ciclo de recarga libre para la siguiente amenaza. Si alguno de esos tres falla, revisa tu elección de potencia antes del próximo lanzamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Errores Comunes y Lista de Verificación">
+
+La mayoría de los ataques fallidos se remontan al mismo puñado de errores. Repasa esta lista de verificación antes de cada lanzamiento para detectarlos a tiempo.
+
+| Error | Consecuencia | Solución |
+|---|---|---|
+| Potencia excesiva en objetivos dispersos | Recursos desperdiciados, enfriamiento largo | Reduce una clase de potencia y reapunta |
+| Explosión en superficie en terreno que necesitas | La lluvia radiactiva niega tu propio avance | Cambia a explosión aérea |
+| Objetivo en el borde de la zona | Daño parcial, el objetivo sobrevive | Centra la onda expansiva en las estructuras clave |
+| Ignorar la interceptación enemiga | Ojiva perdida antes de la detonación | Suprime las defensas o atrae a los interceptores primero |
+
+<Checklist
+  id="pre-launch-checklist"
+  title="Lista de Verificación Pre-Lanzamiento:"
+  items={[
+    "Objetivo explorado y valorado",
+    "Clase de potencia ajustada al tamaño del objetivo",
+    "Tipo de explosión seleccionado según el objetivo",
+    "Punto de detonación centrado en las estructuras clave",
+    "Defensas enemigas tomadas en cuenta"
+  ]}
+/>
+
+<Callout type="warning" title="Evita la Visión de Túnel">
+Una explosión espectacular no es lo mismo que un ataque ganador. La puntuación en World of Nukes proviene del valor destruido, no del tamaño de la explosión — mide siempre el éxito por lo que la explosión realmente eliminó del tablero.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué es una explosión nuclear en World of Nukes?",
+    answer: "Es la mecánica de destrucción central del juego. Cada detonación de una ojiva crea zonas de daño en capas — bola de fuego, onda expansiva, radiación térmica y lluvia radiactiva — cuyo tamaño depende de la clase de potencia de la ojiva y del tipo de explosión."
+  },
+  {
+    question: "¿Es siempre mejor una potencia mayor?",
+    answer: "No. El costo y el enfriamiento escalan abruptamente con la potencia. Una ojiva media centrada en el grupo objetivo a menudo destruye el mismo valor que un ataque de alta potencia mientras preserva recursos para ataques de seguimiento."
+  },
+  {
+    question: "¿Cuál es la diferencia entre una explosión aérea y una explosión en superficie?",
+    answer: "Una explosión aérea maximiza el daño estructural en una amplia zona con mínima lluvia radiactiva. Una explosión en superficie produce una huella de destrucción efectiva menor, pero genera una lluvia radiactiva intensa, lo que la hace útil para la negación de área."
+  },
+  {
+    question: "¿Pueden las defensas enemigas detener mi ojiva?",
+    answer: "Sí, las mecánicas de interceptación pueden destruir las ojivas entrantes antes de la detonación. Suprimir o atraer a las defensas antes de un lanzamiento es parte del flujo de trabajo estándar de ataque cubierto en la sección paso a paso anterior."
+  }
+]} />
+
+</Section>
+
+## Lecturas Relacionadas
+
+- [Simulación de Guerra Nuclear de World of Nukes: Análisis Etapa](/es/simulation/World-of-Nukes-nuclear-war-simulation)
+- [Comparación de tamaño de nukes en World of Nukes: escala](/es/simulation/World-of-Nukes-nuke-size-comparison)
+- [World of Nukes: Cómo Conseguir Mejores Bombas Nucleares: Consejos](/es/progression/World-of-Nukes-how-to-get-better-nukes)

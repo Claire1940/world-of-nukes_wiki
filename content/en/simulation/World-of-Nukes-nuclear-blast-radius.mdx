@@ -1,0 +1,172 @@
+import { Map, Swords, Target, Shield, Sparkles, Crosshair } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "World of Nukes Nuclear Blast Radius: Strike Coverage & Targeting",
+  description: "Learn how nuclear blast coverage, missile targeting, and strike range work in World of Nukes, plus defense tips to shield your island from attacks.",
+  category: "simulation",
+  image: "https://placehold.co/800x400/F97316/111827?text=Nuclear+Blast+Radius+Guide",
+  date: "2026-10-30",
+  author: "World of Nukes Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **World of Nukes nuclear blast radius** determines how much of an enemy island a strike can damage.
+- **Weapon tier matters**: standard missiles hit tighter zones, while nuclear strikes apply island-wide pressure.
+- **Targeting is manual**: confirm range, availability, and cost before launching any attack.
+- **Shields counter nukes**: island shields protect your core against large-scale strikes.
+- **Layered defense wins**: anti-air plus shields protect far more than either alone.
+</Callout>
+
+<Section icon={Crosshair} title="How Nuclear Blast Coverage Works">
+
+Understanding the **nuclear blast radius** in World of Nukes is the foundation of both attacking and defending effectively. Every offensive weapon in the game delivers damage across a defined coverage zone around the point you select. Standard missile systems focus destruction on a tighter footprint, while the nuclear attack system applies far broader, island-wide pressure against high-value targets.
+
+Coverage interacts with three practical factors:
+
+- **Weapon tier**: larger strategic weapons threaten more structures per strike than tactical missiles.
+- **Target layout**: dense island cores absorb more total damage than scattered layouts.
+- **Defensive layers**: shields and anti-air reduce how much of the blast zone converts into real damage.
+
+<Callout type="warning" title="Data Note">
+Exact blast radius values per weapon have not been officially documented. This guide explains the confirmed strike system — launch interface, target selection, and strategic role — without inventing specific radius numbers. Check the official Roblox game page for the latest weapon details.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Weapon Types and Strike Roles Compared">
+
+The offensive system breaks into distinct attack categories, each with a different relationship to blast coverage. Compare them before committing resources to a launch.
+
+| Weapon System | Coverage Profile | Best Use | Key Consideration |
+| --- | --- | --- | --- |
+| Standard Missile System | Focused damage zone | Deliberate strikes on chosen targets | Confirm range and resource cost first |
+| Nuclear Attack System | Broad, island-wide pressure | High-value enemy targets, decisive moments | Requires advanced progression to unlock |
+| Tactical Launch Control | Varies by weapon selected | Managed, precise target prioritization | Review the enemy island before firing |
+
+Each weapon tier rewards a different mindset:
+
+<CardGrid cols={3}>
+  <Card title="Focused Missiles">
+    - **Tight damage footprint**
+    - Low waste on low-value structures
+    - Ideal for repeated pressure
+  </Card>
+  <Card title="Nuclear Strikes">
+    - **Wide coverage pressure**
+    - Decisive against developed islands
+    - Reserve for high-value moments
+  </Card>
+  <Card title="Launch Control">
+    - **Manual target selection**
+    - Full control over each strike
+    - Prevents wasted offensive resources
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Targeting Rule">
+Treat every launch as a strategic decision, not an automatic action. A nuclear strike aimed at a well-shielded island core wastes resources that focused missiles could have spent on exposed economic structures.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Step-by-Step: Maximizing Strike Damage">
+
+Follow this launch workflow to get the most out of every attack's coverage zone.
+
+<Steps>
+  <Step num="1" title="Build Offensive Infrastructure">
+    Construct and activate the missile structures your progression tier allows. Without the required launch infrastructure, no strike — regardless of radius — is possible.
+  </Step>
+  <Step num="2" title="Scout the Target Island">
+    Review the enemy layout before firing. Identify the dense core, economic buildings, and defensive positions so the blast zone lands where it matters.
+  </Step>
+  <Step num="3" title="Confirm Range and Cost">
+    Open the launch interface and verify the weapon can actually reach the target and that you can afford the resource cost without crippling your own economy.
+  </Step>
+  <Step num="4" title="Select High-Value Targets">
+    Prioritize economic and strategic structures inside the coverage zone. A strike that removes income generation hurts an enemy more than scattered outer damage.
+  </Step>
+  <Step num="5" title="Launch and Reassess">
+    Confirm the launch, observe the result, and never leave your own island undefended while your offensive resources are committed elsewhere.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Combined Arms Bonus">
+Coordinate strikes with jets and warships. Jets pressure exposed areas quickly while warships maintain sustained naval pressure, forcing the enemy to split defenses before your missile lands.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Defending Against Blast Radius">
+
+Blast coverage is only as dangerous as your defense is weak. A layered layout shrinks the effective damage of any incoming strike.
+
+| Defense Layer | What It Counters | Placement Priority |
+| --- | --- | --- |
+| Anti-Air Defense | Incoming aerial attacks and missiles | Around the central base, resources, and likely attack paths |
+| Island Shield | Large-scale nuclear strikes | Close to the most valuable island section |
+| Layout Spacing | Single-strike total destruction | Reserve open space so one blast cannot wipe the core |
+| Defensive Vehicles | Follow-up and repeat attacks | Keep a response force home instead of full commitment |
+
+<Callout type="tip" title="Core-First Rule">
+Protect the island core before extending coverage to outer structures. Losing peripheral buildings is recoverable; losing your economic heart to one nuclear strike is not.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Attack Readiness Checklist">
+
+Before your next offensive operation, confirm every item on this list.
+
+<Checklist
+  id="strike-readiness"
+  title="Pre-Launch Checklist:"
+  items={[
+    "Missile infrastructure built and activated",
+    "Target island scouted for high-value structures",
+    "Range, availability, and resource cost confirmed",
+    "Home island shield and anti-air coverage in place",
+    "Defensive vehicle response force kept in reserve"
+  ]}
+/>
+
+<Callout type="info" title="Endgame Note">
+As you progress toward wonders and the Doomsday Device, strike systems scale with your island's development. Build reliable income and defenses first — advanced weapons on a weak economy become liabilities, not advantages.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Does World of Nukes have an official nuclear blast radius number for each weapon?",
+    answer: "No official per-weapon radius values have been documented. Confirmed mechanics include the launch interface, enemy target selection, and the distinction between focused missile damage and broader nuclear island-wide pressure. For the radius values that apply to your setup, check the official Roblox game page and in-game descriptions."
+  },
+  {
+    question: "How does the World of Nukes nuclear blast radius affect my base layout?",
+    answer: "Broader strike coverage means a tightly packed island core can lose many structures to one attack. Space your most important economic buildings, keep the shield over the highest-value section, and layer anti-air coverage so a single strike cannot eliminate everything."
+  },
+  {
+    question: "Can I reduce incoming nuclear blast damage?",
+    answer: "Yes, through layered defense. Island shields add protection against large-scale strikes for your core, anti-air defenses intercept incoming threats along likely attack paths, and spacing between buildings limits how much a single blast zone can destroy."
+  },
+  {
+    question: "When should I use a nuclear strike instead of standard missiles?",
+    answer: "Reserve nuclear strikes for high-value enemy targets and moments where a decisive advantage is possible. Standard missiles suit repeated focused pressure, while nuclear attacks are best saved for developed rival islands whose core justifies the broader coverage."
+  }
+]} />
+
+</Section>
+
+## Related Reading
+
+- [World of Nukes Nuclear Destruction: Effects Explained](/simulation/World-of-Nukes-nuclear-destruction)
+- [World of Nukes Nuclear Explosion: Blast Zones & Yield Rankings](/simulation/World-of-Nukes-nuclear-explosion)
+- [World of Nukes How to Get Better Nukes: Progression Tips & Tricks](/progression/World-of-Nukes-how-to-get-better-nukes)

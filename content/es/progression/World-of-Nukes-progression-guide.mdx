@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de Progresión de World of Nukes: Paso a Paso desde el Inicio",
+  description: "Una guía práctica de progresión de World of Nukes que cubre la construcción de equipos, la gestión de recursos, las mejoras de equipamiento.",
+  category: "progression",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Progression+Guide",
+  date: "2026-10-30",
+  author: "Equipo de Wiki de World of Nukes"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **progresión en World of Nukes** depende de gastar recursos de forma inteligente, no de la velocidad de molienda.
+- **Inicio del juego**: Concéntrese en un escuadrón central y complete etapas de campaña para obtener recompensas permanentes.
+- **Juego medio**: Cambie sus prioridades hacia la calidad del equipamiento, la sinergia de facciones y la moneda de eventos.
+- **Juego tardío**: Optimice los umbrales de estadísticas, los modos de endgame y la profundidad del roster para contenido difícil.
+- **Regla de oro**: Nunca reparta materiales de mejora entre demasiadas unidades a la vez.
+</Callout>
+
+<Section icon={Map} title="Entendiendo la Hoja de Ruta de Progresión">
+
+La progresión en World of Nukes sigue una curva bastante predecible, y los jugadores que planifican sus hitos con anticipación superan constantemente a quienes gastan recursos de manera reactiva. El recorrido se divide en tres grandes fases, cada una con diferentes cuellos de botella y prioridades.
+
+<CardGrid cols={3}>
+  <Card title="Inicio del Juego (Comienzo de Cuenta)">
+    - **Objetivo**: Completar etapas de campaña de forma constante
+    - Acumule recompensas de inicio de sesión diarias y misiones
+    - Construya un equipo central confiable
+    - Evite gastar moneda premium en invocaciones de bajo valor
+  </Card>
+  <Card title="Juego Medio (Fase de Romper Muros)">
+    - **Objetivo**: Superar los muros de dificultad
+    - Invierta en niveles de mejora de equipamiento
+    - Únase a una alianza activa para recompensas compartidas
+    - Apunte a unidades y artículos limitados de eventos
+  </Card>
+  <Card title="Juego Tardío (Fase de Optimización)">
+    - **Objetivo**: Minimizar y maximizar contenido de endgame
+    - Afinar las distribuciones de estadísticas
+    - Construir profundidad de roster para múltiples modos
+    - Buscar posiciones de élite en las clasificaciones
+  </Card>
+</CardGrid>
+
+| Fase | Principal Cuello de Botella | Recurso Prioritario | Hito Clave |
+| --- | --- | --- | --- |
+| Inicio | Niveles de unidades, nivel de cuenta | Materiales de EXP | Completar etapas de forma constante |
+| Medio | Calidad de equipamiento, costo de oro | Materiales de mejora | Romper muros de poder |
+| Tardío | Optimización de estadísticas, unidades raras | Moneda premium, fichas de evento | Completar modos de endgame |
+
+<Callout type="tip" title="Planifique por Fases">
+Establezca un único objetivo principal para cada semana de su cuenta. Intentar progresar en unidades, equipamiento y roster al mismo tiempo ralentiza todas las vías; el enfoque secuencial derriba cada muro más rápido.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta de Progresión Paso a Paso">
+
+Siga esta secuencia al comenzar una cuenta nueva o al restablecer sus prioridades. El orden importa: saltarse pasos suele crear déficits de recursos que tardan semanas en repararse.
+
+<Steps>
+  <Step num="1" title="Complete el Tutorial y la Campaña Inicial">
+    Avance por la campaña lo más lejos posible antes de tocar cualquier otro modo. Las etapas iniciales reembolsan su costo mediante recompensas de primera victoria, y desbloquean los sistemas que necesitará más adelante. No haga reroll infinitamente; un buen comienzo importa más que uno perfecto.
+  </Step>
+  <Step num="2" title="Consolide un Equipo Central de Cinco">
+    Elija un tanque, uno o dos Dealers de daño y dos unidades de soporte. Destine sus materiales de mejora solo a estas cinco. Un equipo central completamente construido completa mucho más contenido que un roster de unidades a medio subir de nivel.
+  </Step>
+  <Step num="3" title="Complete Todas las Tareas Diarias y Semanales">
+    Las tareas diarias son la columna vertebral de la progresión a largo plazo. Las misiones, los inicios de sesión y los puntos de actividad se acumulan durante semanas. Trate su reinicio diario como un punto de control innegociable, incluso en sesiones de juego cortas.
+  </Step>
+  <Step num="4" title="Únase a una Alianza Activa desde Temprano">
+    La pertenencia a una alianza proporciona ingresos pasivos, moneda compartida de tienda y acceso a contenido grupal. Un grupo activo promedio supera a uno de alto rango pero inactivo para la progresión práctica.
+  </Step>
+  <Step num="5" title="Transicione al Equipamiento y la Optimización de Endgame">
+    Una vez que su equipo central alcance muros de nivel, dirija su gasto hacia la mejora de equipamiento y los rollos de estadísticas secundarias. De ahí proviene realmente el poder del juego medio, no de los niveles brutos de las unidades.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Error Común">
+No suba de nivel cada nueva unidad que desbloquee "solo para probarla". Las builds experimentales deben esperar hasta que sus cinco centrales estén completamente invertidas. El gasto experimental temprano es la causa número uno de cuentas estancadas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Prioridades de Gestión de Recursos">
+
+Los recursos en World of Nukes están limitados por tiempo, por lo que la disciplina de asignación separa a quienes progresan rápido de quienes se estancan. Clasifique el valor de cada moneda antes de gastarla.
+
+| Recurso | Mejor Uso | Evitar Gastar En | Prioridad de Renovación |
+| --- | --- | --- | --- |
+| Oro | Mejora de equipamiento del equipo central | Unidades aleatorias de bajo nivel | Media |
+| Materiales de EXP | Solo las cinco unidades principales | Suplentes | Alta |
+| Moneda de invocación | Banners con tasa aumentada para unidades clave | Grupo estándar cuando hay rate-up activo | Alta |
+| Fichas de arena | Fragmentos de equipamiento exclusivos de tienda | Compras impulsivas de cosméticos | Media |
+| Moneda de evento | Unidades por tiempo limitado y materiales raros | Artículos comunes cultivables | La más alta durante eventos |
+
+<CardGrid cols={3}>
+  <Card title="Gaste en Rate-Ups">
+    - **Los banners con probabilidades aumentadas** ofrecen el mejor valor esperado
+    - Ahorre moneda entre banners si ninguno es relevante
+    - Las unidades de evento suelen definir los picos de poder del juego medio
+  </Card>
+  <Card title="Cultive lo Escaso">
+    - Identifique su cuello de botella actual cada semana
+    - Dirija la resistencia hacia ese único déficit
+    - Los materiales de equipamiento suelen importar más que el EXP de unidades después del juego medio
+  </Card>
+  <Card title="Acumule Moneda de Evento">
+    - **Los eventos limitados** ofrecen el mejor retorno por punto
+    - Las fichas de evento sin gastar suelen convertir mal después de que el evento termina
+    - Priorice artículos exclusivos sobre comunes cultivables
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Hábito de Auditoría Semanal">
+Una vez por semana, revise a dónde fueron realmente sus recursos. Si más de un tercio de su gasto fue a unidades no centrales o artículos no esenciales de tienda, ajústelo la semana siguiente. Las pequeñas fugas se acumulan en semanas de progreso perdido.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Construcción de Equipos y Fundamentos de Combate">
+
+Una composición de equipo funcional supera a una colección de unidades fuertes. Primero equilibre los roles, luego refine la sinergia.
+
+| Rol | Función | Cantidad Ideal | Notas |
+| --- | --- | --- | --- |
+| Tanque | Absorbe daño, protege la retaguardia | 1 | Priorice estadísticas de supervivencia |
+| DPS Principal | Fuente principal de daño | 1-2 | Concéntrese plenamente en estadísticas ofensivas |
+| Soporte/Healer | Sostenimiento y buffs | 1-2 | A menudo marca la diferencia en combates largos |
+| Utilidad/Debuffer | Control de masas, debilitar enemigos | 0-1 | Situacional, valioso en contenido difícil |
+
+<Callout type="tip" title="Primero la Cobertura de Roles">
+Antes de perseguir niveles de rareza, confirme que su escuadrón cubre tanqueo, curación y daño. Un equipo equilibrado de rareza común completa más etapas que un equipo desequilibrado de unidades raras.
+</Callout>
+
+Para etapas difíciles, ajuste su enfoque en lugar de forzar niveles a la bruta:
+
+- Reintente con un orden de habilidades diferente antes de gastar materiales de mejora.
+- Reposicione o cambie una unidad para contrarrestar la composición enemiga.
+- Verifique si la etapa tiene una mecánica (temporizadores de enfurecimiento, escudos, oleadas) que premia un contraataque específico.
+- Solo invierta recursos una vez confirmado que el muro es un problema de estadísticas, no de estrategia.
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Hitos de Progresión">
+
+Siga estos hitos en orden. Cada uno desbloquea acceso a sistemas significativos o una mejora permanente de poder.
+
+<Checklist
+  id="won-progression-milestones"
+  title="Hitos Fundamentales de la Cuenta:"
+  items={[
+    "Completar el tutorial y desbloquear todos los modos principales del juego",
+    "Establecer un equipo central de cinco unidades con roles definidos",
+    "Alcanzar una rutina diaria constante de misiones completadas",
+    "Unirse a una alianza activa y participar en contenido grupal",
+    "Mejorar completamente los sets de equipamiento de su equipo central",
+    "Completar el primer nivel importante de dificultad de endgame",
+    "Construir un equipo secundario para contenido multimodo"
+  ]}
+/>
+
+<Callout type="info" title="Expectativas de Ritmo">
+La mayoría de las cuentas alcanzan el primer muro de progresión significativo en unas pocas semanas de juego casual. Chocar con un muro es normal e intencional; marca la transición del subida de niveles a la optimización de equipamiento, no un callejón sin salida.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la decisión temprana más importante en esta guía de progresión de World of Nukes?",
+    answer: "Elegir y comprometerse con un equipo central de cinco unidades. Repartir materiales de mejora entre muchas unidades al principio es la razón más común de estancamiento, porque ningún equipo alcanza el poder necesario para romper los muros de las etapas."
+  },
+  {
+    question: "¿Debo gastar la moneda de invocación tan pronto como la gane?",
+    answer: "Generalmente no. Ahorrar para banners con tasa aumentada que presenten unidades que su equipo realmente necesita ofrece mejor valor esperado que invocar en grupos estándar. Los banners limitados por evento suelen ser los objetivos más fuertes para la moneda ahorrada."
+  },
+  {
+    question: "¿Qué debo hacer cuando alcance un muro de progresión?",
+    answer: "Primero reintente la etapa con tácticas diferentes y tiempos de habilidades alternativos, ya que muchos muros son problemas de estrategia y no de estadísticas. Si el problema son las estadísticas, dirija su cultivo hacia la mejora de equipamiento de su equipo central en lugar de subir de nivel nuevas unidades."
+  },
+  {
+    question: "¿Es realmente necesario unirse a una alianza?",
+    answer: "Para una progresión eficiente, sí. La pertenencia a una alianza proporciona recompensas pasivas, moneda de tienda y acceso a contenido grupal que los jugadores en solitario no pueden obtener en otro lugar. Una alianza activa promedio supera a las de élite inactivas en cuanto a ganancias prácticas."
+  }
+]} />
+
+</Section>
+
+## Lecturas Relacionadas
+
+- [Recompensas de World of Nukes: Análisis Completo y Consejos](/es/progression/World-of-Nukes-rewards)
+- [Mejoras en World of Nukes: Orden de Progresión y Consejos](/es/progression/World-of-Nukes-upgrades)
+- [Códigos de World of Nukes: Estado Actual y Canales de Acceso](/es/codes/World-of-Nukes-codes)

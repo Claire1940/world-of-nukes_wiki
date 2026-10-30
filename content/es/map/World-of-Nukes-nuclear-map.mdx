@@ -1,0 +1,182 @@
+import { Map, Swords, Target, Shield, Trophy, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mapa Nuclear de World of Nukes: Etapas de Escalada y Objetivos",
+  description: "Explora el mapa nuclear de World of Nukes: etapas de escalada, objetivos de ataque prioritarios, zonas de lluvia radiactiva y efectos del invierno.",
+  category: "map",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Nuclear+Map+Guide",
+  date: "2026-10-30",
+  author: "Equipo de Wiki de World of Nukes"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mapa nuclear de World of Nukes**: una visualización de cómo se desarrolla, etapa por etapa, un intercambio nuclear global
+- **Modelo de escalada**: provocación, intercambio táctico, ataque estratégico, fase contravalor, lluvia radiactiva e invierno nuclear
+- **Objetivos prioritarios**: silos de misiles, bases militares, redes eléctricas, presas y las 30 ciudades más pobladas por bloque
+- **Estimaciones de bajas**: aproximadamente 3 millones en la fase táctica, aumentando hacia más de 5 mil millones en dos años de invierno nuclear
+- **Conclusión clave**: el mapa existe para ilustrar consecuencias, no para predecir ningún conflicto específico
+</Callout>
+
+<Section icon={Map} title="Qué Muestra el Mapa Nuclear de World of Nukes">
+
+El mapa nuclear de World of Nukes es una visualización basada en escenarios que rastrea cómo un conflicto nuclear podría escalar desde una única detonación táctica hasta un intercambio global completo. Superpone tres tipos de información sobre un mapa mundial: **objetivos de ataque**, **patrones de propagación de la lluvia radiactiva** y **efectos climáticos posteriores** como la cobertura de ceniza y las caídas de temperatura.
+
+A diferencia de un rastreador de conflictos en vivo, el mapa nuclear es una herramienta de modelado. Cada zona de color representa una etapa de la escalada, y cada grupo de marcadores corresponde a una categoría de objetivo: contrafuerza (militar) o contravalor (ciudades e industria).
+
+<CardGrid cols={3}>
+  <Card title="Capa de Contrafuerza">
+    - Silos de misiles y complejos de lanzamiento
+    - Bases aéreas y bases de submarinos
+    - Nodos de mando y control
+  </Card>
+  <Card title="Capa de Contravalor">
+    - 30 ciudades más pobladas por bloque
+    - Centros industriales y económicos
+    - Presas e infraestructura eléctrica
+  </Card>
+  <Card title="Capa de Consecuencias">
+    - Penachos de lluvia radiactiva
+    - Zonas de deposición de ceniza
+    - Bandas de anomalías de temperatura
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Contexto Importante">
+Las cifras de bajas y los recuentos de objetivos referenciados en esta guía provienen de escenarios de simulación abiertos y estimaciones de estilo planificación filtrada. Son supuestos de modelado, no planes de guerra confirmados. Trate el mapa nuclear como una ilustración educativa de la lógica de escalada.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Etapas de Escalada en el Mapa">
+
+Todo modelo creíble de intercambio nuclear divide el conflicto en etapas discretas. El mapa nuclear de World of Nukes sigue una progresión de cuatro etapas, y cada etapa ilumina nuevas regiones del mapa.
+
+<Steps>
+  <Step num="1" title="Etapa 0 - Provocación">
+    Una única detonación nuclear táctica, modelada con 30.000–40.000 bajas inmediatas, crea una nube localizada que deriva a través de las fronteras. Este es el evento detonante que convierte un conflicto convencional en uno nuclear.
+  </Step>
+  <Step num="2" title="Etapa 1 - Intercambio Táctico">
+    Aproximadamente 300 ojivas se lanzan contra bases de la OTAN y fuerzas en avance, respondidas por unas 180 ojivas lanzadas desde el aire. Las bajas estimadas alcanzan los 3 millones. El mapa se ilumina en toda Europa Central y Oriental.
+  </Step>
+  <Step num="3" title="Fase de Ataque Estratégico">
+    La OTAN lanza aproximadamente 700 ojivas desde plataformas terrestres y submarinas contra las fuerzas nucleares rusas y chinas. Los lanzamientos de advertencia responden de igual manera. Las bajas aumentan a un estimado de 6 millones mientras ambos bloques atacan la capacidad del otro de retaliar o reconstruirse.
+  </Step>
+  <Step num="4" title="Guerra de Derrota">
+    Una vez que un lado concluye que la guerra no puede ganarse, los objetivos cambian hacia la destrucción máxima: ciudades, industria y objetivos no convencionales como ojivas en alta mar destinadas a generar tsunamis contra ciudades costeras, o ataques dirigidos a la caldera de Yellowstone.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Cómo Leer el Mapa">
+Céntrese en la densidad de objetivos en lugar del número bruto de ojivas. La calidad del ataque — golpear la generación de energía, las funciones de gobierno y la industria — determina si un estado puede recuperarse, no la cantidad de detonaciones.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Objetivos de Ataque Prioritarios y Por Qué Importan">
+
+La selección de objetivos sigue una lógica estricta: primero neutralizar las armas del enemigo, luego eliminar su capacidad de reconstrucción. La tabla siguiente resume la jerarquía de objetivos utilizada en el modelo del mapa nuclear.
+
+| Prioridad | Categoría de Objetivo | Ejemplos en el Mapa | Propósito Estratégico |
+|---|---|---|---|
+| 1 | Silos de lanzamiento de misiles | Campos de ICBM, complejos de lanzamiento | Prevenir el segundo ataque |
+| 2 | Instalaciones militares | Bases aéreas, bases de submarinos, depósitos | Degradar la respuesta convencional |
+| 3 | Mando y gobierno | Capitales, búnkeres de mando | Descabezar la toma de decisiones |
+| 4 | Infraestructura eléctrica | Plantas de generación, nodos de red | Colapso irreversible del estado |
+| 5 | Grandes ciudades | 30 principales ciudades por bloque, 5–10 ojivas cada una | Destrucción contravalor |
+| 6 | Objetivos no convencionales | Ojivas de tsunami en alta mar, caldera de Yellowstone | Daño a escala continental |
+
+Un patrón de ataque dirigido a la caldera de Yellowstone ilustra el extremo del modelo. Tal detonación podría teóricamente desencadenar una erupción que liberaría 1.000–2.500 kilómetros cúbicos de partículas sólidas, dejando capas de ceniza de hasta un metro de profundidad en un radio de 2.000–3.000 km y de hasta 0,3 m en gran parte de Norteamérica.
+
+<Callout type="info" title="Por Qué las Ciudades son las Últimas">
+Las ciudades son atacadas en la fase final de "guerra de derrota" porque golpearlas temprano desperdicia ojivas que se usan mejor contra las fuerzas nucleares del enemigo. El cambio hacia objetivos contravalor indica que un lado ha renunciado a ganar y se concentra puramente en infligir daño.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Zonas de Lluvia Radiactiva e Invierno Nuclear">
+
+Después de que termina el intercambio, el mapa cambia de carácter. Los marcadores de explosión se desvanecen y son reemplazados por dos superposiciones en expansión: la lluvia radiactiva y la ceniza atmosférica.
+
+**La propagación de la lluvia radiactiva** sigue los patrones del viento, contaminando regiones lejos de cualquier detonación. La exposición a dosis altas causa síndrome agudo de radiación — náuseas, vómitos, diarrea y fatiga — que puede ser fatal en casos graves.
+
+Los efectos del **invierno nuclear** son la característica definitoria de la capa de consecuencias:
+
+| Efecto | Rango Modelado | Representación en el Mapa |
+|---|---|---|
+| Capa de ceniza (zona cercana) | Hasta 1 m de profundidad en ~3.000 km | Sombreado gris oscuro |
+| Capa de ceniza (continental) | Hasta 0,3 m en el territorio restante | Sombreado gris claro |
+| Duración de la ceniza atmosférica | 2–4 años mínimo | Superposición de neblina planetaria |
+| Caída de temperatura | Las estimaciones van de 3–5°C hasta 20°C | Bandas de anomalías azules |
+| Impacto en la aviación | Vuelos cancelados globalmente durante años | Superposición de prohibición de vuelo |
+
+La biosfera ecuatorial, adaptada a temperaturas casi constantes, sufre el daño ecológico más severo — las formas de vida superiores podrían desaparecer casi por completo incluso donde los bosques no se quemen. Las regiones del norte corren distinta suerte según la temporada, ya que la llegada del invierno sorprende a la flora y fauna en anabiosis.
+
+<Callout type="warning" title="Estimación del Resultado Total">
+Los escenarios de intercambio completo proyectan que hasta más de 5 mil millones de personas podrían morir en dos años por los efectos combinados de explosiones, radiación y hambruna. Estas cifras subrayan por qué el mensaje final del mapa es la prevención y la cooperación global.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Cronología de Bajas por Etapa">
+
+| Etapa | Evento | Bajas Estimadas | Impacto Acumulado |
+|---|---|---|---|
+| Etapa 0 | Ataque táctico de provocación | 30.000–40.000 | Localizado |
+| Etapa 1 | Intercambio táctico (~480 ojivas) | ~3 millones | Colapso regional |
+| Fase estratégica | Ataque de 700 ojivas más lanzamientos de advertencia | ~6 millones | Destrucción continental |
+| Fase contravalor | Ataques a 30 ciudades por bloque, cada una con 5–10 ojivas | Decenas de millones | Colapso del estado |
+| Escenario Yellowstone | Erupción desencadenada por supervolcán | 50–80 millones en las primeras horas | Devastación continental |
+| Invierno nuclear | Hambruna, frío, pérdida de ecosistemas | Hasta ~5+ mil millones en 2 años | Amenaza civilizatoria global |
+
+<Checklist
+  id="map-reading-checklist"
+  title="Cómo Leer el Mapa Nuclear Correctamente:"
+  items={[
+    "Identifique si cada marcador es contrafuerza o contravalor",
+    "Siga el orden de las etapas de escalada en lugar de detonaciones aisladas",
+    "Rastree los penachos de lluvia radiactiva a favor del viento de cada grupo de ataques",
+    "Verifique las bandas de profundidad de ceniza para zonas de colapso agrícola",
+    "Tenga en cuenta que las cifras de bajas son estimaciones de escenario, no predicciones"
+  ]}
+/>
+
+<Callout type="success" title="El Propósito del Mapa">
+El mapa nuclear de World of Nukes es, en última instancia, un instrumento educativo. Al visualizar la lógica de escalada, la propagación de la lluvia radiactiva y el invierno nuclear, hace concretas las consecuencias abstractas de la guerra nuclear — reforzando el argumento a favor de la cooperación global y la prevención.
+</Callout>
+
+</Section>
+
+<Section icon={AlertTriangle} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué es el mapa nuclear de World of Nukes?",
+    answer: "Es una visualización basada en escenarios que representa cómo un conflicto nuclear escala desde una única detonación táctica hasta un intercambio estratégico completo, mostrando objetivos de ataque, zonas de lluvia radiactiva y efectos del invierno nuclear etapa por etapa."
+  },
+  {
+    question: "¿Qué objetivos son atacados primero en el modelo?",
+    answer: "Los objetivos de contrafuerza van primero: silos de misiles, bases militares y nodos de mando. Las ciudades y los centros industriales son atacados más tarde, durante la fase contravalor de 'guerra de derrota', cuando un lado abandona toda esperanza de ganar."
+  },
+  {
+    question: "¿Cuántas bajas proyecta el modelo?",
+    answer: "Aproximadamente 3 millones en la fase de intercambio táctico, 6 millones después de la fase de ataque estratégico, 50–80 millones en las primeras horas de un escenario tipo Yellowstone, y en última instancia hasta unos 5 mil millones de muertes en dos años por el invierno nuclear y la hambruna."
+  },
+  {
+    question: "¿Cuánto durarían las condiciones del invierno nuclear?",
+    answer: "La capa de ceniza modelada podría permanecer en la atmósfera durante al menos 2–4 años, bloqueando la luz solar, cancelando la aviación y reduciendo las temperaturas globales desde 3–5°C hasta 20°C dependiendo del escenario."
+  }
+]} />
+
+</Section>
+
+## Lecturas Relacionadas
+
+- [Mapa Mundial de World of Nukes: Potencias Nucleares, Arsenales](/es/map/World-of-Nukes-world-map)
+- [Ubicaciones de World of Nukes: Guía de Mapa de Islas](/es/map/World-of-Nukes-locations)
+- [Radio de Explosión Nuclear en World of Nukes: Cobertura de Ataque](/es/simulation/World-of-Nukes-nuclear-blast-radius)

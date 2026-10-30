@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Compass } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mapa de World of Nukes: Distribución de Zonas y Guía",
+  description: "Aprende la distribución del mapa de World of Nukes, las ubicaciones clave, las zonas de radiación y las rutas más rápidas para farmear y explorar en esta.",
+  category: "map",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=World+of+Nukes+Map",
+  date: "2026-10-30",
+  author: "Equipo del Wiki de World of Nukes"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **mapa de World of Nukes** está dividido en zonas temáticas con niveles crecientes de peligro y recompensas.
+- Las **zonas de radiación** requieren equipo de protección antes de entrar, así que prepárate antes de cruzar las fronteras.
+- Los **puntos de viaje rápido** se desbloquean de forma permanente al descubrirlos, reduciendo drásticamente el tiempo de viaje.
+- La **densidad de botín** aumenta con la distancia del área de aparición, recompensando la exploración profunda.
+- El **conocimiento del mapa** es la mayor ventaja de supervivencia tanto para jugadores nuevos como veteranos.
+</Callout>
+
+<Section icon={Map} title="Descripción General del Mapa de World of Nukes">
+
+El mapa de World of Nukes está construido alrededor de un páramo post-nuclear donde la seguridad y la oportunidad se encuentran en extremos opuestos del mismo camino. La región de aparición es deliberadamente indulgente: los enemigos son débiles, los suministros son comunes y los vendedores están cerca unos de otros. A medida que avanzas hacia afuera, el terreno cambia, la radiación aumenta y la calidad del botín sube drásticamente.
+
+Comprender la distribución general es la primera habilidad que todo superviviente debe dominar. En lugar de vagar sin rumbo, trata el mapa como una serie de anillos concéntricos, cada uno con su propio nivel de amenaza, tipos de recursos y requisitos de progresión.
+
+<CardGrid cols={3}>
+  <Card title="Anillo de Aparición">
+    - **Nivel de amenaza bajo**
+    - Suministros básicos y misiones iniciales
+    - Acceso seguro a vendedores
+    - Ideal para subir de nivel al principio
+  </Card>
+  <Card title="Páramo Intermedio">
+    - **Peligro moderado**
+    - Mejores caídas de armas y armaduras
+    - Aparecen los primeros focos de radiación
+    - Requiere equipo mejorado
+  </Card>
+  <Card title="Zonas Profundas">
+    - **Alta amenaza, alta recompensa**
+    - Materiales raros y enemigos de élite
+    - Radiación intensa en algunos lugares
+    - Territorio de farmeo de endgame
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo Profesional">
+Abre la pantalla del mapa con frecuencia y marca manualmente los puntos de referencia descubiertos. El mapa del juego no siempre etiqueta los puntos de interés, por lo que los marcadores personales se convierten en tu herramienta de navegación más confiable en sesiones largas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Ubicaciones Clave y Qué Ofrecen">
+
+Cada ubicación importante en el mapa de World of Nukes tiene un propósito, ya sea comerciar, curar, fabricar o saquear en zonas de alto riesgo. Aprender qué ubicación responde a cada necesidad te ahorra horas de retroceder.
+
+| Tipo de Ubicación | Función Principal | Nivel de Amenaza | Nivel Recomendado |
+| --- | --- | --- | --- |
+| Asentamientos | Vendedores, misiones, almacenamiento | Seguro | Todos los niveles |
+| Ciudades en ruinas | Botín, farmeo de chatarra | Bajo-Medio | 5+ |
+| Puestos militares | Armas, escondites de munición | Medio-Alto | 15+ |
+| Búnkeres | Equipo raro, encuentros con jefes | Alto | 25+ |
+| Zonas de cráteres | Materiales únicos, radiación | Muy Alto | 30+ |
+
+<Callout type="warning" title="Advertencia de Radiación">
+Las zonas de cráteres y de explosiones infligen daño de radiación continuo. Sin el equipo de protección adecuado o antídotos consumibles, incluso los jugadores de alto nivel pueden caer en segundos. Lleva siempre suministros antirradiación cuando te dirijas a estas regiones.
+</Callout>
+
+Más allá de la tabla anterior, ten en cuenta estos datos de navegación:
+
+- Los **asentamientos** funcionan también como puntos de reaparición, por lo que descubrir cada uno extiende eficazmente tu red de seguridad por todo el mapa.
+- Las **ciudades en ruinas** reponen el botín en un temporizador, lo que las convierte en paradas de farmeo recurrentes y confiables en lugar de visitas únicas.
+- Los **búnkeres** a menudo contienen puertas cerradas que requieren llaves que se encuentran en otras partes del mapa, fomentando rutas de exploración en bucle.
+- Las **zonas de cráteres** con frecuencia albergan los materiales de fabricación más raros, por eso los jugadores de endgame aceptan el riesgo de la radiación.
+
+</Section>
+
+<Section icon={Compass} title="Paso a Paso: Mapear el Páramo Eficientemente">
+
+Un orden de exploración estructurado convierte el mapa de un peligro en una hoja de ruta. Sigue esta secuencia al comenzar con un personaje nuevo o al reaprender el terreno tras una actualización.
+
+<Steps>
+  <Step num="1" title="Asegura la Región de Aparición">
+    Completa las misiones iniciales, acumula comida y agua, y explora completamente el área inmediata alrededor del punto de aparición antes de cruzar al páramo intermedio. Una base de suministros sólida evita retiradas forzadas más adelante.
+  </Step>
+  <Step num="2" title="Descubre Todos los Asentamientos">
+    Prioriza encontrar cada asentamiento del mapa. Cada uno desbloquea viaje rápido, vendedores y un punto de reaparición, lo que mejora permanentemente todas tus futuras partidas.
+  </Step>
+  <Step num="3" title="Establece Rutas de Farmeo">
+    Conecta 3-4 ciudades en ruinas en un bucle repetitivo que pase por un asentamiento para vender y reabastecer. Los bucles eficientes siempre superan al saqueo aleatorio.
+  </Step>
+  <Step num="4" title="Equípate para los Búnkeres">
+    Usa los ingresos de las rutas de farmeo para mejorar armas y armaduras hasta que puedas manejar los puestos militares, y luego usa el botín de los puestos para prepararte para las incursiones a búnkeres.
+  </Step>
+  <Step num="5" title="Conquista las Zonas de Radiación">
+    Entra a las zonas de cráteres solo cuando tengas protección contra la radiación confiable y suministros de curación. Estas áreas son el nivel final de la progresión del mapa.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Eficiencia de Rutas">
+Los jugadores que desbloquean todos los puntos de viaje rápido al principio suelen reducir su tiempo total de viaje en más de la mitad a lo largo de una partida completa. El descubrimiento es una inversión que se paga sola.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Comparación de Peligro y Botín por Zona">
+
+No todas las regiones recompensan el mismo esfuerzo. Esta comparación desglosa la relación riesgo-recompensa para que decidas dónde invertir mejor tu tiempo.
+
+| Tipo de Zona | Calidad del Botín | Densidad de Enemigos | Riesgo de Radiación | Valor de Farmeo |
+| --- | --- | --- | --- | --- |
+| Región de aparición | ★★ | Baja | Ninguno | ★★ |
+| Ciudades en ruinas | ★★★ | Media | Raro | ★★★★ |
+| Puestos militares | ★★★★ | Alta | Bajo | ★★★★ |
+| Búnkeres | ★★★★★ | Muy Alta | Medio | ★★★★ |
+| Zonas de cráteres | ★★★★★ | Alta | Muy Alto | ★★★ (solo materiales) |
+
+<Callout type="info" title="Cómo Leer la Tabla">
+El valor de farmeo refleja las visitas repetidas, no las limpiezas de una sola vez. Los búnkeres ofrecen el mejor botín por incursión individual, pero las ciudades en ruinas a menudo los superan en una hora de bucle porque los enemigos son más fáciles y el viaje es más corto.
+</Callout>
+
+Tu ubicación de farmeo ideal también depende de tu objetivo actual:
+
+- **Ganar moneda rápido:** recorre en bucle ciudades en ruinas cerca de un asentamiento para viajes de venta rápidos.
+- **Mejorar armas:** apunta a los puestos militares para obtener munición y caídas de armas.
+- **Buscar equipo raro:** las incursiones a búnkeres ofrecen el mayor techo, con el mayor riesgo.
+- **Fabricar objetos de endgame:** los materiales de cráter son obligatorios, así que planifica primero la protección.
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Objetivos de Navegación">
+
+Sigue tu dominio del mapa con esta lista de verificación. Completarla significa que has transformado el páramo de un laberinto en una herramienta.
+
+<Checklist
+  id="map-mastery"
+  title="Hitos de Dominio del Mapa:"
+  items={[
+    "Explora toda la región de aparición y termina las misiones iniciales",
+    "Descubre cada asentamiento y desbloquea todos los puntos de viaje rápido",
+    "Construye una ruta de farmeo repetible de 3-4 ubicaciones",
+    "Limpia con éxito tu primer puesto militar",
+    "Completa una incursión completa a un búnker extrayendo botín raro",
+    "Sobrevive a un viaje a una zona de cráter con materiales que demostrarlo"
+  ]}
+/>
+
+<Callout type="tip" title="Ventaja del Juego en Grupo">
+Viajar con un escuadrón cambia por completo las matemáticas del mapa. Los equipos pueden dividirse las rutas de botín, cubrirse en los combates de búnker y compartir suministros de radiación, abriendo las zonas profundas mucho antes de lo que permite el juego en solitario.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "¿Qué tan grande es el mapa de World of Nukes?",
+    answer: "El mapa está dividido en múltiples regiones temáticas que abarcan áreas de aparición seguras, páramo de nivel intermedio y zonas profundas de radiación. Más que el tamaño en sí, lo que más importa es cuántos puntos de viaje rápido has desbloqueado, ya que el descubrimiento es lo que determina la velocidad práctica de viaje."
+  },
+  {
+    question: "¿Necesito equipo de radiación para todo el mapa?",
+    answer: "No. La radiación está concentrada en zonas específicas como los cráteres y ciertas secciones de búnkeres. La mayor parte del mapa, incluidos los asentamientos y las ciudades en ruinas, está a salvo de la radiación. Consulta la tabla de zonas anterior antes de salir para llevar equipo protector solo donde sea necesario."
+  },
+  {
+    question: "¿Cuál es la forma más rápida de aprender el mapa de World of Nukes?",
+    answer: "Prioriza descubrir primero los asentamientos, ya que cada uno desbloquea viaje rápido y un punto de reaparición. Luego construye un breve bucle de farmeo por las ciudades en ruinas cercanas. Este enfoque te da anclas seguras y rutas eficientes antes de intentar áreas de alto riesgo."
+  },
+  {
+    question: "¿Puedo acceder a zonas profundas con un nivel bajo?",
+    answer: "Técnicamente el mapa está abierto, pero las zonas profundas contienen enemigos de alto nivel y radiación que los jugadores de nivel bajo no pueden sobrevivir de manera confiable. Es más eficiente progresar por los niveles de regiones en orden, mejorando el equipo a medida que avanzas, en lugar de apresurarte hacia los búnkeres o cráteres demasiado pronto."
+  }
+]} />
+
+</Section>
+
+## Lecturas Relacionadas
+
+- [Guía del mapa de World of Nukes: Distribución de la isla](/es/map/World-of-Nukes-map-guide)
+- [Mapa Nuclear de World of Nukes: Etapas de Escalada y Objetivos](/es/map/World-of-Nukes-nuclear-map)
+- [Radio de Explosión Nuclear en World of Nukes: Cobertura de Ataque](/es/simulation/World-of-Nukes-nuclear-blast-radius)

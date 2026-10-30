@@ -1,0 +1,196 @@
+import { Map, Target, Shield, Trophy, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "¿Quién Tiene Más Armas Nucleares?",
+  description: "Descubre qué países poseen los mayores arsenales nucleares, cómo se comparan las nueve potencias nucleares y por qué Rusia y EE.",
+  category: "countries",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Global+Nuclear+Arsenals",
+  date: "2026-10-30",
+  author: "Equipo de World of Nukes Wiki"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Quién tiene más armas nucleares**: Rusia posee el mayor arsenal nuclear del mundo, seguida de cerca por Estados Unidos
+- **Nueve estados nucleares**: EE. UU., Rusia, Reino Unido, Francia, China, India, Pakistán, Israel, Corea del Norte
+- **Total global**: Los investigadores estiman que existen más de **12.000 ojivas** en todo el mundo
+- **División legal**: Solo cinco naciones son reconocidas como estados poseedores de armas nucleares bajo el TNP
+- **Tendencia clave**: Aunque los arsenales totales se han reducido desde la Guerra Fría, varias potencias se están modernizando y expandiendo
+</Callout>
+
+<Section icon={Target} title="¿Quién Tiene Más Armas Nucleares? La Cúspide del Ranking">
+
+Cuando se trata de la pregunta de quién tiene más armas nucleares, dos naciones se sitúan muy por encima del resto. **Rusia** posee el mayor arsenal nuclear del mundo con unas 5.500+ ojivas estimadas, mientras que **Estados Unidos** le sigue de cerca con aproximadamente 5.000+. Juntas, estas dos potencias controlan alrededor del **90% de todas las armas nucleares del planeta** — un legado de la carrera armamentística de la Guerra Fría que comenzó con la primera prueba atómica en el desierto de Nuevo México el 16 de julio de 1945.
+
+La brecha entre estas dos superpotencias y el resto del mundo nuclear es enorme. Ninguna otra nación se les acerca, y los siete estados nucleares restantes poseen colectivamente solo una fracción del arsenal global total, que los investigadores estiman en más de 12.000 ojivas — incluyendo armas listas para su uso, en almacenamiento o retiradas a la espera de ser desmanteladas.
+
+Así se clasifican los nueve estados con armas nucleares según el tamaño estimado de su arsenal:
+
+| Puesto | País | Ojivas Estimadas | Estado en el TNP |
+|------|---------|-------------------|------------|
+| 1 | **Rusia** | ~5.500+ | Signatario (reconocido) |
+| 2 | **Estados Unidos** | ~5.000+ | Signatario (reconocido) |
+| 3 | **China** | ~600 (en crecimiento) | Signatario (reconocido) |
+| 4 | **Francia** | ~290 | Signatario (reconocido) |
+| 5 | **Reino Unido** | ~225 | Signatario (reconocido) |
+| 6 | **Pakistán** | ~170 | Nunca firmó |
+| 7 | **India** | ~170 | Nunca firmó |
+| 8 | **Israel** | ~90 (estimado) | Nunca firmó |
+| 9 | **Corea del Norte** | ~50 | Se retiró en 2003 |
+
+<Callout type="warning" title="Estimaciones, No Cifras Oficiales">
+Los recuentos exactos de ojivas son secretos de Estado. Israel mantiene una política de **ambigüedad estratégica**, sin confirmar ni negar jamás su arsenal, mientras que las cifras de Corea del Norte y China dependen de proyecciones de analistas y no de declaraciones oficiales. Trate todos los números como estimaciones fundamentadas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cómo las Nueve Potencias Nucleares Obtuvieron Sus Armas">
+
+Para entender quién tiene más armas nucleares hay que analizar cómo se construyeron estos arsenales. Estados Unidos detonó el primer dispositivo nuclear del mundo en 1945 y lanzó dos bombas sobre Hiroshima y Nagasaki semanas después, matando a más de 200.000 personas e inaugurando la era nuclear. A medida que la Guerra Fría se afianzaba, el Reino Unido, Francia y Rusia (la Unión Soviética) desarrollaron sus propias armas, y China se unió con asistencia soviética.
+
+Para la década de 1960, estas cinco naciones se habían consolidado como las potencias nucleares del mundo. Temiendo una mayor proliferación, la ONU creó el **Tratado de No Proliferación (TNP)**, que esencialmente permite a cualquier nación que probó un arma antes de 1967 conservar su arsenal, mientras impide que todos los demás signatarios adquieran uno.
+
+| País | Hito Clave | Cómo Obtuvieron las Armas |
+|---------|--------------|---------------------------|
+| Estados Unidos | Primera prueba en 1945 | Proyecto Manhattan, programa propio |
+| Rusia | Primera prueba en 1949 | Programa soviético, con ayuda del espionaje |
+| Reino Unido | Primera prueba en 1952 | Programa propio, cooperación con EE. UU. |
+| Francia | Primera prueba en 1960 | Programa nacional independiente |
+| China | Primera prueba en 1964 | Asistencia soviética inicial |
+| Israel | No declarado | Instalación secreta de Dimona, ayuda francesa |
+| India | Prueba "pacífica" de 1974 | Plutonio de un reactor de Átomos para la Paz |
+| Pakistán | Pruebas de 1998 | Planos de enriquecimiento robados por A.Q. Khan |
+| Corea del Norte | Primera prueba en 2006 | Cimientos de la era soviética, red de A.Q. Khan |
+
+<CardGrid cols={3}>
+  <Card title="Los Cinco Reconocidos">
+    - EE. UU., Rusia, Reino Unido, Francia, China
+    - Probaron antes de **1967**
+    - Estados poseedores de armas nucleares legales bajo el TNP
+    - Comprometidos con el desarme "de buena fe"
+  </Card>
+  <Card title="Los No Signatarios">
+    - **Israel, India, Pakistán**
+    - Nunca se adhirieron al TNP
+    - Conservaron un vacío legal para construir armas
+    - Sin poderes de inspección de la ONU sobre sus instalaciones
+  </Card>
+  <Card title="El Que Se Retiró">
+    - **Corea del Norte**
+    - Firmó el TNP, se retiró en 2003
+    - Probó su primer dispositivo en 2006
+    - Noveno estado con armas nucleares
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Átomos para la Paz Tuvo un Lado Oscuro">
+La iniciativa Átomos para la Paz del presidente Eisenhower en los años cincuenta, concebida para orientar el desarrollo nuclear hacia la energía y la investigación, suministró accidentalmente a varios futuros estados con armas. India recibió materiales nucleares de EE. UU. y un reactor de Canadá — tecnología que luego usó para su primera prueba.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="El Modelo Israelí: Ambigüedad Estratégica">
+
+Israel representa un caso único a la hora de responder quién tiene más armas nucleares en Oriente Medio. Enfrentando la hostilidad de los estados vecinos desde su fundación en 1948, Israel comenzó trabajos secretos en el **reactor de Dimona** a finales de los años cincuenta con ayuda francesa, describiéndolo públicamente como investigación de energía nuclear.
+
+Israel nunca ha confirmado ni negado poseer armas nucleares. Lo que el mundo sabe proviene en gran parte de filtraciones, notablemente del ex técnico de Dimona **Mordechai Vanunu**, cuya revelación a un periódico británico en 1986 dejó pocas dudas sobre la importante capacidad nuclear de Israel. Vanunu fue encarcelado 18 años como consecuencia.
+
+Esta ambigüedad otorga a Israel los beneficios de la disuasión nuclear — la amenaza se entiende — evitando algunas consecuencias de ser etiquetado como un régimen nuclear no sancionado. Los rivales regionales lo consideran una total hipocresía, e Israel ha actuado militarmente para impedir que otros se unan al club nuclear, bombardeando sitios sospechosos en Irak (1981), Siria (2007) y atacando instalaciones iraníes en 2025.
+
+<Callout type="tip" title="Por Qué Esto Importa Para el Recuento">
+Como Israel nunca declara su arsenal, todas las estimaciones de su stock provienen de evaluaciones de inteligencia y filtraciones. Por eso los rankings a veces muestran el recuento de Israel con un amplio margen de incertidumbre.
+</Callout>
+
+</Section>
+
+<Section icon={AlertTriangle} title="La Cuestión Iraní y el TNP Bajo Presión">
+
+Los dos principios centrales del TNP — frenar la proliferación de armas nucleares y avanzar hacia el desarme — están siendo puestos a prueba. Irán firmó el tratado en 1968, lo que significa que legalmente se le prohíbe desarrollar armas, y siempre ha sostenido que nunca buscó una bomba.
+
+Sin embargo, EE. UU. e Israel han acusado a Irán de ocultar un programa de armas. Los satélites revelaron instalaciones secretas en **Natanz y Arak** en 2002 y en **Fordo** en 2009 — sitios construidos en parte significativa con diseños de la red de A.Q. Khan. En junio de 2025, inspectores de la ONU señalaron que Irán había incumplido sus obligaciones del TNP. Al día siguiente, Israel lanzó ataques, y EE. UU. golpeó después las instalaciones nucleares iraníes. Irán suspendió entonces la cooperación con el organismo de control de la ONU, expulsando a los inspectores.
+
+También existe preocupación por un **efecto dominó**: si los vecinos de Irán lo ven desarrollar armas, podrían buscar sus propias capacidades, expandiendo aún más el mundo nuclear.
+
+<Steps>
+  <Step num="1" title="Firmar el Tratado">
+    Un país se adhiere al TNP como estado no nuclear, obteniendo acceso a tecnología nuclear pacífica mientras renuncia a las armas.
+  </Step>
+  <Step num="2" title="Construir Infraestructura Civil">
+    Se desarrollan reactores y programas de enriquecimiento, a veces bajo cooperación estilo Átomos para la Paz, creando capacidad de doble uso.
+  </Step>
+  <Step num="3" title="La Fase de Inspección">
+    Los inspectores de la ONU verifican el uso pacífico. Instalaciones como Natanz y Fordo activaron alarmas porque su tamaño y configuración parecían inconsistentes con programas pacíficos.
+  </Step>
+  <Step num="4" title="Crisis o Cumplimiento">
+    Los estados mantienen la transparencia — o siguen el camino de Corea del Norte: expulsar inspectores, retirarse y probar. Ese trayecto llevó a Corea del Norte unos 50 años desde su primera investigación nuclear hasta su prueba de 2006.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Desarme Estancado">
+Los cinco estados nucleares reconocidos señalan las enormes reducciones de arsenales desde el pico de la Guerra Fría. Los estados no nucleares replican que los cinco se están modernizando y, en algunos casos, expandiendo sus arsenales. El compromiso de desarme sigue incumplido a fecha de 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Datos Clave y Comparaciones Regionales">
+
+Use esta lista para fijar los datos esenciales sobre los arsenales nucleares globales:
+
+<Checklist
+  id="nuclear-arsenal-facts"
+  title="Conocimiento Nuclear Esencial:"
+  items={[
+    "Rusia posee el mayor arsenal; EE. UU. es el segundo",
+    "Las dos superpotencias controlan aproximadamente el 90% de todas las ojivas",
+    "Nueve países poseen armas nucleares hoy en día",
+    "El arsenal global supera las 12.000 ojivas",
+    "Solo cinco estados están legalmente reconocidos bajo el TNP",
+    "Sudáfrica construyó armas y luego las desmanteló voluntariamente"
+  ]}
+/>
+
+Sudáfrica merece mención especial como caso histórico atípico: nunca firmó el TNP en los años sesenta, desarrolló armas en secreto en los años setenta y ochenta, y luego las desmanteló hacia el final del apartheid — la única nación que construyó su propio arsenal y luego desarmó voluntariamente. Tras el colapso soviético, Ucrania, Bielorrusia y Kazajistán también renunciaron a las armas heredadas y firmaron el tratado.
+
+<Callout type="success" title="Conclusión">
+La respuesta a quién tiene más armas nucleares se ha mantenido constante durante décadas: **Rusia primero, Estados Unidos segundo**, sin ningún rival cercano. La pregunta más dinámica en 2026 es si el club nuclear se expande más allá de los nueve miembros.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Quién tiene más armas nucleares en el mundo?",
+    answer: "Rusia posee el mayor arsenal nuclear con unas 5.500+ ojivas estimadas. Estados Unidos ocupa el segundo lugar con aproximadamente 5.000+. Juntas controlan alrededor del 90% de las más de 12.000 ojivas nucleares del mundo."
+  },
+  {
+    question: "¿Cuántos países tienen armas nucleares?",
+    answer: "Nueve países: Estados Unidos, Rusia, Reino Unido, Francia, China, India, Pakistán, Israel y Corea del Norte. Solo los primeros cinco son estados poseedores de armas nucleares legalmente reconocidos bajo el Tratado de No Proliferación."
+  },
+  {
+    question: "¿Por qué se permite a Israel, India y Pakistán conservar armas nucleares?",
+    answer: "Nunca firmaron el TNP, lo que creó un vacío legal que les permitió desarrollar armas fuera del marco del tratado. Esto también significa que los inspectores de la ONU no tienen potestad para revisar sus instalaciones nucleares."
+  },
+  {
+    question: "¿Alguna vez algún país ha renunciado a sus armas nucleares?",
+    answer: "Sí. Sudáfrica construyó un arsenal secreto y luego lo desmanteló al final del apartheid. Ucrania, Bielorrusia y Kazajistán también renunciaron a las armas heredadas de la URSS en los años noventa tras firmar el TNP."
+  },
+  {
+    question: "¿Podría Irán convertirse en el décimo estado nuclear?",
+    answer: "Los analistas creen que Irán probablemente tiene la capacidad técnica, pero a fecha de 2026 no hay evidencia confirmada de que haya construido una bomba. Tras los ataques de 2025 contra sus instalaciones, Irán suspendió la cooperación con los inspectores nucleares de la ONU."
+  }
+]} />
+
+</Section>
+
+## Lecturas Relacionadas
+
+- [Países con armas nucleares: Las 9 potencias nucleares explicadas](/es/countries/World-of-Nukes-countries-with-nukes)
+- [Ranking de Países en World of Nukes: Cómo Se Comparan](/es/countries/World-of-Nukes-country-ranking)
+- [Ubicaciones de World of Nukes: Guía de Mapa de Islas](/es/map/World-of-Nukes-locations)

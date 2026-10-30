@@ -1,0 +1,196 @@
+import { Map, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Armas Nucleares por País: Nove Potências Nucleares e Arsenais",
+  description: "Armas nucleares por país: quais nações possuem armas nucleares, como as adquiriram, tamanhos dos arsenais e o框架 do TNP explicado.",
+  category: "countries",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Nukes+by+Country",
+  date: "2026-10-30",
+  author: "Equipe do World of Nukes Wiki"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Armas nucleares por país**: Nove nações possuem armas nucleares, com um total global que excede 12.000 ogivas.
+- **Os cinco originais**: EUA, Rússia, Reino Unido, França e China são os Estados detentores de armas nucleares legalmente reconhecidos pelo TNP.
+- **Fora do tratado**: Israel, Índia e Paquistão nunca assinaram o TNP e desenvolveram arsenais de forma independente.
+- **Membro mais recente**: A Coreia do Norte tornou-se o nono Estado armado nuclearmente após seu teste de 2006.
+- **Desarmamento voluntário**: A África do Sul construiu armas nucleares e depois as desmontou — o único país a fazê-lo.
+
+</Callout>
+
+<Section icon={Map} title="Armas Nucleares por País: Os Nove Estados Armados Nuclearmente">
+
+Entender as **armas nucleares por país** começa com uma única data: 16 de julho de 1945, quando cientistas americanos detonaram o primeiro dispositivo nuclear do mundo no deserto do Novo México. Três semanas depois, bombas atômicas caíram sobre Hiroshima e Nagasaki, matando mais de 200.000 pessoas e encerrando a Segunda Guerra Mundial. Oitenta anos depois, nove países possuem armas nucleares, e pesquisadores estimam o estoque global em mais de 12.000 ogivas — incluindo unidades ativas, armazenadas e aposentadas.
+
+O clube nuclear divide-se em três níveis: as cinco potências reconhecidas por tratado, os três não signatários e o único Estado que entrou através de redes clandestinas de proliferação.
+
+| País | Status | Primeiro Teste | Status no Tratado |
+| --- | --- | --- | --- |
+| Estados Unidos | Estado detentor de armas nucleares (NWS) | 1945 | Signatário do TNP |
+| Rússia (URSS) | Estado detentor de armas nucleares | 1949 | Signatário do TNP |
+| Reino Unido | Estado detentor de armas nucleares | 1952 | Signatário do TNP |
+| França | Estado detentor de armas nucleares | 1960 | Signatário do TNP |
+| China | Estado detentor de armas nucleares | 1964 | Signatário do TNP (auxílio soviético no início) |
+| Israel | Arsenal não declarado | Nunca testado/confirmado publicamente | Nunca assinou o TNP |
+| Índia | Estado detentor de armas nucleares (não reconhecido) | 1974 | Nunca assinou o TNP |
+| Paquistão | Estado detentor de armas nucleares (não reconhecido) | 1998 | Nunca assinou o TNP |
+| Coreia do Norte | Estado armado nuclearmente | 2006 | Retirou-se do TNP em 2003 |
+
+<Callout type="tip" title="Como Funciona a Contagem">
+Cada ogiva nas estimativas globais pode estar **implantada, armazenada ou aposentada aguardando desmantelamento**. É por isso que os números totais de estoque são muito maiores do que a quantidade de armas prontas para lançamento que qualquer país mantém.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Como Cada País Construiu Seu Arsenal">
+
+Cada programa nuclear seguiu um caminho diferente — alguns por meio de competição aberta da Guerra Fria, outros por meio de sigilo, contrabando e assistência secreta.
+
+<CardGrid cols={3}>
+  <Card title="Estados Unidos e URSS">
+    - **1945**: Primeiro teste e primeiro uso em guerra
+    - A Guerra Fria impulsionou o desenvolvimento da bomba de fusão
+    - Doutrina de dissuasão: destruição mútua assegurada
+  </Card>
+  <Card title="Reino Unido, França, China">
+    - Reino Unido e França desenvolveram programas independentes
+    - A China construiu sua bomba com **ajuda soviética** no início
+    - Todos aderiram ao TNP como potências reconhecidas na década de 1960
+  </Card>
+  <Card title="Israel, Índia, Paquistão">
+    - Permaneceram fora do框架 do TNP
+    - Dependeram de instalações secretas e tecnologia estrangeira
+    - Construíram arsenais em meio a rivalidades regionais
+  </Card>
+</CardGrid>
+
+### Israel: Ambiguidade Estratégica
+
+Israel nunca confirmou nem negou a posse de armas nucleares. No final dos anos 1950, com ajuda francesa, começou a trabalhar em uma instalação secreta em Dimona, publicamente descrita como pesquisa de energia nuclear. O mundo tomou conhecimento da verdade em grande parte por meio do informante Mordechai Vanunu, ex-técnico de Dimona que vazou detalhes a um jornal britânico em 1986 e passou 18 anos em uma prisão israelense. Essa política de ambiguidade permite que Israel obtenha benefícios de dissuasão, evitando as consequências diplomáticas plenas enfrentadas por outros regimes nucleares não sancionados.
+
+### Índia e Paquistão: Uma Corrida Armamentista Regional
+
+O programa da Índia se beneficiou da iniciativa Átomos para a Paz, liderada pelos EUA — os americanos forneceram materiais nucleares, e o Canadá forneceu um reator. Após uma guerra com a China em 1962, a Índia enriqueceu plutônio secretamente e testou um dispositivo em 1974, chamando-o de "explosão nuclear pacífica". O Paquistão, que havia lutado contra a Índia apenas três anos antes, decidiu igualar-se. O físico Abdul Qadeer Khan contrabandeou projetos de enriquecimento dos Países Baixos, e a China acrescentou conhecimento técnico no final dos anos 1980. Em maio de 1998, ambas as nações realizaram sequências abertas de testes, transformando o Sul da Ásia em uma região armada nuclearmente.
+
+### Coreia do Norte: Cinquenta Anos até a Bomba
+
+O caminho nuclear da Coreia do Norte começou nos anos 1950 com assistência civil soviética, mas um programa dedicado a armas provavelmente só surgiu na década de 1970. A rede de proliferação de Khan forneceu projetos-chave. Embora originalmente signatário do TNP, a Coreia do Norte retirou-se em 2003, expulsou inspetores e testou seu primeiro dispositivo em 2006 — cerca de meio século após o início.
+
+| Caminho | Exemplo de País | Facilitador-Chave |
+| --- | --- | --- |
+| Programa acelerado em tempo de guerra | Estados Unidos | Projeto Manhattan |
+| Competição entre pares na Guerra Fria | URSS, Reino Unido, França | Desenvolvimento de bombas de fissão a fusão |
+| Transferência técnica de aliados | China | Assistência soviética |
+| Instalação secreta + ambiguidade | Israel | Construção do reator francês em Dimona |
+| Projetos de enriquecimento contrabandeados | Paquistão, alvos da rede da Líbia | Rede de proliferação de AQ Khan |
+
+<Callout type="warning" title="A Rede de AQ Khan">
+Abdul Qadeer Khan não parou no Paquistão. Ele **vendeu conhecimento sobre armas nucleares a outros países, incluindo a Coreia do Norte** — tornando sua rede um dos canais de proliferação mais consequentes da história nuclear.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="O框架 do TNP: Quem Tem Direito a Armas Nucleares">
+
+O Tratado de Não Proliferação (TNP), elaborado em meio aos temores dos anos 1960 de uma expansão nuclear infinita, criou uma linha divisória simples: qualquer nação que tivesse testado uma arma nuclear até 1967 poderia mantê-las como "Estados detentores de armas nucleares", enquanto todos os outros signatários não poderiam. A barganha central do tratado exige que esses cinco Estados trabalhem de boa-fé em direção ao desarmamento.
+
+<Steps>
+  <Step num="1" title="1945–1962: A Corrida Armamentista se Inflama">
+    Os EUA bombardeiam o Japão; a URSS, o Reino Unido, a França e a China seguem. As bombas de fusão, exponencialmente mais poderosas que os projetos de fissão de 1945, dominam o desenvolvimento desde o início dos anos 1950.
+  </Step>
+  <Step num="2" title="1953: Átomos para a Paz">
+    O discurso de Eisenhower na ONU lança uma iniciativa que direciona a tecnologia nuclear para energia e pesquisa, levando à fundação da AIEA — a fiscalizadora nuclear da ONU.
+  </Step>
+  <Step num="3" title="1968: O TNP Traça a Linha">
+    O tratado congela o status nuclear legal em cinco Estados e os obriga a buscar o desarmamento. A maior parte do mundo assina.
+  </Step>
+  <Step num="4" title="Anos 1990: Reversão Pós-Soviética">
+    Ucrânia, Bielorrússia e Cazaquistão herdam armas soviéticas, depois assinam o TNP e renunciam a elas. A África do Sul — nunca signatária — construiu secretamente dispositivos de tipo seis nos anos 1970–80 e os desmontou com o fim do apartheid.
+  </Step>
+  <Step num="5" title="1998–2006: O Tratado é Testado">
+    Índia e Paquistão testam abertamente; a Coreia do Norte se retira e detona seu primeiro dispositivo, tornando-se o nono Estado nuclear.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Por Que a África do Sul Importa">
+A África do Sul permanece como a **exceção significativa da era nuclear** — o único Estado a construir suas próprias armas nucleares e depois desmontá-las voluntariamente antes de aderir ao TNP.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="A Questão do Irã e os Riscos Modernos de Proliferação">
+
+O Irã representa o dossiê nuclear mais monitorado do mundo atualmente. Recebeu um reator americano em 1967 no âmbito do Átomos para a Paz e assinou o TNP um ano depois — o que significa que está legalmente proibido de desenvolver armas. Ainda assim, sua história é marcada por ocultações:
+
+| Ano | Evento | Significância |
+| --- | --- | --- |
+| 2002 | Locais secretos em Arak e Natanz expostos | Usina de enriquecimento construída parcialmente com **projetos de AQ Khan** |
+| 2009 | Instalação de Fordow fotografada por satélites | Configuração "incompatível com um programa pacífico" |
+| Junho de 2025 | AIEA cita violações do TNP | Irã considerado em violação de obrigações do tratado |
+| Junho de 2025 | Israel ataca, EUA seguem | Ataques à infraestrutura de enriquecimento |
+| Desdobramentos | Irã suspende cooperação com a AIEA | Inspetores impedidos do trabalho de verificação |
+
+O Irã sempre afirmou que nunca buscou uma bomba, e especialistas avaliam que provavelmente não tomou a decisão de construí-la — embora, técnica e tecnologicamente, não exista barreira que o impeça. Se o Irã cruzasse o limiar, analistas alertam sobre um **efeito dominó** no Oriente Médio, onde Estados vizinhos poderiam buscar suas próprias capacidades.
+
+Os dois princípios fundadores do TNP — deter a propagação além dos cinco e o desarmamento — estão ambos sob pressão. Os Estados nucleares apontam as enormes reduções de estoques desde o pico da Guerra Fria; os Estados não nucleares observam que todas as cinco potências reconhecidas estão modernizando e, em alguns casos, expandindo seus arsenais.
+
+<Callout type="warning" title="A Lacuna de Verificação">
+Israel, Índia e Paquistão — por nunca terem assinado o TNP — deixam os inspetores da ONU **sem poder legal para examinar suas instalações nucleares**. Após os ataques de 2025, o Irã juntou-se a eles ao fechar as portas à AIEA, enfraquecendo a verificação global.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Pesquisa: Entendendo os Arsenais Nucleares">
+
+<Checklist
+  id="nukes-by-country-study"
+  title="Fatos-Chave a Lembrar:"
+  items={[
+    "Nove países possuem armas nucleares; os estoques globais excedem 12.000 ogivas",
+    "O TNP reconhece legalmente apenas cinco Estados detentores de armas nucleares (EUA, Rússia, Reino Unido, França, China)",
+    "Israel, Índia e Paquistão permaneceram fora do TNP por escolha",
+    "A Coreia do Norte retirou-se do TNP em 2003 e testou em 2006",
+    "A África do Sul é o único Estado a construir e depois desmontar voluntariamente armas nucleares"
+  ]}
+/>
+
+<Callout type="success" title="O Panorama Geral">
+O TNP permanece como a **proa da ordem nuclear** — notavelmente bem-sucedido em limitar o clube a nove membros por oito décadas, mas sob pressão crescente à medida que as promessas de desarmamento estagnam e os riscos de proliferação regional persistem.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ: Armas Nucleares por País">
+
+<FAQ items={[
+  {
+    question: "Quantos países têm armas nucleares?",
+    answer: "Nove países atualmente possuem armas nucleares: Estados Unidos, Rússia, Reino Unido, França, China, Israel, Índia, Paquistão e Coreia do Norte. Pesquisadores estimam o total global em mais de 12.000 ogivas, contando unidades implantadas, armazenadas e aposentadas."
+  },
+  {
+    question: "Quais países têm legalmente permissão para ter armas nucleares sob o TNP?",
+    answer: "Apenas os cinco Estados detentores de armas nucleares que testaram antes de 1967 — EUA, Rússia, Reino Unido, França e China. Todos os outros signatários do TNP estão proibidos de desenvolver armas nucleares, enquanto Israel, Índia e Paquistão evitaram essa restrição ao nunca assinarem o tratado."
+  },
+  {
+    question: "Como a Coreia do Norte obteve armas nucleares?",
+    answer: "A Coreia do Norte buscou tecnologia nuclear desde os anos 1950 com assistência civil soviética, construiu um programa dedicado a armas a partir de cerca de 1970 e adquiriu projetos-chave de enriquecimento por meio da rede de proliferação de AQ Khan. Retirou-se do TNP em 2003 e testou seu primeiro dispositivo em 2006."
+  },
+  {
+    question: "Israel tem armas nucleares?",
+    answer: "Israel mantém uma política de ambiguidade estratégica, nunca confirmando nem negando seu arsenal. Evidências de vazamentos — notavelmente a revelação do informante Mordechai Vanunu em 1986 sobre a instalação de Dimona — estabeleceram que Israel possui uma importante capacidade nuclear, embora não exista confirmação oficial."
+  }
+]} />
+
+</Section>
+
+## Leituras Relacionadas
+
+- [Quem Tem as Bombas Nucleares: Ranking Global dos Arsenalistas](/pt/countries/World-of-Nukes-who-has-the-most-nukes)
+- [Países com Armas Nucleares: As 9 Potências Nucleares Explicadas](/pt/countries/World-of-Nukes-countries-with-nukes)
+- [Localizações do World of Nukes: Guia de Mapa de Ilhas e Escolha](/pt/map/World-of-Nukes-locations)

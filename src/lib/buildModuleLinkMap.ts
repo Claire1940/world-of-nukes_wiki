@@ -61,7 +61,7 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
+  // Exact phrase match in title (stripped of "World of Nukes")
   const strippedQuery = normalizedQuery.replace(/world of nukes?\s*/g, '').trim()
   const strippedTitle = normalizedTitle.replace(/world of nukes?\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {

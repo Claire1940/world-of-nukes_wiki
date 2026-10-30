@@ -1,2 +1,482 @@
 {
+  "en": {
+    "codes": [
+      {
+        "slug": "World-of-Nukes-codes",
+        "file": "World-of-Nukes-codes"
+      }
+    ],
+    "countries": [
+      {
+        "slug": "World-of-Nukes-countries-with-nukes",
+        "file": "World-of-Nukes-countries-with-nukes"
+      },
+      {
+        "slug": "World-of-Nukes-country-ranking",
+        "file": "World-of-Nukes-country-ranking"
+      },
+      {
+        "slug": "World-of-Nukes-how-many-nukes-are-in-the-world",
+        "file": "World-of-Nukes-how-many-nukes-are-in-the-world"
+      },
+      {
+        "slug": "World-of-Nukes-nuclear-powers",
+        "file": "World-of-Nukes-nuclear-powers"
+      },
+      {
+        "slug": "World-of-Nukes-nukes-by-country",
+        "file": "World-of-Nukes-nukes-by-country"
+      },
+      {
+        "slug": "World-of-Nukes-who-has-the-most-nukes",
+        "file": "World-of-Nukes-who-has-the-most-nukes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "World-of-Nukes-beginner-guide",
+        "file": "World-of-Nukes-beginner-guide"
+      },
+      {
+        "slug": "World-of-Nukes-gameplay-guide",
+        "file": "World-of-Nukes-gameplay-guide"
+      },
+      {
+        "slug": "World-of-Nukes-how-to-play",
+        "file": "World-of-Nukes-how-to-play"
+      },
+      {
+        "slug": "World-of-Nukes-how-to-win",
+        "file": "World-of-Nukes-how-to-win"
+      },
+      {
+        "slug": "World-of-Nukes-strategy",
+        "file": "World-of-Nukes-strategy"
+      },
+      {
+        "slug": "World-of-Nukes-tips-and-tricks",
+        "file": "World-of-Nukes-tips-and-tricks"
+      }
+    ],
+    "map": [
+      {
+        "slug": "World-of-Nukes-locations",
+        "file": "World-of-Nukes-locations"
+      },
+      {
+        "slug": "World-of-Nukes-map-guide",
+        "file": "World-of-Nukes-map-guide"
+      },
+      {
+        "slug": "World-of-Nukes-map",
+        "file": "World-of-Nukes-map"
+      },
+      {
+        "slug": "World-of-Nukes-nuclear-map",
+        "file": "World-of-Nukes-nuclear-map"
+      },
+      {
+        "slug": "World-of-Nukes-world-map",
+        "file": "World-of-Nukes-world-map"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "World-of-Nukes-how-to-get-better-nukes",
+        "file": "World-of-Nukes-how-to-get-better-nukes"
+      },
+      {
+        "slug": "World-of-Nukes-how-to-unlock-nukes",
+        "file": "World-of-Nukes-how-to-unlock-nukes"
+      },
+      {
+        "slug": "World-of-Nukes-progression-guide",
+        "file": "World-of-Nukes-progression-guide"
+      },
+      {
+        "slug": "World-of-Nukes-rewards",
+        "file": "World-of-Nukes-rewards"
+      },
+      {
+        "slug": "World-of-Nukes-upgrades",
+        "file": "World-of-Nukes-upgrades"
+      }
+    ],
+    "simulation": [
+      {
+        "slug": "World-of-Nukes-nuclear-blast-radius",
+        "file": "World-of-Nukes-nuclear-blast-radius"
+      },
+      {
+        "slug": "World-of-Nukes-nuclear-destruction",
+        "file": "World-of-Nukes-nuclear-destruction"
+      },
+      {
+        "slug": "World-of-Nukes-nuclear-explosion",
+        "file": "World-of-Nukes-nuclear-explosion"
+      },
+      {
+        "slug": "World-of-Nukes-nuclear-war-simulation",
+        "file": "World-of-Nukes-nuclear-war-simulation"
+      },
+      {
+        "slug": "World-of-Nukes-nuke-size-comparison",
+        "file": "World-of-Nukes-nuke-size-comparison"
+      },
+      {
+        "slug": "World-of-Nukes-world-war-3",
+        "file": "World-of-Nukes-world-war-3"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "World-of-Nukes-best-nukes",
+        "file": "World-of-Nukes-best-nukes"
+      },
+      {
+        "slug": "World-of-Nukes-biggest-nuke",
+        "file": "World-of-Nukes-biggest-nuke"
+      },
+      {
+        "slug": "World-of-Nukes-nuclear-bomb-comparison",
+        "file": "World-of-Nukes-nuclear-bomb-comparison"
+      },
+      {
+        "slug": "World-of-Nukes-nuclear-weapons",
+        "file": "World-of-Nukes-nuclear-weapons"
+      },
+      {
+        "slug": "World-of-Nukes-nuke-types",
+        "file": "World-of-Nukes-nuke-types"
+      },
+      {
+        "slug": "World-of-Nukes-strongest-nuke",
+        "file": "World-of-Nukes-strongest-nuke"
+      },
+      {
+        "slug": "World-of-Nukes-weapon-tier-list",
+        "file": "World-of-Nukes-weapon-tier-list"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "World-of-Nukes-codes",
+        "file": "World-of-Nukes-codes"
+      }
+    ],
+    "countries": [
+      {
+        "slug": "World-of-Nukes-countries-with-nukes",
+        "file": "World-of-Nukes-countries-with-nukes"
+      },
+      {
+        "slug": "World-of-Nukes-country-ranking",
+        "file": "World-of-Nukes-country-ranking"
+      },
+      {
+        "slug": "World-of-Nukes-how-many-nukes-are-in-the-world",
+        "file": "World-of-Nukes-how-many-nukes-are-in-the-world"
+      },
+      {
+        "slug": "World-of-Nukes-nuclear-powers",
+        "file": "World-of-Nukes-nuclear-powers"
+      },
+      {
+        "slug": "World-of-Nukes-nukes-by-country",
+        "file": "World-of-Nukes-nukes-by-country"
+      },
+      {
+        "slug": "World-of-Nukes-who-has-the-most-nukes",
+        "file": "World-of-Nukes-who-has-the-most-nukes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "World-of-Nukes-beginner-guide",
+        "file": "World-of-Nukes-beginner-guide"
+      },
+      {
+        "slug": "World-of-Nukes-gameplay-guide",
+        "file": "World-of-Nukes-gameplay-guide"
+      },
+      {
+        "slug": "World-of-Nukes-how-to-play",
+        "file": "World-of-Nukes-how-to-play"
+      },
+      {
+        "slug": "World-of-Nukes-how-to-win",
+        "file": "World-of-Nukes-how-to-win"
+      },
+      {
+        "slug": "World-of-Nukes-strategy",
+        "file": "World-of-Nukes-strategy"
+      },
+      {
+        "slug": "World-of-Nukes-tips-and-tricks",
+        "file": "World-of-Nukes-tips-and-tricks"
+      }
+    ],
+    "map": [
+      {
+        "slug": "World-of-Nukes-locations",
+        "file": "World-of-Nukes-locations"
+      },
+      {
+        "slug": "World-of-Nukes-map-guide",
+        "file": "World-of-Nukes-map-guide"
+      },
+      {
+        "slug": "World-of-Nukes-map",
+        "file": "World-of-Nukes-map"
+      },
+      {
+        "slug": "World-of-Nukes-nuclear-map",
+        "file": "World-of-Nukes-nuclear-map"
+      },
+      {
+        "slug": "World-of-Nukes-world-map",
+        "file": "World-of-Nukes-world-map"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "World-of-Nukes-how-to-get-better-nukes",
+        "file": "World-of-Nukes-how-to-get-better-nukes"
+      },
+      {
+        "slug": "World-of-Nukes-how-to-unlock-nukes",
+        "file": "World-of-Nukes-how-to-unlock-nukes"
+      },
+      {
+        "slug": "World-of-Nukes-progression-guide",
+        "file": "World-of-Nukes-progression-guide"
+      },
+      {
+        "slug": "World-of-Nukes-rewards",
+        "file": "World-of-Nukes-rewards"
+      },
+      {
+        "slug": "World-of-Nukes-upgrades",
+        "file": "World-of-Nukes-upgrades"
+      }
+    ],
+    "simulation": [
+      {
+        "slug": "World-of-Nukes-nuclear-blast-radius",
+        "file": "World-of-Nukes-nuclear-blast-radius"
+      },
+      {
+        "slug": "World-of-Nukes-nuclear-destruction",
+        "file": "World-of-Nukes-nuclear-destruction"
+      },
+      {
+        "slug": "World-of-Nukes-nuclear-explosion",
+        "file": "World-of-Nukes-nuclear-explosion"
+      },
+      {
+        "slug": "World-of-Nukes-nuclear-war-simulation",
+        "file": "World-of-Nukes-nuclear-war-simulation"
+      },
+      {
+        "slug": "World-of-Nukes-nuke-size-comparison",
+        "file": "World-of-Nukes-nuke-size-comparison"
+      },
+      {
+        "slug": "World-of-Nukes-world-war-3",
+        "file": "World-of-Nukes-world-war-3"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "World-of-Nukes-best-nukes",
+        "file": "World-of-Nukes-best-nukes"
+      },
+      {
+        "slug": "World-of-Nukes-biggest-nuke",
+        "file": "World-of-Nukes-biggest-nuke"
+      },
+      {
+        "slug": "World-of-Nukes-nuclear-bomb-comparison",
+        "file": "World-of-Nukes-nuclear-bomb-comparison"
+      },
+      {
+        "slug": "World-of-Nukes-nuclear-weapons",
+        "file": "World-of-Nukes-nuclear-weapons"
+      },
+      {
+        "slug": "World-of-Nukes-nuke-types",
+        "file": "World-of-Nukes-nuke-types"
+      },
+      {
+        "slug": "World-of-Nukes-strongest-nuke",
+        "file": "World-of-Nukes-strongest-nuke"
+      },
+      {
+        "slug": "World-of-Nukes-weapon-tier-list",
+        "file": "World-of-Nukes-weapon-tier-list"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "World-of-Nukes-codes",
+        "file": "World-of-Nukes-codes"
+      }
+    ],
+    "countries": [
+      {
+        "slug": "World-of-Nukes-countries-with-nukes",
+        "file": "World-of-Nukes-countries-with-nukes"
+      },
+      {
+        "slug": "World-of-Nukes-country-ranking",
+        "file": "World-of-Nukes-country-ranking"
+      },
+      {
+        "slug": "World-of-Nukes-how-many-nukes-are-in-the-world",
+        "file": "World-of-Nukes-how-many-nukes-are-in-the-world"
+      },
+      {
+        "slug": "World-of-Nukes-nuclear-powers",
+        "file": "World-of-Nukes-nuclear-powers"
+      },
+      {
+        "slug": "World-of-Nukes-nukes-by-country",
+        "file": "World-of-Nukes-nukes-by-country"
+      },
+      {
+        "slug": "World-of-Nukes-who-has-the-most-nukes",
+        "file": "World-of-Nukes-who-has-the-most-nukes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "World-of-Nukes-beginner-guide",
+        "file": "World-of-Nukes-beginner-guide"
+      },
+      {
+        "slug": "World-of-Nukes-gameplay-guide",
+        "file": "World-of-Nukes-gameplay-guide"
+      },
+      {
+        "slug": "World-of-Nukes-how-to-play",
+        "file": "World-of-Nukes-how-to-play"
+      },
+      {
+        "slug": "World-of-Nukes-how-to-win",
+        "file": "World-of-Nukes-how-to-win"
+      },
+      {
+        "slug": "World-of-Nukes-strategy",
+        "file": "World-of-Nukes-strategy"
+      },
+      {
+        "slug": "World-of-Nukes-tips-and-tricks",
+        "file": "World-of-Nukes-tips-and-tricks"
+      }
+    ],
+    "map": [
+      {
+        "slug": "World-of-Nukes-locations",
+        "file": "World-of-Nukes-locations"
+      },
+      {
+        "slug": "World-of-Nukes-map-guide",
+        "file": "World-of-Nukes-map-guide"
+      },
+      {
+        "slug": "World-of-Nukes-map",
+        "file": "World-of-Nukes-map"
+      },
+      {
+        "slug": "World-of-Nukes-nuclear-map",
+        "file": "World-of-Nukes-nuclear-map"
+      },
+      {
+        "slug": "World-of-Nukes-world-map",
+        "file": "World-of-Nukes-world-map"
+      }
+    ],
+    "progression": [
+      {
+        "slug": "World-of-Nukes-how-to-get-better-nukes",
+        "file": "World-of-Nukes-how-to-get-better-nukes"
+      },
+      {
+        "slug": "World-of-Nukes-how-to-unlock-nukes",
+        "file": "World-of-Nukes-how-to-unlock-nukes"
+      },
+      {
+        "slug": "World-of-Nukes-progression-guide",
+        "file": "World-of-Nukes-progression-guide"
+      },
+      {
+        "slug": "World-of-Nukes-rewards",
+        "file": "World-of-Nukes-rewards"
+      },
+      {
+        "slug": "World-of-Nukes-upgrades",
+        "file": "World-of-Nukes-upgrades"
+      }
+    ],
+    "simulation": [
+      {
+        "slug": "World-of-Nukes-nuclear-blast-radius",
+        "file": "World-of-Nukes-nuclear-blast-radius"
+      },
+      {
+        "slug": "World-of-Nukes-nuclear-destruction",
+        "file": "World-of-Nukes-nuclear-destruction"
+      },
+      {
+        "slug": "World-of-Nukes-nuclear-explosion",
+        "file": "World-of-Nukes-nuclear-explosion"
+      },
+      {
+        "slug": "World-of-Nukes-nuclear-war-simulation",
+        "file": "World-of-Nukes-nuclear-war-simulation"
+      },
+      {
+        "slug": "World-of-Nukes-nuke-size-comparison",
+        "file": "World-of-Nukes-nuke-size-comparison"
+      },
+      {
+        "slug": "World-of-Nukes-world-war-3",
+        "file": "World-of-Nukes-world-war-3"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "World-of-Nukes-best-nukes",
+        "file": "World-of-Nukes-best-nukes"
+      },
+      {
+        "slug": "World-of-Nukes-biggest-nuke",
+        "file": "World-of-Nukes-biggest-nuke"
+      },
+      {
+        "slug": "World-of-Nukes-nuclear-bomb-comparison",
+        "file": "World-of-Nukes-nuclear-bomb-comparison"
+      },
+      {
+        "slug": "World-of-Nukes-nuclear-weapons",
+        "file": "World-of-Nukes-nuclear-weapons"
+      },
+      {
+        "slug": "World-of-Nukes-nuke-types",
+        "file": "World-of-Nukes-nuke-types"
+      },
+      {
+        "slug": "World-of-Nukes-strongest-nuke",
+        "file": "World-of-Nukes-strongest-nuke"
+      },
+      {
+        "slug": "World-of-Nukes-weapon-tier-list",
+        "file": "World-of-Nukes-weapon-tier-list"
+      }
+    ]
+  }
 }

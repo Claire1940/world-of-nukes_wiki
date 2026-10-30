@@ -1,0 +1,182 @@
+import { Map, Swords, Target, Shield, Trophy, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "World of Nukes Nuclear Map: Escalation Stages & Strike Targets",
+  description: "Explore the World of Nukes nuclear map: escalation stages, priority strike targets, fallout zones, and nuclear winter effects in this scenario breakdown.",
+  category: "map",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=Nuclear+Map+Guide",
+  date: "2026-10-30",
+  author: "World of Nukes Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **World of Nukes nuclear map**: a visualization of how a global nuclear exchange unfolds stage by stage
+- **Escalation model**: provocation, tactical exchange, strategic strike, countervalue phase, fallout, and nuclear winter
+- **Priority targets**: missile silos, military bases, power grids, dams, and the 30 most populated cities per bloc
+- **Casualty estimates**: roughly 3 million in the tactical phase, rising toward 5+ billion within two years of nuclear winter
+- **Key takeaway**: the map exists to illustrate consequences, not to predict any specific conflict
+</Callout>
+
+<Section icon={Map} title="What the World of Nukes Nuclear Map Shows">
+
+The World of Nukes nuclear map is a scenario-based visualization that tracks how a nuclear conflict could escalate from a single tactical detonation into a full global exchange. It layers three kinds of information onto a world map: **strike targets**, **fallout spread patterns**, and **climatic after-effects** such as ash coverage and temperature drops.
+
+Unlike a live conflict tracker, the nuclear map is a modeling tool. Each colored zone represents a stage of escalation, and each cluster of markers corresponds to a target category — counterforce (military) or countervalue (cities and industry).
+
+<CardGrid cols={3}>
+  <Card title="Counterforce Layer">
+    - Missile silos and launch complexes
+    - Air bases and submarine pens
+    - Command and control nodes
+  </Card>
+  <Card title="Countervalue Layer">
+    - 30 most populated cities per bloc
+    - Industrial and economic centers
+    - Dams and power infrastructure
+  </Card>
+  <Card title="Aftermath Layer">
+    - Radioactive fallout plumes
+    - Ash deposition zones
+    - Temperature anomaly bands
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Important Context">
+The casualty figures and target counts referenced in this guide come from open simulation scenarios and leaked-planning style estimates. They are modeling assumptions, not confirmed war plans. Treat the nuclear map as an educational illustration of escalation logic.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Escalation Stages on the Map">
+
+Every credible nuclear exchange model breaks the conflict into discrete stages. The World of Nukes nuclear map follows a four-stage progression, with each stage lighting up new regions of the map.
+
+<Steps>
+  <Step num="1" title="Stage 0 - Provocation">
+    A single tactical nuclear detonation, modeled at 30,000–40,000 immediate casualties, creates a localized cloud that drifts across borders. This is the trigger event that converts a conventional conflict into a nuclear one.
+  </Step>
+  <Step num="2" title="Stage 1 - Tactical Exchange">
+    Roughly 300 warheads are launched against NATO bases and advancing forces, answered by about 180 air-delivered warheads. Estimated casualties reach 3 million. The map lights up across Central and Eastern Europe.
+  </Step>
+  <Step num="3" title="Strategic Strike Phase">
+    NATO launches approximately 700 warheads from land and submarine platforms at Russian and Chinese nuclear forces. Warning launches respond in kind. Casualties climb to an estimated 6 million as both blocs target each other's ability to retaliate or rebuild.
+  </Step>
+  <Step num="4" title="War of Defeat">
+    Once one side concludes the war cannot be won, targeting shifts to maximum destruction: cities, industry, and unconventional targets such as offshore warheads intended to generate tsunamis against coastal cities, or strikes aimed at the Yellowstone caldera.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Reading the Map">
+Focus on target density rather than raw warhead counts. Quality of targeting — hitting power generation, government functions, and industry — determines whether a state can recover, not the sheer number of detonations.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Priority Strike Targets and Why They Matter">
+
+Target selection follows a strict logic: first neutralize the enemy's weapons, then remove their ability to rebuild. The table below summarizes the target hierarchy used in the nuclear map model.
+
+| Priority | Target Category | Examples on the Map | Strategic Purpose |
+|---|---|---|---|
+| 1 | Missile launch silos | ICBM fields, launch complexes | Prevent second strike |
+| 2 | Military facilities | Air bases, sub pens, depots | Degrade conventional response |
+| 3 | Command and government | Capitals, command bunkers | Decapitate decision-making |
+| 4 | Power infrastructure | Generation plants, grid nodes | Irreversible state collapse |
+| 5 | Large cities | 30 top cities per bloc, 5–10 warheads each | Countervalue destruction |
+| 6 | Unconventional targets | Offshore tsunami warheads, Yellowstone caldera | Continental-scale damage |
+
+A strike pattern aimed at the Yellowstone caldera illustrates the extreme end of the model. Such a detonation could theoretically trigger an eruption releasing 1,000–2,500 cubic kilometers of solid particles, dropping ash layers up to a meter deep within a 2,000–3,000 km radius and up to 0.3 m across much of North America.
+
+<Callout type="info" title="Why Cities Come Last">
+Cities are targeted in the final "war of defeat" phase because hitting them early wastes warheads that are better spent on the enemy's nuclear forces. The shift to countervalue targeting signals that one side has given up on winning and is focused purely on inflicting damage.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fallout and Nuclear Winter Zones">
+
+After the exchange ends, the map changes character. Blast markers fade and are replaced by two spreading overlays: radioactive fallout and atmospheric ash.
+
+**Fallout spread** follows wind patterns, contaminating regions far from any detonation. High-dose exposure causes acute radiation sickness — nausea, vomiting, diarrhea, and fatigue — which can be fatal in severe cases.
+
+**Nuclear winter** effects are the defining feature of the aftermath layer:
+
+| Effect | Modeled Range | Map Representation |
+|---|---|---|
+| Ash layer (near zone) | Up to 1 m deep within ~3,000 km | Dark gray shading |
+| Ash layer (continental) | Up to 0.3 m across remaining territory | Light gray shading |
+| Atmospheric ash duration | 2–4 years minimum | Planet-wide haze overlay |
+| Temperature drop | Estimates range from 3–5°C to as much as 20°C | Blue anomaly bands |
+| Aviation impact | Flights grounded globally for years | No-fly overlay |
+
+The equatorial biosphere, tuned to near-constant temperatures, suffers the most severe ecological damage — higher life forms could disappear almost entirely even where forests do not burn. Northern regions fare differently depending on the season, since winter timing catches flora and fauna in anabiosis.
+
+<Callout type="warning" title="Total Outcome Estimate">
+Full-exchange scenarios project that up to 5+ billion people could die within two years from the combined effects of blasts, radiation, and famine. These figures underline why the map's ultimate message is prevention and global cooperation.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Casualty Timeline by Stage">
+
+| Stage | Event | Estimated Casualties | Cumulative Impact |
+|---|---|---|---|
+| Stage 0 | Tactical provocation strike | 30,000–40,000 | Localized |
+| Stage 1 | Tactical exchange (~480 warheads) | ~3 million | Regional collapse |
+| Strategic phase | 700-warhead strike plus warning launches | ~6 million | Continental destruction |
+| Countervalue phase | Strikes on 30 cities per bloc, each with 5–10 warheads | Tens of millions | State collapse |
+| Yellowstone scenario | Supervolcano-triggered eruption | 50–80 million in first hours | Continental devastation |
+| Nuclear winter | Famine, cold, ecosystem loss | Up to ~5+ billion within 2 years | Global civilizational threat |
+
+<Checklist
+  id="map-reading-checklist"
+  title="How to Read the Nuclear Map Correctly:"
+  items={[
+    "Identify whether each marker is counterforce or countervalue",
+    "Track escalation stage order rather than isolated detonations",
+    "Follow fallout plumes downwind of every strike cluster",
+    "Check ash overlay depth bands for agricultural collapse zones",
+    "Note that casualty figures are scenario estimates, not predictions"
+  ]}
+/>
+
+<Callout type="success" title="The Purpose of the Map">
+The World of Nukes nuclear map is ultimately an educational instrument. By visualizing escalation logic, fallout spread, and nuclear winter, it makes the abstract consequences of nuclear war concrete — reinforcing the case for global cooperation and prevention.
+</Callout>
+
+</Section>
+
+<Section icon={AlertTriangle} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the World of Nukes nuclear map?",
+    answer: "It is a scenario-based visualization that maps how a nuclear conflict escalates from a single tactical detonation through full strategic exchange, showing strike targets, fallout zones, and nuclear winter effects stage by stage."
+  },
+  {
+    question: "Which targets are hit first in the model?",
+    answer: "Counterforce targets come first: missile silos, military bases, and command nodes. Cities and industrial centers are struck later, during the countervalue 'war of defeat' phase, when one side abandons any hope of winning."
+  },
+  {
+    question: "How many casualties does the model project?",
+    answer: "Roughly 3 million in the tactical exchange phase, 6 million after the strategic strike phase, 50–80 million in the first hours of a Yellowstone-type scenario, and ultimately up to around 5 billion deaths within two years from nuclear winter and famine."
+  },
+  {
+    question: "How long would nuclear winter conditions last?",
+    answer: "The modeled ash layer could remain in the atmosphere for at least 2–4 years, blocking sunlight, grounding aviation, and dropping global temperatures by anywhere from 3–5°C to as much as 20°C depending on the scenario."
+  }
+]} />
+
+</Section>
+
+## Related Reading
+
+- [World of Nukes World Map: Nuclear Powers, Arsenals & Test Sites](/map/World-of-Nukes-world-map)
+- [World of Nukes Locations: Island Map & Target Setup Guide](/map/World-of-Nukes-locations)
+- [World of Nukes Nuclear Blast Radius: Strike Coverage & Targeting](/simulation/World-of-Nukes-nuclear-blast-radius)

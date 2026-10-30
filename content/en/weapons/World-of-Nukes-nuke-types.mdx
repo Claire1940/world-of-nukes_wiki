@@ -1,0 +1,169 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "World of Nukes Nuke Types: Weapon Categories Compared",
+  description: "Compare every World of Nukes nuke type: missile launch systems, nuclear strikes, and tactical targeting with launch steps and strategy tips.",
+  category: "weapons",
+  image: "https://placehold.co/800x400/EA580C/fff?text=Nuke+Types+Guide",
+  date: "2026-10-30",
+  author: "World of Nukes Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **World of Nukes nuke types** fall into missile, nuclear strike, and tactical targeting systems.
+- **Missile launch systems** handle deliberate strikes on selected enemy targets after confirming range and cost.
+- **Nuclear attacks** deliver island-wide pressure best saved for high-value targets.
+- **Target selection** matters more than weapon count; scout before launching.
+- **Economy first**: strong income funds sustained offensive campaigns.
+</Callout>
+
+<Section icon={Map} title="World of Nukes Nuke Types Overview">
+
+In World of Nukes, offensive power is built around a layered missile and nuclear attack system. You construct missile infrastructure on your island, gain access to launch controls, and select enemy targets directly. Every nuke type in the game serves a distinct strategic purpose, and choosing the right one at the right moment separates successful attackers from players who waste resources.
+
+The three core attack categories are the **missile launch system** for deliberate strikes, the **nuclear attack system** for large-scale pressure, and **target selection and launch control** for managing how and when you commit. Weapon effectiveness depends on your unlock stage, resource reserves, and whether your own island can survive retaliation.
+
+<Callout type="tip" title="Editor's Note">
+Specific damage values and exact weapon names are still being verified from official game data. This guide organizes nuke types by their confirmed strategic roles rather than inventing statistics.
+</Callout>
+
+| Nuke Type | Category | Primary Role | Unlock Basis |
+| --- | --- | --- | --- |
+| Missile Launch System | Offensive | Deliberate strikes on selected targets | Build and activate missile infrastructure |
+| Nuclear Attack System | Large-scale offensive | Island-wide attack pressure | Higher progression tier |
+| Tactical Launch Control | Attack management | Target review and launch confirmation | Access via offensive structures |
+
+</Section>
+
+<Section icon={Swords} title="Comparing the Attack Systems">
+
+Each attack system trades power, availability, and resource cost differently. Use the comparison below to decide what fits your current island stage.
+
+<CardGrid cols={3}>
+  <Card title="Missile Launch System">
+    - **Deliberate, repeatable strikes**
+    - Requires constructed missile infrastructure
+    - Best for steady pressure on chosen enemies
+    - Confirm range and resource cost before firing
+  </Card>
+  <Card title="Nuclear Attack System">
+    - **Island-wide attack pressure**
+    - Highest unlock requirements
+    - Reserve for decisive, high-value moments
+    - Demands a mature economy to support
+  </Card>
+  <Card title="Tactical Launch Control">
+    - **Attack decision-making layer**
+    - Enemy target selection and confirmation
+    - Prevents wasted offensive resources
+    - Pairs with scouting before committing
+  </Card>
+</CardGrid>
+
+| Factor | Missiles | Nuclear Strikes | Launch Control |
+| --- | --- | --- | --- |
+| Power level | Moderate | **High** | N/A (support) |
+| Resource cost | Sustainable | Heavy | Minimal |
+| Best use | Ongoing pressure | Decisive blows | Target vetting |
+| Early access | Yes | Later stage | With launch controls |
+
+<Callout type="warning" title="Retaliation Risk">
+Launching major strikes while your own island lacks anti-air defenses and shields invites counterattacks. Build a defensive base before committing your strongest weapons.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Launch: Step-by-Step">
+
+Follow this launch workflow to avoid wasting offensive resources on poor targets.
+
+<Steps>
+  <Step num="1" title="Build Missile Infrastructure">
+    Construct the missile-related structures your island needs. Treat this as a strategic investment once your resource base is stable, not an automatic early unlock.
+  </Step>
+  <Step num="2" title="Learn the Launch Interface">
+    Familiarize yourself with the launch controls and enemy target selection before committing to any attack. Practice confirms range, availability, and weapon readiness.
+  </Step>
+  <Step num="3" title="Scout the Target Island">
+    Review the enemy island and prioritize valuable structures. Avoid attacks that leave your own island undefended while your weapons are committed.
+  </Step>
+  <Step num="4" title="Confirm and Fire">
+    Select the target, confirm the launch, and verify the strike. Coordinate with jets or warships if the target is heavily defended.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Timing Matters">
+Major nuclear strikes create the most value against high-value enemy targets at moments when the attack produces a decisive advantage. Patience beats spamming missiles.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Supporting Your Nukes: Economy and Defense">
+
+Offensive systems fail without a supporting island. Weapon campaigns run on income, and every attack you launch makes you a target.
+
+Your missile and nuclear progression depends on three supports working together:
+
+| Support System | Role in Attack Strategy |
+| --- | --- |
+| Income buildings | Funds missile construction, launches, and rebuilding |
+| Anti-air defenses | Protects your island between offensive operations |
+| Shields | Guards the island core from enemy nuclear retaliation |
+| Jets and warships | Scout, pressure, and support combined-arms assaults |
+
+<Callout type="info" title="Combined Arms">
+Jets provide fast strike angles while warships apply sustained coastal pressure. Combining vehicles with missile strikes creates openings that raw nuke spam cannot.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Attacker's Checklist">
+
+<Checklist
+  id="nuke-attacker-goals"
+  title="Before Your Next Strike:"
+  items={[
+    "Stabilize island income before building missile infrastructure",
+    "Learn the launch interface with a low-stakes strike",
+    "Place anti-air defenses around core structures",
+    "Shield the island's most valuable section",
+    "Scout the enemy island before a nuclear strike"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What are the main World of Nukes nuke types?",
+    answer: "The offensive system is organized into three roles: the missile launch system for deliberate strikes, the nuclear attack system for large-scale island-wide pressure, and tactical launch control for target selection and launch management."
+  },
+  {
+    question: "When should I use nuclear strikes instead of regular missiles?",
+    answer: "Reserve nuclear strikes for high-value enemy targets and moments when the attack creates a decisive advantage. Missiles are more sustainable for repeated, deliberate pressure."
+  },
+  {
+    question: "How do I unlock missile systems?",
+    answer: "Build and activate the required missile infrastructure on your island. Access depends on your progression stage and available resources, so secure a stable economy first."
+  },
+  {
+    question: "Do I need defenses before attacking?",
+    answer: "Yes. Anti-air defenses and shields protect your core from retaliation. Never commit to a major attack that leaves your own island undefended."
+  }
+]} />
+
+</Section>
+
+## Related Reading
+
+- [World of Nukes Strongest Nuke: Tier Rankings & Best Picks](/weapons/World-of-Nukes-strongest-nuke)
+- [World of Nukes Weapon Tier List: 2026 Rankings & Best Picks](/weapons/World-of-Nukes-weapon-tier-list)
+- [Countries With Nukes: The 9 Nuclear Powers Explained](/countries/World-of-Nukes-countries-with-nukes)

@@ -1,0 +1,174 @@
+import { Map, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mapa-Múndi do World of Nukes: Potências Nucleares, Arsenais",
+  description: "Explore o mapa-múndi do World of Nukes: todas as nove potências nucleares, números de ogivas, sítios históricos de teste e marcos-chave da Guerra Fria.",
+  category: "map",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=World+Map+of+Nuclear+Powers",
+  date: "2026-10-30",
+  author: "Equipe do Wiki World of Nukes"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mapa-múndi do World of Nukes**: Nove nações possuem armas nucleares, com Rússia e EUA dominando cerca de **86%** das ogivas globais
+- **Primeiro teste**: A era nuclear começou em 16 de julho de 1945, no deserto do Novo México
+- **Histórico de testes**: Mais de **2.000 testes nucleares** foram realizados em todo o mundo
+- **Maior dispositivo**: Tsar Bomba, detonada pela União Soviética em 1961 com cerca de **50 megatons**
+- **Quase-desastre**: A Crise dos Mísseis de Cuba de 1962 quase desencadeou uma guerra nuclear ao longo de 13 dias
+</Callout>
+
+<Section icon={Map} title="Mapa-Múndi do World of Nukes: As Nove Potências Nucleares">
+
+O mapa-múndi do World of Nukes é um estudo de poder concentrado. Nove países possuem armas nucleares, e a distribuição é fortemente assimétrica. A União Soviética, o Reino Unido, a França, a China, a Índia, o Paquistão e a Coreia do Norte entraram no clube nuclear depois que os Estados Unidos inauguraram a era atômica em 1945. Israel é amplamente considerado detentor de armas nucleares também, embora mantenha uma política deliberada de ambiguidade.
+
+<Callout type="tip" title="Como Ler o Mapa">
+Ao estudar a geografia nuclear, concentre-se em duas camadas: quem detém os arsenais e onde as armas foram testadas. Os dois mapas se sobrepõem, mas contam histórias diferentes sobre poder e história.
+</Callout>
+
+| Potência Nuclear | Primeiro Teste | Região | Observações |
+|---|---|---|---|
+| Estados Unidos | 1945 | América do Norte | Primeiro Estado nuclear; Hiroshima e Nagasaki |
+| Rússia (URSS) | 1949 | Eurásia | Detém um dos dois maiores arsenais |
+| Reino Unido | 1952 | Europa | Terceiro membro do clube |
+| França | 1960 | Europa | Força de dissuasão independente |
+| China | 1964 | Leste Asiático | Testou em Lop Nur |
+| Índia | 1974 | Sul da Ásia | Teste "Buda Sorridente" |
+| Paquistão | 1998 | Sul da Ásia | Respondeu aos testes da Índia |
+| Coreia do Norte | 2006 | Leste Asiático | Membro confirmado mais recente |
+| Israel | Não confirmado | Oriente Médio | Política de ambiguidade |
+
+<CardGrid cols={3}>
+  <Card title="Os Dois Grandes">
+    - Rússia e Estados Unidos
+    - Cerca de **86%** das ogivas globais
+    - Legado da corrida armamentista da Guerra Fria
+  </Card>
+  <Card title="As Potências Consolidadas">
+    - Reino Unido, França e China
+    - Arsenais menores, porém avançados
+    - Doutrinas de dissuasão de longa data
+  </Card>
+  <Card title="Os Membros Mais Recentes">
+    - Índia, Paquistão, Coreia do Norte
+    - Rivalidade regional como motor
+    - Status não confirmado de Israel
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Sítios de Teste Globais: Onde o Mapa se Ilumina">
+
+De Nevada ao Cazaquistão, do Ártico ao Pacífico, os testes nucleares se espalharam pelo planeta. Mais de **2.000 testes nucleares** foram realizados em todo o mundo, deixando uma assinatura geográfica marcante no mapa-múndi.
+
+<Callout type="warning" title="Legado Ambiental">
+Muitos antigos sítios de teste permanecem contaminados ou restritos décadas depois. Mapeá-los revela a verdadeira pegada física da era nuclear por desertos, ilhas e tundras.
+</Callout>
+
+| Sítio de Teste | País | Região | Importância |
+|---|---|---|---|
+| Nevada Test Site | Estados Unidos | América do Norte | Centenas de testes atmosféricos e subterrâneos |
+| Semipalatinsk | URSS (Cazaquistão) | Ásia Central | Principal campo de testes soviético |
+| Novaya Zemlya | URSS (Rússia) | Ártico | Local da detonação da Tsar Bomba |
+| Pacific Proving Grounds | Estados Unidos | Oceano Pacífico | Testes nos atóis de Bikini e Enewetak |
+| Lop Nur | China | Leste Asiático | Principal local de testes da China |
+
+<Callout type="info" title="Tsar Bomba">
+Em 1961, a União Soviética detonou a Tsar Bomba sobre Novaya Zemlya. Com cerca de **50 megatons**, ela continua sendo o dispositivo nuclear mais poderoso já testado em qualquer ponto do mapa-múndi.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Pontos Críticos da Guerra Fria no Mapa">
+
+O mapa-múndi nuclear também é um mapa de quase-catastrofes. A Crise dos Mísseis de Cuba de 1962 levou Estados Unidos e União Soviética perigosamente perto de uma guerra nuclear — 13 dias que mudaram a história.
+
+<Steps>
+  <Step num="1" title="1945: O Começo">
+    A primeira bomba atômica detona no deserto do Novo México em 16 de julho. Semanas depois, bombas atingem Hiroshima e Nagasaki, revelando a realidade devastadora da guerra nuclear.
+  </Step>
+  <Step num="2" title="1949–1964: O Clube Cresce">
+    União Soviética, Reino Unido, França e China realizam seus primeiros testes, espalhando a capacidade nuclear pelo mapa.
+  </Step>
+  <Step num="3" title="1961: Tsar Bomba">
+    O dispositivo mais poderoso já testado demonstra o limite superior aterrador das armas nucleares.
+  </Step>
+  <Step num="4" title="1962: Crise dos Mísseis de Cuba">
+    Treze dias de impulhão levam as superpotências à beira do abismo antes que a diplomacia prevaleça.
+  </Step>
+  <Step num="5" title="1998–2006: Novos Membros">
+    Índia e Paquistão testam em 1998; a Coreia do Norte segue em 2006, redesenhando as dinâmicas regionais.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Como Estudar o Mapa-Múndi Nuclear">
+
+Abordar o mapa-múndi do World of Nukes de forma sistemática ajuda você a entender tanto a geografia quanto a estratégia por trás dele.
+
+<CardGrid cols={2}>
+  <Card title="Camada 1: Arsenais">
+    - Mapeie quais Estados detêm ogivas
+    - Compare inventários estimados
+    - Observe a dominância dos dois grandes
+  </Card>
+  <Card title="Camada 2: Histórico de Testes">
+    - Acompanhe as localizações dos sítios de teste
+    - Identifique as eras atmosférica vs. subterrânea
+    - Conecte os sítios a marcos históricos
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Dica de Estudo">
+Cruze os sítios de teste com as alianças políticas de cada era. A geografia dos testes frequentemente reflete os blocos da Guerra Fria mais do que a geografia pura.
+</Callout>
+
+<Checklist
+  id="map-study-goals"
+  title="Marcos de Estudo do Mapa Nuclear:"
+  items={[
+    "Identificar todas as nove potências nucleares",
+    "Localizar as cinco principais regiões de sítios de teste",
+    "Explicar a importância da Tsar Bomba",
+    "Resumir a linha do tempo da Crise dos Mísseis de Cuba",
+    "Entender por que o status de Israel permanece ambíguo"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Quantos países aparecem no mapa-múndi do World of Nukes?",
+    answer: "Nove países possuem armas nucleares: Estados Unidos, Rússia, Reino Unido, França, China, Índia, Paquistão, Coreia do Norte e Israel, embora Israel nunca tenha confirmado oficialmente seu arsenal."
+  },
+  {
+    question: "Quais duas nações detêm a maior parte das ogivas nucleares do mundo?",
+    answer: "Rússia e Estados Unidos juntos respondem por cerca de 86% do inventário global estimado, um legado da corrida armamentista da Guerra Fria."
+  },
+  {
+    question: "Qual foi o dispositivo nuclear mais poderoso já testado?",
+    answer: "A Tsar Bomba, detonada pela União Soviética em 1961 com cerca de 50 megatons. Continua sendo o dispositivo nuclear mais poderoso já testado."
+  },
+  {
+    question: "Quantos testes nucleares foram realizados em todo o mundo?",
+    answer: "Mais de 2.000 testes nucleares foram realizados pelo planeta, de Nevada ao Cazaquistão, do Ártico ao Pacífico."
+  }
+]} />
+
+</Section>
+
+## Leituras Relacionadas
+
+- [Localizações do World of Nukes: Guia de Mapa de Ilhas e Escolha](/pt/map/World-of-Nukes-locations)
+- [Mapa do World of Nukes: Layout das Zonas e Guia de Navegação](/pt/map/World-of-Nukes-map)
+- [Raio de Explosão Nuclear no World of Nukes: Cobertura de Ataque](/pt/simulation/World-of-Nukes-nuclear-blast-radius)

@@ -1,0 +1,177 @@
+import { Map, Swords, Shield, Target, Sparkles, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "World of Nukes Destruição Nuclear: Efeitos Explicados",
+  description: "Uma análise clara da destruição nuclear: física da onda de choque, dano térmico, radiação, EMP e cronogramas de precipitação radioativa explicados.",
+  category: "simulation",
+  image: "https://placehold.co/800x400/7f1d1d/fff?text=Nuclear+Destruction+Effects",
+  date: "2026-10-30",
+  author: "Equipe da Wiki de World of Nukes"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **destruição nuclear no World of Nukes** abrange quatro mecanismos principais de dano: onda de choque, térmico, radiação e EMP
+- **O rendimento da explosão importa**: o raio destrutivo de uma arma escala com a raiz cúbica do seu rendimento
+- **A precipitação radioativa é sensível ao tempo**: cerca de 80% da radiação externa decai nas primeiras 48 horas
+- **A sobrevivência melhora com blindagem**: materiais densos, distância e tempo no subsolo reduzem a exposição
+- **Contexto de dissuasão**: entender esses efeitos explica a doutrina da Guerra Fria e os debates modernos sobre controle de armamentos
+</Callout>
+
+<Section icon={Map} title="O Que É Destruição Nuclear?">
+
+Destruição nuclear é o dano físico combinado produzido quando uma arma nuclear detona. Diferente dos explosivos convencionais, uma explosão nuclear libera energia por fissão, fusão ou ambos, produzindo destruição em quatro canais quase simultâneos: a onda de choque, radiação térmica intensa, radiação ionizante e pulso eletromagnético (EMP). A interação desses efeitos é o que torna as armas nucleares categoricamente diferentes de qualquer outro armamento.
+
+Cada canal danifica alvos de uma forma distinta, resumido abaixo:
+
+| Efeito | Velocidade | Alvo Principal | Fator de Alcance |
+|---|---|---|---|
+| Onda de choque | Segundos | Construções, infraestrutura | Escala com rendimento^(1/3) |
+| Radiação térmica | Instantânea a segundos | Pessoas, superfícies inflamáveis | Escala com rendimento^(1/2) |
+| Radiação imediata | Primeiro minuto | Tecido vivo | Limitado a alguns km |
+| EMP | Nanossegundos | Eletrônicos, rede elétrica | Mais amplo para explosões em alta altitude |
+| Precipitação radioativa | Horas a anos | Terra, água, sobreviventes | Depende do vento |
+
+<Callout type="tip" title="Regra Prática de Escala">
+Uma arma com 8 vezes o rendimento não produz 8 vezes o raio de destruição. Como o raio escala com a raiz cúbica do rendimento, o raio de explosão de uma arma de 800 kt é apenas cerca de duas vezes o de uma arma de 100 kt.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Os Quatro Canais de Dano em Detalhes">
+
+### Onda de Choque
+
+Cerca de metade da energia de uma explosão nuclear se torna a onda de choque. A expansão repentina do ar superaquecido cria uma frente de sobrepressão que achata estruturas, e então uma fase negativa subsequente suga os destroços para fora. Casas de madeira colapsam com cerca de 5 psi de sobrepressão; concreto armado sobrevive até aproximadamente 10 psi, mas perde janelas e revestimentos muito antes.
+
+### Radiação Térmica
+
+Cerca de um terço da energia é emitido como calor e luz. Superfícies voltadas para a bola de fogo podem experimentar temperaturas que incendeiam roupas, folhagens e tintas, e causam queimaduras graves por flash na pele exposta. O alcance térmico escala com a raiz quadrada do rendimento, o que significa que armas grandes incendeiam áreas muito maiores do que suas zonas de explosão, produzindo risco de incêndio em massa.
+
+### Radiação Imediata e Residual
+
+A radiação imediata (nêutrons e raios gama) é emitida dentro do primeiro minuto e é letal dentro de um raio limitado, geralmente menor que o alcance letal da explosão para rendimentos acima de aproximadamente 10 kt. A radiação residual, mais conhecida como precipitação radioativa, chega mais tarde e a favor do vento.
+
+### Pulso Eletromagnético
+
+Uma detonação em alta altitude gera EMP numa vasta área, danificando eletrônicos não blindados e linhas de transmissão longas. O EMP não causa ferimentos diretos, mas pode paralisar comunicações, a rede elétrica e sistemas de resposta a emergências.
+
+<CardGrid cols={2}>
+  <Card title="Explosão ao Nível do Solo">
+  - **Precipitação radioativa máxima**
+  - Formação de cratera
+  - Alcance de explosão reduzido
+  - Usada contra alvos endurecidos
+  </Card>
+  <Card title="Explosão Aérea">
+  - **Dano de explosão e térmico máximo**
+  - Precipitação radioativa local mínima
+  - Ampla área de destruição
+  - Escolha histórica contra cidades
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Erro Comum">
+A precipitação radioativa não é a principal causa de mortes numa explosão aérea contra uma cidade. Os ferimentos por explosão e térmicos dominam as vítimas próximas; a precipitação radioativa ameaça principalmente sobreviventes localizados a favor do vento de explosões ao nível do solo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Decaimento da Precipitação Radioativa e Cronograma de Segurança">
+
+A precipitação radioativa segue a "regra 7-10": a cada aumento de sete vezes no tempo após a detonação, a taxa de dose de radiação cai para aproximadamente um décimo. Esse princípio fundamenta a orientação padrão de abrigar-se no local.
+
+| Tempo Após a Detonação | Taxa de Dose Relativa | Ação Recomendada |
+|---|---|---|
+| 1 hora | Linha de base de 100% | Abrigar-se imediatamente, espaço interno mais profundo |
+| 7 horas | ~10% | Permanecer abrigado, sem movimento ao ar livre |
+| 48 horas | ~1-2% | Movimento limitado se essencial |
+| 2 semanas | menos de 0,1% | Evacuação pode ser considerada |
+
+<Steps>
+  <Step num="1" title="Entre Rápido">
+  Mova-se para um porão ou o centro de um prédio grande dentro de minutos. Tijolos e concreto absorvem muito mais radiação do que madeira ou vidro.
+  </Step>
+  <Step num="2" title="Descontamine-se">
+  Remova as roupas externas e sele-as num saco plástico; isso sozinho pode remover até 90% das partículas de precipitação radioativa de uma pessoa.
+  </Step>
+  <Step num="3" title="Abrigue-se por 24-48 Horas">
+  Permaneça no local, a menos que as autoridades indiquem o contrário. As taxas de dose caem drasticamente nos primeiros dois dias.
+  </Step>
+  <Step num="4" title="Consuma Suprimentos Estocados">
+  Use comida e água seladas. Bens embalados intactos são seguros; recipientes abertos expostos à poeira devem ser evitados.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Noções Básicas de Blindagem">
+Distância, tempo e massa são os três pilares da proteção contra radiação. Metade da radiação é bloqueada por cerca de 10 cm de concreto ou 15 cm de terra compactada por espessura de halving; cada camada adicional divide a exposição ao meio novamente.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Destruição Nuclear na Doutrina de Dissuasão">
+
+A física da destruição nuclear molda as políticas. Líderes pesam decisões sobre arsenais contra as consequências catastróficas e irreparáveis do uso. Um exemplo notável: numa entrevista à Bloomberg em 2016, antes da Cúpula de Segurança Nuclear, a presidente sul-coreana Park Geun-hye afirmou sua convicção de que "a visão de um mundo livre de armas nucleares deve começar pela península coreana", rejeitando apelos internos por um arsenal independente apesar das provocações norte-coreanas ([Bloomberg / Arirang News, 2016](https://www.youtube.com/watch?v=Z6jkYtUrDcY)). Ela alertou que provocações contínuas arriscariam uma "catástrofe irreparável" que minaria a paz no Nordeste Asiático.
+
+| Doutrina | Ideia Central | Impacto na Estabilidade |
+|---|---|---|
+| Destruição Mútua Assegurada | Ambos os lados mantêm capacidade de segundo ataque | Desencoraja o primeiro uso |
+| Não Primeiro Uso | Compromisso de apenas retaliar | Reduz o risco de escalada em crises |
+| Não Proliferação | Impede novos arsenais | Limita o número de tomadores de decisão |
+| Dissuasão Estendida | Aliados abrigam-se sob um guarda-chuva nuclear | Deter a proliferação dos aliados |
+
+<Callout type="info" title="Por Que o Conhecimento dos Efeitos Importa">
+Debates sobre controle de armamentos, planejamento de defesa civil e decisões de proliferação dependem de uma compreensão pública precisa do que a destruição nuclear realmente faz. Efeitos mal avaliados levam a políticas mal avaliadas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Checklist de Estudo do Leitor">
+
+<Checklist
+  id="nuclear-destruction-study"
+  title="Conceitos Centrais a Dominar:"
+  items={[
+    "Explicar os quatro canais de dano: explosão, térmico, radiação, EMP",
+    "Aplicar a regra da raiz cúbica para a escala do raio de explosão",
+    "Recitar a regra 7-10 para o decaimento da precipitação radioativa",
+    "Distinguir as consequências de explosão ao nível do solo versus explosão aérea",
+    "Descrever os três pilares da proteção contra radiação: distância, tempo e massa"
+  ]}
+/>
+
+</Section>
+
+<Section icon={AlertTriangle} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "O que causa mais destruição num cenário de destruição nuclear do World of Nukes?",
+    answer: "Para rendimentos estratégicos típicos, a onda de choque e a radiação térmica dominam as vítimas dentro do raio de destruição. A precipitação radioativa torna-se o perigo dominante apenas a favor do vento de explosões superficiais e para sobreviventes que permanecem sem abrigo."
+  },
+  {
+    question: "Dobrar o rendimento de uma arma dobra seu raio de destruição?",
+    answer: "Não. O raio de explosão escala com a raiz cúbica do rendimento, então uma arma de 200 kt destrói um raio apenas cerca de 26% maior que uma arma de 100 kt. O raio térmico escala com a raiz quadrada do rendimento."
+  },
+  {
+    question: "Por quanto tempo devo me abrigar após uma detonação nuclear?",
+    answer: "As orientações de defesa civil geralmente recomendam abrigar-se por pelo menos 24 a 48 horas. Pela regra 7-10, as taxas de dose caem para aproximadamente 1-2% do nível inicial dentro de 48 horas."
+  },
+  {
+    question: "Por que o EMP importa se não causa ferimentos diretos?",
+    answer: "Um EMP em alta altitude pode desabilitar redes elétricas, comunicações e serviços de emergência numa ampla região, paralisando a resposta a desastres e transformando um evento sobrevivível numa crise de infraestrutura prolongada."
+  }
+]} />
+
+</Section>
+
+## Leituras Relacionadas
+
+- [Explosão Nuclear em World of Nukes: Zonas de Impacto e Rankings](/pt/simulation/World-of-Nukes-nuclear-explosion)
+- [Simulação de Guerra Nuclear do World of Nukes: Análise Estágio](/pt/simulation/World-of-Nukes-nuclear-war-simulation)
+- [World of Nukes: Como Conseguir Nukes Melhores — Dicas e Truques](/pt/progression/World-of-Nukes-how-to-get-better-nukes)

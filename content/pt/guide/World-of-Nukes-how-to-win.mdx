@@ -1,0 +1,215 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "World of Nukes: Como Vencer — Dicas e Truques de Estratégia",
+  description: "Aprenda estratégias de como vencer em World of Nukes: escolha de facções, gerenciamento de recursos, construções defensivas e táticas de fim de jogo.",
+  category: "guide",
+  image: "https://placehold.co/800x400/7c2d12/fff?text=How+to+Win+Strategy",
+  date: "2026-10-30",
+  author: "Equipe do Wiki de World of Nukes"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Como vencer em World of Nukes** começa com disciplina econômica, não com agressão precoce.
+- **A ordem de construção importa**: garanta os recursos antes de investir no ataque.
+- **Defesa ganha guerras**: escudos em camadas e redundância superam construções de "canhão de vidro".
+- **Timing é essencial**: ataque quando os oponentes se expuserem demais ou durante a queda de recursos deles.
+- **Adapte sua estratégia**: nenhuma construção isolada vence todas as partidas.
+</Callout>
+
+<Section icon={Map} title="Condições Centrais de Vitória em World of Nukes">
+
+Para dominar como vencer em World of Nukes, primeiro você precisa entender o que a vitória realmente exige em cada tipo de partida. A maioria dos modos de jogo recompensa uma combinação de controle territorial, domínio de recursos e ataques bem-sucedidos contra potências rivais. Vencer raramente se trata de lançar o maior ataque no início — trata-se de sobreviver o suficiente para que seu movimento decisivo tenha valor.
+
+<Callout type="tip" title="Regra do Editor">
+Jogadores que se apressam numa estratégia de primeiro ataque sem uma economia por trás tendem a perder por desgaste. Construa primeiro, ataque depois.
+</Callout>
+
+Os três pilares de uma partida vencedora:
+
+| Pilar | Descrição | Prioridade |
+|--------|-------------|----------|
+| **Economia** | Renda constante de recursos para financiar unidades e melhorias | ★★★★★ |
+| **Defesa** | Escudos, bunkers e redundância contra contra-ataques | ★★★★☆ |
+| **Inteligência** | Escalar disposições inimigas e acompanhar o estado de recursos deles | ★★★★☆ |
+| **Timing de Ataque** | Escolher o momento em que seu ataque não pode ser respondido | ★★★★★ |
+
+<CardGrid cols={3}>
+  <Card title="Estilo Economia Primeiro">
+    - **Caminho de vitória mais seguro** para iniciantes
+    - Escala para dominância no late-game
+    - Vulnerável a táticas de rush precoce
+  </Card>
+  <Card title="Estilo Equilibrado">
+    - **Economia e defesa equilibradas**
+    - Resposta flexível a qualquer meta
+    - Exige boa tomada de decisão
+  </Card>
+  <Card title="Estilo Agressivo">
+    - **Alto risco, alta recompensa**
+    - Pune oponentes passivos
+    - Desmorona se o primeiro ataque falhar
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Melhor Ordem de Construção no Early Game">
+
+Os primeiros minutos de uma partida decidem a maioria dos resultados. Uma ordem de construção disciplinada lhe dá renda, informação e proteção antes de a primeira ameaça séria chegar.
+
+<Steps>
+  <Step num="1" title="Garanta Sua Economia Central">
+    Aloque imediatamente trabalhadores ou estruturas de renda ao seu recurso principal. Não gaste com unidades que você ainda não consegue sustentar. Uma economia forte no primeiro minuto rende juros durante toda a partida.
+  </Step>
+  <Step num="2" title="Escale Cedo">
+    Envie um batedor barato ou use ferramentas de reconhecimento para identificar as estratégias dos seus vizinhos. Saber se você enfrenta um rusher ou um farmer determina suas próximas três decisões.
+  </Step>
+  <Step num="3" title="Monte Defesa Básica em Camadas">
+    Invista em pelo menos uma camada de escudos ou estruturas defensivas antes de expandir para fora. Isso dissuade ataques precoces oportunistas.
+  </Step>
+  <Step num="4" title="Expanda Quando Estiver Seguro">
+    Capture nós de recursos adicionais somente depois de proteger seu núcleo. Expansão sem defesa é um presente para oponentes agressivos.
+  </Step>
+  <Step num="5" title="Transicione para o Ataque">
+    Assim que a renda superar a manutenção, comece a construir sua capacidade de ataque mantendo a redundância defensiva.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Erro Comum">
+Nunca deixe sua base sem defesa enquanto ataca. Um contra-ataque durante sua janela ofensiva é a forma mais comum de jogadores fortes perderem partidas ganhas.
+</Callout>
+
+Alocação inicial recomendada:
+
+| Categoria | Fatia dos Recursos Iniciais | Observações |
+|----------|--------------------------|-------|
+| **Economia** | 50-60% | Rende juros ao longo da partida |
+| **Defesa** | 20-30% | Suficiente para dissuadir rushes precoces |
+| **Inteligência** | 10% | Barata, mas de alto valor |
+| **Ataque** | 0-10% | Apenas para punir alvos claramente fracos |
+
+</Section>
+
+<Section icon={Swords} title="Táticas de Mid Game e Timing de Ataque">
+
+Quando ambos os lados têm economias funcionando, a partida se torna uma batalha de timing. O cerne de como vencer em World of Nukes nesta fase é reconhecer a janela em que seu oponente não consegue responder de forma eficaz.
+
+### Quando Atacar
+
+| Sinal | O Que Significa | Ação Recomendada |
+|--------|---------------|-------------------|
+| Inimigo expandindo rápido | A defesa dele é frágil | **Ataque agora**, mire nos novos nós |
+| Inimigo acabou de lançar um ataque | A base dele está enfraquecida | Contra-ataque imediatamente |
+| Escudos do inimigo estão baixos | Janela de vulnerabilidade aberta | Empenhe sua força principal |
+| Inimigo acumula recursos visivelmente | Preparando um grande avanço | Fortifique-se e troque com eficiência |
+
+### Quando Segurar
+
+<Callout type="tip" title="Paciência Vence">
+Se você não consegue identificar uma vulnerabilidade clara, não force um ataque. Manter uma economia superior enquanto defende não custa nada e desgasta seu oponente.
+</Callout>
+
+Checklist de prioridades do mid game:
+
+- Mantenha a renda crescendo a cada onda ou ciclo
+- Mantenha **pelo menos duas camadas defensivas** nas estruturas críticas
+- Acompanhe as contagens de recursos do inimigo quando o jogo permitir
+- Evite trocar sua força de ataque por alvos de baixo valor
+| Nega os nós de expansão inimigos quando for barato fazê-lo
+
+</Section>
+
+<Section icon={Sparkles} title="Estratégias Avançadas para Vitórias Consistentes">
+
+Jogadores avançados se destacam pela redundância, iscas e negação econômica. Essas técnicas transformam partidas acirradas em vitórias confortáveis.
+
+<CardGrid cols={3}>
+  <Card title="Doutrina da Redundância">
+    - **Duplique estruturas-chave**
+    - Sobreviva a primeiros ataques
+    - Punas oponentes all-in
+  </Card>
+  <Card title="Isca e Punição">
+    - **Finja fraqueza**
+    - Atraia oponentes para a superextensão
+    - Desmorone a força de ataque deles
+  </Card>
+  <Card title="Negação Econômica">
+    - **Mire nos nós de renda inimigos**
+    - Force-os a ter déficit de manutenção
+    - Vença por desgaste, não por combate direto
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Princípio de Endgame">
+Na fase final, o jogador com a base mais redundante quase sempre vence uma troca. Espalhe as estruturas críticas para que um único ataque não possa encerrar sua partida.
+</Callout>
+
+Referência de dificuldade de confrontos:
+
+| Seu Estilo vs Oponente | Rusher | Farmer | Equilibrado |
+|------------------------|--------|--------|----------|
+| **Rusher** | Cara ou coroa | Vantagem | Ligeiramente atrás |
+| **Farmer** | Atrás | Empate | Vantagem |
+| **Equilibrado** | Vantagem | Ligeiramente atrás | Duelo de habilidade |
+
+</Section>
+
+<Section icon={Trophy} title="Hábitos Vencedores e Checklist">
+
+Consistência vem de hábitos, não de jogadas brilhantes isoladas. Percorra este checklist em toda partida para eliminar erros desnecessários.
+
+<Checklist
+  id="win-habits"
+  title="Checklist de Vitória para Toda Partida:"
+  items={[
+    "Economia estabelecida antes de qualquer produção de unidades",
+    "Escalar pelo menos dois oponentes até o mid game",
+    "Duas camadas defensivas em todas as estruturas críticas",
+    "Uma janela de ataque clara identificada antes de atacar",
+    "Base permanece defendida durante toda ofensiva",
+    "Redundância de endgame pronta antes da troca final"
+  ]}
+/>
+
+<Callout type="info" title="Ciclo de Melhoria">
+Após cada derrota, identifique a única decisão que custou a partida — geralmente timing econômico ou um ataque sem defesa — e corrija um hábito por vez.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Qual é a forma mais rápida de vencer em World of Nukes?",
+    answer: "A vitória rápida mais confiável é um ataque precoce contra um oponente superestendido, mas é de alto risco. Para resultados consistentes, use uma construção de economia primeiro e ataque apenas quando as defesas do inimigo estiverem baixas."
+  },
+  {
+    question: "Devo focar em ataque ou defesa?",
+    answer: "Defesa com economia crescente é a base mais sólida para a maioria dos jogadores. O ataque vence partidas apenas quando sua base consegue sobreviver ao contra-ataque, então nunca deixe o lar indefeso."
+  },
+  {
+    question: "Como vencer jogadores agressivos de rush?",
+    answer: "Invista em camadas defensivas precoces, deixe o ataque deles quebrar contra seus escudos e então contra-ataque enquanto as forças deles estão esgotadas. Rushers raramente têm respaldo econômico para uma segunda onda."
+  },
+  {
+    question: "Existe uma construção que vence toda partida?",
+    answer: "Não. Vencer em World of Nukes depende de ler os oponentes e se adaptar. Jogadores equilibrados que escalam e respondem adequadamente performam melhor ao longo de muitas partidas do que estrategistas de truque único."
+  }
+]} />
+
+</Section>
+
+## Leituras Relacionadas
+
+- [Estratégia de World of Nukes: Como Vencer Guerras e Dicas](/pt/guide/World-of-Nukes-strategy)
+- [World of Nukes: Dicas e Truques — Estratégias Vencedoras](/pt/guide/World-of-Nukes-tips-and-tricks)
+- [Melhores Nukes de World of Nukes: Comparação de Armas e Guia](/pt/weapons/World-of-Nukes-best-nukes)
