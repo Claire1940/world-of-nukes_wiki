@@ -85,7 +85,7 @@ export default function HomePageClient({
 }: HomePageClientProps) {
   const t = useMessages() as any;
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.lucidblocks.wiki";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.world-of-nukes.wiki";
 
   // Structured data
   const structuredData = {
@@ -95,15 +95,15 @@ export default function HomePageClient({
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: "Lucid Blocks Wiki",
+        name: "World of Nukes Wiki",
         description:
-          "Complete Lucid Blocks Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the surreal voxel sandbox on Steam.",
+          "World of Nukes Wiki covering missiles, defense, buildings, jets, warships, wonders, and beginner guides for the Roblox nuclear warfare strategy tycoon.",
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
           width: 1600,
           height: 900,
-          caption: "Lucid Blocks - Surreal Voxel Survival Sandbox",
+          caption: "World of Nukes - Roblox Nuclear Warfare Strategy Tycoon",
         },
         potentialAction: {
           "@type": "SearchAction",
@@ -114,11 +114,11 @@ export default function HomePageClient({
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: "Lucid Blocks Wiki",
-        alternateName: "Lucid Blocks",
+        name: "World of Nukes Wiki",
+        alternateName: "World of Nukes",
         url: siteUrl,
         description:
-          "Complete Lucid Blocks Wiki resource hub for crafting, biomes, creatures, items, achievements, and survival guides",
+          "World of Nukes Wiki resource hub for missile guides, base building, defense strategies, jets, warships, wonders, and beginner tips",
         logo: {
           "@type": "ImageObject",
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -130,39 +130,37 @@ export default function HomePageClient({
           url: `${siteUrl}/images/hero.webp`,
           width: 1600,
           height: 900,
-          caption: "Lucid Blocks Wiki - Surreal Voxel Survival Sandbox",
+          caption: "World of Nukes Wiki - Roblox Nuclear Warfare Strategy Tycoon",
         },
         sameAs: [
-          "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
-          "https://discord.com/invite/lucidblocks",
-          "https://www.reddit.com/r/LucidBlocks/",
-          "https://www.youtube.com/@lucy_b_locks",
+          "https://www.roblox.com/games/139707731553337/World-of-Nukes",
+          "https://www.roblox.com/groups/957612245/Build-Defend-Nuke",
         ],
       },
       {
         "@type": "VideoGame",
-        name: "Lucid Blocks",
-        gamePlatform: ["PC", "Steam"],
+        name: "World of Nukes",
+        gamePlatform: ["PC", "Xbox", "PlayStation", "Mobile"],
         applicationCategory: "Game",
-        genre: ["Survival", "Sandbox", "Adventure", "Psychedelic"],
+        genre: ["Strategy", "Tycoon", "PvP", "Military"],
         numberOfPlayers: {
           minValue: 1,
-          maxValue: 1,
+          maxValue: 7,
         },
         offers: {
           "@type": "Offer",
           priceCurrency: "USD",
           availability: "https://schema.org/InStock",
-          url: "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
+          url: "https://www.roblox.com/games/139707731553337/World-of-Nukes",
         },
       },
       {
         "@type": "VideoObject",
-        name: "World of Nukes / Gameplay / #roblox",
+        name: "World of Nukes / Gameplay / #roblox 😎",
         description:
           "World of Nukes gameplay video featuring island building, missile launches, and nuclear warfare preview.",
         uploadDate: "2026-10-29",
-        thumbnailUrl: `${siteUrl}/images/hero.webp`,
+        thumbnailUrl: "https://i.ytimg.com/vi/g9OvQ0MHpMs/hqdefault.jpg",
         embedUrl: "https://www.youtube.com/embed/g9OvQ0MHpMs",
         url: "https://www.youtube.com/watch?v=g9OvQ0MHpMs",
       },
@@ -254,7 +252,7 @@ export default function HomePageClient({
                            border border-border hover:bg-white/10 rounded-lg
                            font-semibold text-base md:text-lg transition-colors"
               >
-                {t.hero.playOnSteamCTA}
+                {t.hero.playOnRobloxCTA}
                 <ArrowRight className="w-5 h-5" />
               </a>
             </div>
@@ -1325,21 +1323,21 @@ export default function HomePageClient({
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://www.roblox.com/groups/957612245/Build-Defend-Nuke"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
                   >
-                    <MessageCircle className="w-4 h-4" /> Discord{" "}
+                    <MessageCircle className="w-4 h-4" /> Roblox Group{" "}
                     <ExternalLink className="w-3 h-3" />
                   </a>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href="https://www.roblox.com/games/139707731553337/World-of-Nukes"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
                   >
-                    Steam Community <ExternalLink className="w-3 h-3" />
+                    Play World of Nukes <ExternalLink className="w-3 h-3" />
                   </a>
                 </div>
               </div>
@@ -1400,42 +1398,22 @@ export default function HomePageClient({
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://www.roblox.com/games/139707731553337/World-of-Nukes"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
-                    {t.footer.discord}
+                    {t.footer.robloxGame}
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://x.com/lucidblocks"
+                    href="https://www.roblox.com/groups/957612245/Build-Defend-Nuke"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
-                    {t.footer.twitter}
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://steamcommunity.com/app/3495730"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
-                  >
-                    {t.footer.steamCommunity}
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
-                  >
-                    {t.footer.steamStore}
+                    {t.footer.robloxGroup}
                   </a>
                 </li>
               </ul>

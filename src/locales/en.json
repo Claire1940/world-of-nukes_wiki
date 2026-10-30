@@ -1,20 +1,20 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "World of Nukes Wiki - Missiles, Defense & Beginner Guide",
+      "description": "Explore the World of Nukes Wiki for missile guides, base building tips, anti-air defenses, jets, warships, wonders, free rewards and beginner strategies.",
+      "keywords": "World of Nukes, Roblox, wiki, missiles, defense, buildings, jets, warships, beginner guide",
+      "ogTitle": "World of Nukes Wiki - Missiles, Defense & Beginner Guide",
+      "ogDescription": "Explore the World of Nukes Wiki for missile guides, base building tips, anti-air defenses, jets, warships, wonders, free rewards and beginner strategies.",
+      "twitterTitle": "World of Nukes Wiki - Missiles, Defense & Beginner Guide",
+      "twitterDescription": "Explore the World of Nukes Wiki for missile guides, base building tips, anti-air defenses, jets, warships, wonders, free rewards and beginner strategies."
     }
   },
   "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -27,27 +27,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Nuclear Warfare Strategy Tycoon",
+    "title": "World of Nukes Wiki",
+    "description": "Build your island into a military superpower in World of Nukes! Launch missiles, fly combat jets, command warships, deploy anti-air defenses, and unlock powerful wonders. Explore beginner guides, base-building strategies, and free rewards.",
+    "getFreeCodesCTA": "Claim Free Rewards",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "1.9M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
+        "value": "9.3K+",
         "label": "Peak CCU"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "91%",
+        "label": "Positive Ratings"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "7",
+        "label": "Players Per Server"
       }
     }
   },
@@ -778,27 +778,25 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Launch Your First Nuke?",
+    "description": "Join the official Build. Defend. Nuke. group on Roblox for free rewards, game updates, and community discussions!",
+    "joinCommunity": "Join the Roblox Group",
+    "joinGame": "Play World of Nukes"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "World of Nukes Wiki",
+    "description": "Your complete resource hub for World of Nukes missile guides, base building, defense strategies, jets, warships, wonders, and beginner tips.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "robloxGame": "Play World of Nukes",
+    "robloxGroup": "Roblox Group",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyright": "© 2026 World of Nukes Wiki. Not affiliated with the developers of World of Nukes or Roblox Corporation.",
+    "disclaimer": "Unofficial fan-made resource website. Roblox is a trademark of Roblox Corporation."
   },
   "pages": {
     "guides": {

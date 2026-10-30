@@ -13,7 +13,7 @@ export function ArticleStructuredData({
 	locale,
 	slug,
 }: ArticleStructuredDataProps) {
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.world-of-nukes.wiki'
 	const articleUrl =
 		locale === 'en'
 			? `${siteUrl}/${contentType}/${slug}`
@@ -49,16 +49,16 @@ export function ArticleStructuredData({
 		'@type': 'Article',
 		headline: frontmatter.title,
 		description: frontmatter.description,
-		image: frontmatter.image || `${siteUrl}/default-article-image.jpg`,
+		image: frontmatter.image || `${siteUrl}/images/hero.webp`,
 		datePublished: frontmatter.date,
 		dateModified: ('lastModified' in frontmatter && frontmatter.lastModified) || frontmatter.date,
 		author: {
 			'@type': 'Organization',
-			name: 'Lucid Blocks Wiki Team',
+			name: 'World of Nukes Wiki Team',
 		},
 		publisher: {
 			'@type': 'Organization',
-			name: 'Lucid Blocks Wiki',
+			name: 'World of Nukes Wiki',
 			logo: {
 				'@type': 'ImageObject',
 				url: `${siteUrl}/images/hero.webp`,
